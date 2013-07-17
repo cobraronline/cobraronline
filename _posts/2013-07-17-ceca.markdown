@@ -1,0 +1,30 @@
+---
+layout: gateway
+title:  "Pasarela de pago de la CECA"
+date:   2013-07-15 20:02:36
+categories: pasarelas offsite
+
+gw_logo: "/images/gateways/ceca.png"
+gw_url: "https://comercios.ceca.es/webapp/ConsTpvVirtWeb/ConsTpvVirtS?modo=inicio"
+gw_slogan: "Vender por internet utilizando un medio de pago seguro"
+gw_country: España
+gw_fee: "Negociable con tu banco. Entre 0,5 y 1,5% aprox."
+---
+
+Tradicionalmente ha sido el TPV que ofrecían la mayoría de las cajas de ahorro, si bien con la estructuración bancaria no son pocas las que se han pasado a [Redsys](Redsys.html).
+
+#### Funciones
+
+- Tarjetas de crédito y débito
+- Pagos únicos en distintas divisas
+- Autorizaciones (hasta 7 días)
+
+#### Tecnología
+
+Hablo ya casi de memoria, porque hace aproximadamente 5 años que no me cruzo con ellos. Su integración offsite era tan sencilla como tan mala y poco modificable. Para ventas al extranjero generaba dudas.
+
+Pero como hace mucho que no tengo acceso al mismo, me abstengo de ir más allá. Si tu trabajas con ellos ponte en contacto conmigo para mejorar este artículo.
+
+#### Panel de control
+
+Según las imágenes que muestra lo han renovado recientemente, así que me abstengo de evaluarlo. Si lo contratas y quieres dejarme echar un ojo te lo agradezco.

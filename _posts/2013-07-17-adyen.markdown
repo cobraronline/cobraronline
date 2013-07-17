@@ -1,0 +1,15 @@
+---
+layout: gateway
+title:  "Adyen"
+date:   2013-07-15 20:02:36
+categories: pasarelas tpv
+
+gw_logo: "/images/gateways/adyen.png"
+gw_url: "http://www.adyen.com"
+gw_slogan: "Online Payments. International. Optimized. Secure"
+gw_country: Holanda
+gw_fee: "Desde 3%"
+---
+
+**-- Ficha en construcción --**
+

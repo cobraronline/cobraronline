@@ -1,0 +1,16 @@
+---
+layout: gateway
+title:  "Chargify"
+date:   2013-07-15 20:02:36
+categories: recurring
+
+gw_logo: "/images/gateways/chargify.gif"
+gw_url: "http://chargify.com"
+gw_slogan: "Easily Manage Your Recurring Revenue Business"
+gw_country: Estados Unidos
+gw_fee: "Desde $65/mes + Comisión cuenta merchant"
+---
+
+**-- Ficha en construcción --**
+
+Es un servicio pensado para que los negocios [SAAS](saas.html) gestionen sus pagos recurrentes. Los cobros se hacen a través de una pasarela contratada a parte, por ejemplo desde Europa se puede usar [Wirecard](wirecard.html), [Braintree](braintree.html) y [Paypal](paypal.html).

@@ -1,0 +1,15 @@
+---
+layout: default
+title: Escenarios de uso
+---
+
+<div class="row full-width">
+	<div class="large-8  large-offset-2 ">
+	  <h1>Escenarios de uso.</h1>
+	  <p>Los siguientes son escenarios de uso que le pueden ayudar a escoger la opción que mejor se adapta a su negocio.</p>
+	  {% for post in (site.categories.escenario | order:ascending) %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a>. Actualizado el {{ post.date | date_to_string }}</li>
+    {% endfor %}
+	</div>
+</div>
+

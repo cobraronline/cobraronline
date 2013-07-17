@@ -1,0 +1,14 @@
+---
+layout: default
+title: Conoce la industria de los medios de pago
+---
+
+<div class="row full-width">
+	<div class="large-8  large-offset-2 ">
+	  <h1>Conoce la industria de los medios de pago.</h1>
+	  {% for post in (site.categories.industria | order:ascending) %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a>. Actualizado el {{ post.date | date_to_string }}</li>
+    {% endfor %}
+	</div>
+</div>
+
