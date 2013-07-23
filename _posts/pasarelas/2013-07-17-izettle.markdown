@@ -1,0 +1,34 @@
+---
+layout: gateway
+title:  "iZettle"
+date:   2013-07-21 20:02:36
+categories: tpv
+
+gw_logo: "/images/gateways/izettle.png"
+gw_url: "http://www.izettle.com/es/"
+gw_slogan: "Empieza ya a aceptar pagos con tarjeta."
+gw_country: Suecia, con oficina en España
+gw_fee: "2,75% por transacción"
+---
+
+iZettle es el alumno europeo más aventajado de [Square](https://squareup.com) de cara a democratizar el cobro con tarjetas físicas. 
+
+La aplicación está bien cuidada, sus dos lectores funcionan correctamente y el proceso de alta es bastante sencillo (de hecho diría que el más sencillo que he visto).
+
+Tienen el handicap de que el fee es alto comparado por lo que ofrecen muchos bancos tradicionales, pero hay mucha gente que no tendría acceso a esos TPVs para lo que puede ser interesante. Además buscan diferenciarse de estos ofreciendo otras aplicaciones software de gestión, lo que haría que yo les tuviera en cuenta incluso a pesar del fee.
+
+#### Funciones
+
+- Cobro con tarjeta
+- Software TPV
+- Analíticas
+
+#### Tecnología
+
+El mundo de las tarjetas físicas, la firma con el chip, etc. es un mundo distinto al virtual. El software y hardware de iZeetle funciona, y en ese sentido es todo lo que se le pide.
+
+Tienen un API (no publico, hay que solicitarlo y te lo tienen que aceptar) que podría darle aún más juego.
+
+#### Panel de control
+
+A falta de probarlo en el mundo real para valorar su usabilidad, tiene muy buena pinta.

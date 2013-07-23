@@ -1,0 +1,30 @@
+---
+layout: gateway
+title:  "Adyen"
+date:   2013-07-15 20:02:36
+categories: pasarelas tpv offsite ios android recurring
+
+gw_logo: "/images/gateways/adyen.png"
+gw_url: "http://www.adyen.com"
+gw_slogan: "Online Payments. International. Optimized. Secure"
+gw_country: Holanda
+gw_fee: "Negociable, aprox €0,1 por transacción + % según tipo de medio. Con un mínimo de €100/mes"
+---
+
+He estado a punto de trabajar con ellos varias veces, pero al final no ha sido posible. El mínimo mensual es bastante alto para negocios que empiezan o tienen márgenes pequeños.
+
+Ahora mismo son el proveedor de las cuentas merchant de [Braintree](Braintree.html)
+
+#### Funciones
+
+- Cobros multicanal: tarjeta, transferencia, móvil, etc.
+- Cobros puntuales
+- Cobros recurrentes
+
+#### Tecnología
+
+Permite pago insite, pero solo para merchants de niveles 1 y 2 del [PCI](pci.html), lo cual deja fuera a la mayoría de los negocios.
+
+#### Panel de control
+
+No puedo hablar sobre él.

@@ -1,0 +1,20 @@
+---
+layout: gateway
+title:  "Ogone"
+date:   2013-07-21 20:02:36
+categories: pasarelas recurring insite
+
+gw_logo: "/images/gateways/ogone.png"
+gw_url: "http://www.ogone.com/en/Home.aspx"
+gw_slogan: "Seamless & secure payment solutions."
+gw_country: Bélgica
+gw_fee: "Fijo mensual (€100-200) + pequeño fee por transacción + costes de cuenta merchant"
+---
+
+**-- Ficha en construcción --**
+
+Como ocurre con otras opciones, Ogone no se vale por si sola como proveedor, sino que nos hará una cuenta merchant con la que ellos trabajarán. 
+
+Han sido durante tiempo una opción interesante porque permitían mejorar el TPV de [Redsys/Sermepa](/redsys/) con funcionalidades que este no soportaba, como cobro in-site y pagos recurrentes bien hechos. Su coste era asumible para volúmenes altos puesto que el fee de Redsys/Sermapa era (¿y es?) el más bajo que podías conseguir. Pero ahora [Spreedly](/spreedly/) te da la posibilidad de hacer eso mismo y más a menor precio, de modo que yo miraría antes Spreedly.
+
+A comienzos del 2013 fue comprada por [Ingenico](http://www.ingenico.com/en/), de modo que es posible que den más soporte a los dispositivos móviles.

@@ -1,7 +1,0 @@
----
-layout: post
-title:  "Paymill"
-date:   2013-07-16 20:02:36
-categories: pasarelas
----
-

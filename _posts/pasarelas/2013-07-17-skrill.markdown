@@ -1,0 +1,16 @@
+---
+layout: gateway
+title:  "Skrill"
+date:   2013-07-15 20:02:36
+categories: pasarelas offsite
+
+gw_logo: "/images/gateways/skrill.png"
+gw_url: "https://www.skrill.com/app/?l=ES"
+gw_slogan: "Send Money - Receive Money - Online Payments - Money Transfers"
+gw_country: Reino Unido
+gw_fee: "20€/mes + 1,90%-2,90% y 0,25 por transacción"
+---
+
+Yo lo probé cuando se llamaba Moneybookers, no como skrill, así que la información puede estar desactualizada. Resumiéndolo mucho es un clon de Paypal pero sin las ventajas de exposición de marca que tienen estos. El hecho de que te cobren por retirar el dinero o hacer una devolución para mi es un **no-go**.
+
+Si alguno tenéis información de primera mano se agradece.

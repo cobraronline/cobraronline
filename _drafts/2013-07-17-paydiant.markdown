@@ -1,0 +1,8 @@
+---
+layout: gateway
+title:  "Paydiant"
+date:   2013-07-15 20:02:36
+categories: pasarelas
+---
+
+http://www.paydiant.com

@@ -1,0 +1,40 @@
+---
+layout: gateway
+title:  "Paymill"
+date:   2013-07-21 20:02:36
+categories: pasarelas recurring insite ios android
+
+gw_logo: "/images/gateways/paymill.png"
+gw_url: "http://www.paymill.com"
+gw_slogan: "Online payments made easy."
+gw_country: Alemania
+gw_fee: "2,95% + 0,28 por transacción"
+---
+
+Paymill es una empresa alemana que inspirándose ampliamente en [Stripe](/stripe/) se convirtió en la primera alternativa europea _moderna_. Se puede contratar desde España desde Noviembre 2012.  
+
+No son un procesador de pagos completos, sino que ofrecen su servicio sobre distintos bancos que ofrecen cuentas merchant. Inicialmente era con una empresa de Lufthansa (si, la compañía aérea) destinada a la gestión de pagos y ahora lo hacen por medio de [Wirecard](/wirecard/). Este cambio ha hecho que el proceso de alta sea un poco más tedioso, pero aun así es aceptablemente simple **para negocios ya establecidos**. 
+
+Yo consideraría activar el Secure3D con ellos si puedes evitarlo. La validación se hace en una ventana emergente y digamos que los bancos españoles no se llevan del todo bien con ese formato desde un punto de vista de la experiencia de usuario.
+
+#### Funciones
+
+- Cobro único a tarjeta de crédito
+- Pagos recurrentes
+- Librerías para pagos en el móvil
+- Desde Julio 2013, soporte para cargos de intermediarios/plataformas (Paymill Unite)
+- Autoinvoicing
+
+#### Tecnología
+
+_Todavía_ van un paso por detrás de [Stripe](/stripe/), pero se mueven rápido y añaden cosas interesantes cada poco tiempo. Tienen lo mismo que los americanos: un buen API, botón para cobrar rápidamente, bridge en javascript, webhooks, etc.
+
+Interesante también su Paymill Unite para operar y acceder a la información de las cuentas por medio de oauth muy útil para crear nuevas aplicaciones y ofrecerlo como opción desde distintas plataformas de ecommerce.
+
+Tiene también API para iOS y Android y plugins para la mayoría de sistemas de tiendas del mercado.
+
+#### Panel de control
+
+Austero pero razonablemente bueno. Se puede hacer todo lo necesario para gestionar los clientes, cobros, planes, etc. Por supuesto no es su cometido, pero cero información en cuanto de negocio más allá del estadísticas más básicas (echadle un ojo a [caja.io](http://www.caja.io) si buscáis más información de negocio). 
+
+Lo peor que tienes es la parte de configuración y extras, que se hace en una emergente un tanto molesta.

@@ -1,0 +1,18 @@
+---
+layout: gateway
+title:  "Trustly"
+date:   2013-07-16 20:02:36
+categories: pasarelas transferencias
+
+gw_logo: "/images/gateways/trustly.png"
+gw_url: "https://trustly.com/es/"
+gw_slogan: "Aumenta margen y ventas ofreciendo pagos bancarios online"
+gw_country: Suecia, con oficina en España
+gw_fee: "Cuota mensual + 0,3 y % por transacción"
+---
+
+
+Es una opción de pago directo desde cuenta bancaria, similar a [GoCardless](/gocardless/). No los he probado, pero tienen unos precios que deberán bajar porque no tiene sentido que, por ejemplo, te cobren el alta, las devoluciones o 4€ por retirar el resultado de tus ventas.
+
+Por decir algo a favor... que están integrados con la gran parte de los banco españoles.
+

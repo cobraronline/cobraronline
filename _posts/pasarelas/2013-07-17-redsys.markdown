@@ -1,0 +1,41 @@
+---
+layout: gateway
+title:  "Redsýs"
+date:   2013-07-15 20:02:36
+categories: pasarelas offsite recurring
+
+gw_logo: "/images/gateways/redsys.png"
+gw_url: "http://www.redsys.es/"
+gw_slogan: "Bienvenidos: WTF!"
+gw_country: España
+gw_fee: "Negociable con tu banco. Entre 0,5 y 1,5% aprox."
+---
+
+Más conocido como [Sermepa](/sermepa/) que ha sido el nombre que han utilizado hasta hace nada.
+
+Es sin duda el TPV más utilizado en España porque es el ofrecido por casi todos los bancos y muchas cajas de ahorros: BBVA, La Caixa, Bankia, Banco Sabadell, Catalunya Bank, Banco Santander, Banco Popular, Deutsche Bank, Barclays... . Las condiciones de servicio que te ofrecen cada uno varían en parte y podrás negociarlas, pero al final del día todo acaba en el mismo sitio: los servidores de Redsýs/Sermepa.
+
+Qué puedo decir... es el más usado porque hasta hace relativamente poco eran la única opción y porque son los más baratos, pero _en mi opinión_ son malos, malos. Conocidos son casos como la caída de varias horas el 24 de Diciembre de 2012 y unos meses antes cuando estuvieron fuera de servicio un fin de semana porque les caducó el dominio sermepa.es . 
+
+El proceso de alta y negociación se hace en la oficina de tu banco, y todos sabemos que no es el sitio dónde mejor se entiende internet (¡siguen pidiendo ver tu oficina física!). De tu oficina al departamento de riesgos de tu banco, de ahí a los técnicos de Redsýs, etc. Mucho intermediario para poca chicha.
+
+#### Funciones
+
+- Tarjetas de crédito y débito
+- Pagos únicos en distintas divisas
+- Autorizaciones (hasta 7 días)
+- Autenticaciones (he visto hasta 45 días)
+- Tienen "algo parecido a pagos recurrentes", pero si no ha cambiado mucho, sin la libertad suficiente.
+
+#### Tecnología
+
+Muy triste. Sin notificaciones, el Secure3D asusta, la personalización es muy mejorable, los códigos de error te van en un comentario del HTML que te devuelven, sin API (vale, la tienen, pero como si no porque sudarás sangre para conseguirla), etc. No voy a decir "así nos va" porque sería sencillo, pero hasta sus propios _dueños_, los bancos, tienen sus reproches.
+
+Si lo tienes que usar porque el fee es realmente inigualable, yo valoraría muy seriamente poner por delante [Spreedly](/spreedly/) u [Ogone](/ogone/).
+
+Si alguien de Redsýs lee esto y ve más allá de "me da igual, nos forramos haciéndolo así" y quiere ver formas de mejorar su servicio puede utilizar el formulario de contacto.
+
+
+#### Panel de control
+
+Triste. Llegas a ver el listado de transacciones, pero triste.

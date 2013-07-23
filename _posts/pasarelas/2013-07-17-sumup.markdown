@@ -1,0 +1,18 @@
+---
+layout: gateway
+title:  "Sumup"
+date:   2013-07-21 20:02:36
+categories: tpv
+
+gw_logo: "/images/gateways/sumup.png"
+gw_url: "http://www.sumup.es/"
+gw_slogan: "Aceptar pagos con tarjeta ya está al alcance de todos."
+gw_country: Irlanda
+gw_fee: "2,75% por transacción"
+---
+
+De manera similar a [iZettle](/izettle/), intenta seguir los pasos marcados por [Square](https://squareup.com) de cara a democratizar el cobro con tarjetas físicas.
+
+Me hicieron llegar el lector pequeño, el de pasar la banda de la tarjeta y para mí fue imposible realizar ningún cobro. Y prometo que solo soy torpe los días pares. 
+
+Ahí lo dejo. Si en el futuro puedo probar y hacer que funcione el otro lector completaré la ficha.

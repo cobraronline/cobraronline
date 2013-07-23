@@ -1,0 +1,17 @@
+---
+layout: gateway
+title:  "Sermepa"
+date:   2013-07-15 20:02:36
+categories: pasarelas offsite recurring
+
+gw_logo: "/images/gateways/sermepa.png"
+gw_url: "http://www.redsys.es/"
+gw_slogan: "Bienvenidos: WTF!"
+gw_country: España
+gw_fee: "Negociable con tu banco. Entre 0,5 y 1,5% aprox."
+---
+
+Aunque en muchos sitios seguirás viendo Sermepa, la empresa se llama ahora [Redsys](/redsys/).
+
+Redsys nace de la fusión de Sermepa (Servired) y Redy ("Redes y Procesos", de 4B), pero les ha costado una eternidad dejar de usar el nombre (y dominio) de Sermepa.
+

@@ -1,0 +1,28 @@
+---
+layout: gateway
+title:  "Recurly"
+date:   2013-07-21 20:02:36
+categories: recurring onsite
+
+gw_logo: "/images/gateways/recurly.png"
+gw_url: "http://www.recurly.com"
+gw_slogan: "Subscription Billing. Simplified."
+gw_country: Estados Unidos
+gw_fee: "A partir de $100 + % de merchant account"
+---
+
+Durante mucho tiempo fueron la única de las plataformas de gestión de pagos recurrentes que podíamos contratar desde España, vía cuenta merchant con [Wirecard](/wirecard/).
+
+Aunque su oferta es bastante completa para lo que un negocio SAAS pueda necesitar, en mi opinión son caros y las últimas referencias que he tenido de gente trabajando con ellas no son nada buenas. 
+
+Si buscas un gestor de pagos recurrentes para no tener que gestionarlo manualmente, yo echaría un antes ojo a [Braintree](/braintree/) o [Chargify](/chargify/).
+ 
+ 
+#### Tecnología
+
+El API no esta mal y fueron una de las primeras empresa que yo conozca en usar un bridge javascript para gestionar los datos de las tarjetas de crédito.
+
+
+#### Panel de control
+
+El tiempo que estuve con ellos me pareció lioso a no poder más. Nunca sabía donde tenía que hacer la mitad de las cosas una vez que te sales de listar transacciones.

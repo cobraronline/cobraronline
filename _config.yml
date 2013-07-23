@@ -2,4 +2,4 @@ name: Cobrar online
 markdown: maruku
 pygments: true
 timezone: Europe/Madrid
-permalink: none
+permalink: /:title

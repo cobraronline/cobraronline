@@ -1,44 +1,119 @@
 ---
 layout: default
-title: Archivo
+title: Pasarelas disponibles
 ---
 
 <div class="row full-width">
 	<div class="large-8  large-offset-2 ">
-	  <h1>Pasarelas online.</h1>
-	  <ul class="large-block-grid-4">
-	  {% for post in (site.categories.pasarelas | order:ascending) %}
-      <li><a href="{{ post.url }}"><img src="{{ post.gw_logo }}" alt="{{post.title}}"/></a></li>
-    {% endfor %}
-    </ul>
+	  
+	  <p>
+	    En el siguiente listado están algunas de las alternativas disponibles desde España. No están todas las que son (paciencia) pero si son todas las que están, o serán en breve.
+	  </p>
+	
+	  <div class="row full-width">
+	    <div class="large-4 column">
+	      <h1 class="gateways">Pasarelas online.</h1>
+	    </div>
+	    <div class="large-8 column">
+	      <ul class="large-block-grid-4">
+    	  {% for post in (site.categories.pasarelas | order:ascending) %}
+          <li><a href="{{ post.url }}"><img src="{{ post.gw_logo }}" alt="{{post.title}}"/></a></li>
+        {% endfor %}
+        </ul>
+	    </div>
+	  </div>
+	  
+    <hr/>
     
-    <h1>Aplicaciones para cobros recurrentes.</h1>
-    <ul class="large-block-grid-4">
-	  {% for post in (site.categories.recurring | order:ascending) %}
-      <li><a href="{{ post.url }}"><img src="{{ post.gw_logo }}" alt="{{post.title}}"/></a></li>
-    {% endfor %}    
-    </ul>
+	  <div class="row full-width">
+	    <div class="large-4 column">
+	      <h1 class="gateways">Pagos desde cuenta bancaria.</h1>
+	    </div>
+	    <div class="large-8 column">
+	      <ul class="large-block-grid-4">
+    	  {% for post in (site.categories.transferencias | order:ascending) %}
+          <li><a href="{{ post.url }}"><img src="{{ post.gw_logo }}" alt="{{post.title}}"/></a></li>
+        {% endfor %}
+        </ul>
+	    </div>
+	  </div>	  
     
-	  <h1>TPVs móviles.</h1>
-	  <ul class="large-block-grid-4">
-	  {% for post in (site.categories.tpv | order:ascending) %}
-      <li><a href="{{ post.url }}"><img src="{{ post.gw_logo }}" alt="{{post.title}}"/></a></li>
-    {% endfor %}
-    </ul>
+    <hr/>
+
+	  <div class="row full-width">
+	    <div class="large-4 column">
+	      <h1 class="gateways">Aplicaciones para cobros recurrentes.</h1>
+	    </div>
+	    <div class="large-8 column">
+	      <ul class="large-block-grid-4">
+    	  {% for post in (site.categories.recurring | order:ascending) %}
+          <li><a href="{{ post.url }}"><img src="{{ post.gw_logo }}" alt="{{post.title}}"/></a></li>
+        {% endfor %}
+        </ul>
+	    </div>
+	  </div>
     
-	  <h1>Pago onsite.</h1>
-	  <ul class="large-block-grid-4">
-	  {% for post in (site.categories.onsite | order:ascending) %}
-      <li><a href="{{ post.url }}"><img src="{{ post.gw_logo }}" alt="{{post.title}}"/></a></li>
-    {% endfor %}
-    </ul>
+    <hr/>
+    
+	  <div class="row full-width">
+	    <div class="large-4 column">
+	      <h1 class="gateways">Pasarelas con pago onsite.</h1>
+	    </div>
+	    <div class="large-8 column">
+	      <ul class="large-block-grid-4">
+    	  {% for post in (site.categories.insite | order:ascending) %}
+          <li><a href="{{ post.url }}"><img src="{{ post.gw_logo }}" alt="{{post.title}}"/></a></li>
+        {% endfor %}
+        </ul>
+	    </div>
+	  </div>    
+    
+    <hr/>
+    
+	  <div class="row full-width">
+	    <div class="large-4 column">
+	      <h1 class="gateways">Pasarelas con pago offsite.</h1>
+	    </div>
+	    <div class="large-8 column">
+	      <ul class="large-block-grid-4">
+    	  {% for post in (site.categories.offsite | order:ascending) %}
+          <li><a href="{{ post.url }}"><img src="{{ post.gw_logo }}" alt="{{post.title}}"/></a></li>
+        {% endfor %}
+        </ul>
+	    </div>
+	  </div>
+	      
+    <hr/>
+    
+	  <div class="row full-width">
+	    <div class="large-4 column">
+	      <h1 class="gateways">Lectores de tarjetas / TPVs móviles.</h1>
+	    </div>
+	    <div class="large-8 column">
+	      <ul class="large-block-grid-4">
+    	  {% for post in (site.categories.tpv | order:ascending) %}
+          <li><a href="{{ post.url }}"><img src="{{ post.gw_logo }}" alt="{{post.title}}"/></a></li>
+        {% endfor %}
+        </ul>
+	    </div>
+	  </div>   
+    
+    <hr/>
+    
+	  <div class="row full-width">
+	    <div class="large-4 column">
+	      <h1 class="gateways">Pasarelas con librerías para móviles.</h1>
+	    </div>
+	    <div class="large-8 column">
+	      <ul class="large-block-grid-4">
+    	  {% for post in (site.categories.ios | order:ascending) %}
+          <li><a href="{{ post.url }}"><img src="{{ post.gw_logo }}" alt="{{post.title}}"/></a></li>
+        {% endfor %}
+        </ul>
+	    </div>
+	  </div>          
+  
         
-	  <h1>Pago offiste.</h1>
-	  <ul class="large-block-grid-4">
-	  {% for post in (site.categories.offsite | order:ascending) %}
-      <li><a href="{{ post.url }}"><img src="{{ post.gw_logo }}" alt="{{post.title}}"/></a></li>
-    {% endfor %}
-    </ul>
 	</div>
 </div>
 

@@ -1,0 +1,20 @@
+---
+layout: gateway
+title:  "Payius"
+date:   2013-07-15 20:02:36
+categories: pasarelas
+
+gw_logo: "/images/gateways/payius.png"
+gw_url: "https://www.payius.com"
+gw_slogan: "one point of contact for all payment processing needs."
+gw_country: Suecia
+gw_fee: "--"
+---
+
+**-- Ficha en construcción --**
+
+He puesto lo de ficha en construcción, pero no tengo muchas esperanzas a corto plazo.
+
+Me consta que están intentando captar clientes en España y que quieren modernizar su oferta de servicios, de modo que quién pueda estar interesado puede ponerse en contacto con ellos.
+
+Si alguien tiene más información sobre ellos le agradeceré si la comparte.

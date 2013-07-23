@@ -1,0 +1,45 @@
+---
+layout: gateway
+title:  "Paypal"
+date:   2013-07-15 20:02:36
+categories: pasarelas offsite recurring ios android
+
+gw_logo: "/images/gateways/paypal.png"
+gw_url: "https://www.paypal.com"
+gw_slogan: "Fácil y seguro: PayPal le 
+permite recibir pagos."
+gw_country: Estados Unidos
+gw_fee: "Del 2 al 6%, dependiendo de tu volumen de ventas y del país de origen del comprador"
+---
+
+Paypal es sin lugar a duda la pasarela de pago más sencilla de conseguir. Proceso 100% online, existe una mínima validación de la cuenta bancaria que se realiza por medio de dos micro-transferencias que hacen a tu cuenta. 
+
+Ahora bien, cuando te acerques al limite de €3.000 anuales que dicta la normativa antiblanqueo de capitales tendrás que aportar más documentación: DNI, estatutos de la empresa si corresponde, documentación acreditativa de la cuenta y poco más. Sencillo, pero lo _mejorable_ que es el soporte de Paypal hace recomendable que una vez subida la documentación les escribas un email de soporte para que te lo confirmen, porque si no puede _olvidárseles_ validarlo.
+
+Paypal es tan sencillo de conseguir como odiado por distintos colectivos por la _mano rápida_ que tienen bloqueando cuentas. En especial para todo lo que son vienes digitales, que no son bien vistos por la empresas de medios de pago en general y Paypal en particular.
+
+El acceso por API completo no esta disponible en España, si bien no descarto que en algún momento dado lo esté, porque poco a poco van añadiendo algunos servicios como los Adaptive Payments para plataformas intermediarias.
+
+A pesar de lo que se suele decir, no requiere que el comprador tenga cuenta en Paypal, pero son (¿eran?) tan poco claros a la hora de que el comprador realiza el pago que puede acabar creándose una cuenta sin darse cuenta y que esto suponga un problema para compras posteriores indicando que la tarjeta ya pertenece a otro usuario.
+
+Sus pagos recurrentes son inusables para cualquier cosa que no sea un importe fijo a lo largo del tiempo.
+
+Si bien hasta hace relativamente poco eran poco conocidos fuera del círculo tecnológico, mi experiencia con [Stage](http://www.stagehq.com) es que no asusta en absoluto y los habituales de [eBay](http://www.ebay.es), compañia propietaria, están más que acostumbrados.
+
+#### Funciones
+
+- Cobro único
+- Pagos recurrentes (ejem, ejem)
+- Librerías para pagos en el móvil
+- Soporte para cargos de intermediarios/plataformas (Paymill Unite)
+- Facturación
+
+#### Tecnología
+
+Mi opinión es que a día de hoy (Julio 2013) son bastante malos. Salvo los IPN (Instant Payment Notification), que para mí son los mejores de todas las plataformas de pago offsite. Lo único que les añadiría es poder notificar a distintas URLs.
+
+Están haciendo algunos esfuerzos de modernización últimamente, por ejemplo su nuevo sitio de documentación y acercándose a los desarrolladores por medio de Hackatones. Sin duda creo que [Stripe](/stripe/) les ha debido hacer mucho daño.
+
+#### Panel de control
+
+Malo malo malo. Llevo 10+ años usando Paypal sigue siendo igual de malo. Espero que en esta modernización que están llevando a cabo le llegue su turno.
