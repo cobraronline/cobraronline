@@ -2,7 +2,7 @@
 layout: gateway
 title:  "Paypal"
 date:   2013-07-15 20:02:36
-categories: pasarelas offsite recurring ios android
+categories: pasarelas offsite recurring ios android transferencias
 
 gw_logo: "/images/gateways/paypal.png"
 gw_url: "https://www.paypal.com"
@@ -30,6 +30,7 @@ Si bien hasta hace relativamente poco eran poco conocidos fuera del círculo tec
 
 - Cobro único
 - Pagos recurrentes (ejem, ejem)
+- Pagos con tarjetas para usuarios con cuenta en Paypal
 - Librerías para pagos en el móvil
 - Soporte para cargos de intermediarios/plataformas (Paymill Unite)
 - Facturación
