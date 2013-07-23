@@ -1,9 +1,20 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
-{{ content }}
+<div class="row full-width gateway">
+  <div class="large-8 small-12  large-offset-2 column">
+    <h1>{{ page.title }}</h1>
+    <p class="meta">Actualizado el {{ page.date | date_to_string }}.</p>
+    {{ content }}
+
+    <hr/>
+    <p class="questions">
+      ¿Me he dejado algo?. ¿Tienes alguna duda, pregunta o comentario?.
+      <br/><br/>
+      <a href="/contacto.html" class="button round">ponte en contacto</a>
+    </p>
+    
+  </div>
+
 </div>

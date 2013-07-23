@@ -2,7 +2,7 @@
 layout: gateway
 title:  "Chargify"
 date:   2013-07-15 20:02:36
-categories: insite recurring
+categories: insite recurring saas
 
 gw_logo: "/images/gateways/chargify.png"
 gw_url: "http://chargify.com"

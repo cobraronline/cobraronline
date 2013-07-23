@@ -1,7 +1,7 @@
 ---
 layout: gateway
 title:  "Spreedly"
-date:   2013-07-15 20:02:36
+date:   2013-07-21 20:02:36
 categories: recurring insite pasarelas
 
 gw_logo: "/images/gateways/spreedly.png"

@@ -107,3 +107,36 @@ footer ul.social li{
 .icon-twitter{
 	color: #02cce0;
 }
+
+
+.avatar {
+  background: #ffffff;
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+
+  *zoom: 1;
+  line-height: .75;
+  margin: 0;
+  padding: .25em;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-box-shadow: 0 0 0 1px #d9d9d9;
+  -moz-box-shadow: 0 0 0 1px #d9d9d9;
+  box-shadow: 0 0 0 1px #d9d9d9;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.avatar img {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+
+  *zoom: 1;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+

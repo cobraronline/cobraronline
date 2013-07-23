@@ -2,7 +2,7 @@
 layout: gateway
 title:  "Braintree Payments"
 date:   2013-07-15 20:02:36
-categories: recurring insite pasarelas
+categories: recurring insite pasarelas saas ios android
 
 gw_logo: "/images/gateways/braintree.png"
 gw_url: "https://www.braintreepayments.com"

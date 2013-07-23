@@ -1,8 +1,95 @@
 ---
 layout: post
-title:  "SAAS"
-date:   2013-07-15 20:02:36
+title:  "Software As A Service"
+date:   2013-07-23 20:02:36
 categories: escenario
+excerpt: "¿Quieres montar un negocio SAAS?. En este artículo aprenderás lo que requieres de tu pasarela de pago."
 ---
 
-SAAS
+Si lo que quieres es montar un negocio [SAAS (Software As A Service)](http://es.wikipedia.org/wiki/SaaS) necesitas una plataforma que permita pagos recurrentes. Lo más habitual es hacerlo por tarjeta, porque es el medio más disponible, pero no descartaría la opción de pagos por medio cuenta bancaria (no confundir con domiciliar recibos), como [GoCardless](/gocardless/). 
+
+Lo primero es ser consciente de que un negocio SAAS tiene unas peculiaridades, que hacen que tus opciones para cobrar a tus clientes varíen.
+
+- ¿Tienes varios planes de precios y tus clientes pueden ir cambiando de uno a otro?
+- ¿Planes de precio anuales?
+- ¿Disponen tus usuarios de un tiempo de prueba y al terminando se les congelará la cuenta o es un servicio freemium?
+- ¿Deben introducir los datos de la tarjeta a la hora del registro o lo harán más tarde una vez pasado el tiempo de prueba?
+- ¿El importe a cobrar a cada cliente es siempre el mismo o tiene una parte variable?
+
+##### Solo tengo un plan de precios
+
+Algunas de las plataformas disponibles (como [Redsýs](/redsys/)) tienen una gestión de pagos recurrentes bastante limitada, sin una tokenización real de la tarleta. Su gestión de pagos recurrentes se reduce a un cargo periódico cuyo importe no se puede cambiar (o no se podría a comienzos de 2013). Esto lo deja fuera si tu aplicación tiene distintos planes o pagos variables.
+
+Por otro lado, el servicio de [Paypal](/paypal/) fuera de estados unidos tiene otras restricciones peculiares que no lo hacen idóneo si tus usuarios pueden ir cambiado de plan.
+
+- Requiere que tu cliente tenga una cuenta en Paypal. Puede no ser un impedimento en función de tu negocio, pero hay que tenerlo en cuenta.
+
+- Más grave es la limitación para cambiar de planes. Por su política antifraude requieren que un cambio de más de un 25% del importe a cobrar no se pueda hacer automáticamente, sino que el usuario debe cancelar la subscripción manualmente en el sitio de Paypal y volver a subscribirse. Ni que decir tiene que esto no es deseable ni de lejos.
+
+Pero si solo tienes un plan, ambas opciones son aceptables.
+
+##### Tengo varios planes de precios
+
+Pero para la mayoría de negocios SAAS será necesario almacenar la tarjeta de crédito del cliente de modo que se le puedan hacer cargos en cada periodo. 
+
+Este proceso se llama **tokenizar la tarjeta** y no te preocupes, no lo tienes que hacer tu sistema (¡ni debes!), sino que es un servicio que ofrecen las plataformas de pagos recurrentes. Una vez tienes la tarjeta almacenada puedes acceder a ella para hacer los cargos que requieras, cambios de planes, etc.
+
+Salvo los casos anteriores, la mayoría de plataformas que soportan pagos recurrentes ofrecen este servicio, de modo que tendrás distintas opciones a tu alcance. Eso sí, ten en cuenta que algunas plataformas te cobrarán unos céntimos por cada tarjeta almacenadas. No gran cosa, pero a tener en cuenta también.
+
+Una cosa importante. No son muchas las plataformas que permitan cambiar una tarjeta una vez tokenizada. Es algo que tiene cierto sentido ya que se valida al ser creada, pero poco a poco empieza a ser permitido.
+
+##### Pago por uso
+
+Hace un par de años era un asunto a tener muy en cuenta puesto que no todas las aplicaciones de pagos recurrentes  permitían realizar cargos adicionales al importe periódico, pero ya no debería ser una limitación para los servicios que tokenizan tarjetas. En cualquier caso, si en tu aplicación el importe a cargar puede variar cada mes deberías asegurarte de que lo podrás hacer.
+  
+##### ¿Devoluciones, cargos, facturas, periodos de prueba?
+
+Es importante ser consciente de que en un negocio SAAS no se trata únicamente de guardar una tarjeta y hacer cargos. 
+
+- ¿Quién realizará el cargo?
+- ¿Cómo se gestionará el periodo de prueba?
+- ¿Emitir las facturas?
+- ¿Qué sucede cuando una tarjeta caduca?.
+- ¿Se realizará el cargo el día 1 de cada mes o el día de mes en que el usuario se dio de alta?
+- ¿Usarás cupones de descuento?
+- ¿Qué sucede si un cliente cambia de plan a la mitad de un ciclo?
+- etc.
+
+La mayoría de pasarelas que soportan pagos recurrentes se limitan a guardar los datos de la tarjeta y como mucho una pequeña gestión de planes. Sin embargo las aplicaciones especializadas en gestión de este tipo de negocios van mucho más allá de lo básico y suelen tener distintas opciones para gestionar este tipo de situaciones.
+
+De modo que cuando evalúes las alternativas, ten en cuenta que este tipo de aplicaciones dan un servicio y reducen el tiempo y coste del desarrollo, no son únicamente un coste adicional.
+
+##### ¿Cuando vas a pedir la tarjeta?
+
+Yo creo que pedir la tarjeta en el registro es una buena idea, lo mismo que ofrecer un periodo de prueba, pero generalizar es malo y habría que estudiar cada caso. En España es habitual argumentar que eso supone una barrera de entrada importante, pero yo me suelo preguntar si realmente esas personas pasarán a ser clientes alguna vez. Lo dejo aquí, el pricing de un servicio es probablemente la decisión más difícil y no se debe decidir por un párrafo leído en internet.
+
+El caso aquí es que hay plataformas de medios de pago que no contemplan el concepto de cliente sin asignarle un medio de pago, de modo que deberás gestionar esas cuentas en local y después asociarlas a la tarjeta tokenizada en tu sistema. Las aplicaciones pensadas para gestionar negocios SAAS, como [Chargify](/chargify/) o [Braintree](/braintree/) suelen darte ya esa opción.
+
+##### ¿Por dónde empezarías tú?
+
+Vale, me mojo. De las que conozco:
+
+- Si tienes planes complejos y los usuarios pueden ir pasando de uno a otro: [Braintree](/braintree/).
+- Si lo más importante en tu aplicación es el pago por uso o tienes pocos cambios de plan: [Stripe](/stripe/) (en cuanto esté disponible) o [Paymill](/paymill/) y quizás la combinación de [Spreedly](/spreedly/) + [Redsýs](/redsys/).
+- Y no perdería de vista: [GoCardless](/gocardless/).
+
+<hr/>
+
+<h4>Aplicaciones especializadas en gestión de negocios SAAS:</h4>
+
+<ul class="small-block-grid-3 large-block-grid-6">
+{% for post in (site.categories.saas | order:ascending) %}
+  <li><a href="{{ post.url }}" title="{{post.title}}"><img src="{{ post.gw_logo }}" alt="{{post.title}}"/></a></li>
+{% endfor %}
+</ul>
+
+
+<hr/>
+
+<h4>Plataformas que soportan pagos recurrentes:</h4>
+
+<ul class="small-block-grid-3 large-block-grid-6">
+{% for post in (site.categories.recurring | order:ascending) %}
+  <li><a href="{{ post.url }}" title="{{post.title}}"><img src="{{ post.gw_logo }}" alt="{{post.title}}"/></a></li>
+{% endfor %}
+</ul>

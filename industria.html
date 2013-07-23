@@ -6,9 +6,31 @@ title: Conoce la industria de los medios de pago
 <div class="row full-width">
 	<div class="large-8  large-offset-2 ">
 	  <h1>Conoce la industria de los medios de pago.</h1>
-	  {% for post in (site.categories.industria | order:ascending) %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a>. Actualizado el {{ post.date | date_to_string }}</li>
-    {% endfor %}
+	  <p>Los siguientes artículos son pequeñas píldoras para que conozcas un poco más la industria de los medios de pago.</p>
+	  
+	  <dl>
+	    {% for post in (site.categories.industria | order:ascending) %}
+        <dt><a href="{{ post.url }}">{{ post.title }}</a>.<br/> {{ post.date | date_to_string }}</dt>
+        <dd><span class="excerpt">{{ post.excerpt }}</span></dd>
+      {% endfor %}
+    </dl>
+    
+    <hr/>
+    <p class="questions" style="text-align: center">
+      Si hay algo concreto que quieras no dudes en escribirme. Soy influenciable en el orden de prioridades...
+      <br/><br/>
+      <a href="/contacto.html" class="button round">contactar</a>
+    </p>
+    
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
 	</div>
 </div>
 

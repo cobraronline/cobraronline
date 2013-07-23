@@ -2,7 +2,7 @@
 layout: gateway
 title:  "Recurly"
 date:   2013-07-21 20:02:36
-categories: recurring onsite
+categories: recurring onsite saas
 
 gw_logo: "/images/gateways/recurly.png"
 gw_url: "http://www.recurly.com"

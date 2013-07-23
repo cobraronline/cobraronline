@@ -2,7 +2,7 @@
 layout: gateway
 title:  "GoCardless"
 date:   2013-07-15 20:02:36
-categories: pasarelas transferencias recurring insite
+categories: pasarelas transferencias recurring insite 
 
 gw_logo: "/images/gateways/gocardless.png"
 gw_url: "https://gocardless.com/?r=WYR3ASVA"
