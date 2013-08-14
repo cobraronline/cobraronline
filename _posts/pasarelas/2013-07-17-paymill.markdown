@@ -38,3 +38,8 @@ Tiene también API para iOS y Android y plugins para la mayoría de sistemas de 
 Austero pero razonablemente bueno. Se puede hacer todo lo necesario para gestionar los clientes, cobros, planes, etc. Por supuesto no es su cometido, pero cero información en cuanto de negocio más allá del estadísticas más básicas (echadle un ojo a [caja.io](http://www.caja.io) si buscáis más información de negocio). 
 
 Lo peor que tienes es la parte de configuración y extras, que se hace en una emergente un tanto molesta.
+
+
+#### Modulos y librerías
+
+- [Drupal](https://drupal.org/project/commerce_paymill)

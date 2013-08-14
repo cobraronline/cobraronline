@@ -63,14 +63,14 @@ De modo que cuando evalúes las alternativas, ten en cuenta que este tipo de apl
 
 Yo creo que pedir la tarjeta en el registro es una buena idea, lo mismo que ofrecer un periodo de prueba, pero generalizar es malo y habría que estudiar cada caso. En España es habitual argumentar que eso supone una barrera de entrada importante, pero yo me suelo preguntar si realmente esas personas pasarán a ser clientes alguna vez. Lo dejo aquí, el pricing de un servicio es probablemente la decisión más difícil y no se debe decidir por un párrafo leído en internet.
 
-El caso aquí es que hay plataformas de medios de pago que no contemplan el concepto de cliente sin asignarle un medio de pago, de modo que deberás gestionar esas cuentas en local y después asociarlas a la tarjeta tokenizada en tu sistema. Las aplicaciones pensadas para gestionar negocios SAAS, como [Chargify](/chargify/) o [Braintree](/braintree/) suelen darte ya esa opción.
+El caso aquí es que hay plataformas de medios de pago que no contemplan el concepto de cliente sin asignarle un medio de pago, de modo que deberás gestionar esas cuentas en local y después asociarlas a la tarjeta [tokenizada](/tokenizar/) en tu sistema. Las aplicaciones pensadas para gestionar negocios SAAS, como [Chargify](/chargify/) o [Braintree](/braintree/) suelen darte ya esa opción.
 
 ##### ¿Por dónde empezarías tú?
 
 Vale, me mojo. De las que conozco:
 
 - Si tienes planes complejos y los usuarios pueden ir pasando de uno a otro: [Braintree](/braintree/).
-- Si lo más importante en tu aplicación es el pago por uso o tienes pocos cambios de plan: [Stripe](/stripe/) (en cuanto esté disponible) o [Paymill](/paymill/) y quizás la combinación de [Spreedly](/spreedly/) + [Redsýs](/redsys/).
+- Si lo más importante en tu aplicación es el pago por uso o tienes pocos cambios de plan: [Stripe](/stripe/) (en cuanto esté disponible en España) o [Paymill](/paymill/) y quizás la combinación de [Spreedly](/spreedly/) + [Redsýs](/redsys/).
 - Y no perdería de vista: [GoCardless](/gocardless/).
 
 <hr/>

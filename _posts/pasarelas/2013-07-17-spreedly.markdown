@@ -1,7 +1,7 @@
 ---
 layout: gateway
 title:  "Spreedly"
-date:   2013-07-21 20:02:36
+date:   2013-08-01 23:49:36
 categories: recurring insite pasarelas
 
 gw_logo: "/images/gateways/spreedly.png"
@@ -13,7 +13,7 @@ gw_fee: "Desde $50/mes + 0,04 por transacción"
 
 Spreedly es un caso curioso. Fueron desde hace años una aplicación de gestión de pagos recurrentes como [Recurly](/recurly/), [Braintree](/braintree/) o [Chargify](/chargify/) pero abandonaron ese negocio a finales del 2012. De hecho, en Julio de 2013 han vendido esa parte de su software a un cliente suyo australiano. 
 
-Lo que hace Spreedly ahora mismo es almacenar las tarjetas de crédito de tus clientes para luego hacer cargos recurrentes (o únicos, claro) a través de la pasarela que más te convenga de entre las que tengas contratadas (soportan 50). Es decir, puedes escoger y usar la pasarela que mejores condiciones te dé en cada momento o para cada tipo de cliente o cantidad, o tener alguna de backup en caso de problemas de forma completamente transparente para tus clientes. Sin tiempo sin servicio, sin pedir de nuevo la tarjeta a tus clientes, etc.
+Lo que hace Spreedly ahora mismo es [almacenar las tarjetas de crédito](/tokenizar/) de tus clientes para luego hacer cargos recurrentes (o únicos, claro) a través de la pasarela que más te convenga de entre las que tengas contratadas (soportan 50). Es decir, puedes escoger y usar la pasarela que mejores condiciones te dé en cada momento o para cada tipo de cliente o cantidad, o tener alguna de backup en caso de problemas de forma completamente transparente para tus clientes. Sin tiempo sin servicio, sin pedir de nuevo la tarjeta a tus clientes, etc.
 
 Para negocios con gran movimiento es una opción **MUY** interesante.
 
@@ -35,4 +35,6 @@ Quizás lo peor de todo es que no soportan los entornos de pruebas de muchas de 
 #### Panel de control
 
 Me imagino que es fruto del cambio de negocio, pero ahora mismo no tienen nada relacionado con las transacciones, cuentas, etc. Puedes obtener toda la información por API, pero te remiten a la pasarela real para ver las transacciones, lo cual para mi es insuficiente si quieres tener claro que pasa en todo momento.
+
+Aunque hay aplicaciones de terceros que puedes instalar en tu servidor para consultar esa información, por ejemplo [vault-viewer](https://github.com/dangrossman/vault-viewer).
 
