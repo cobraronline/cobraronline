@@ -3,3 +3,7 @@ markdown: maruku
 pygments: true
 timezone: Europe/Madrid
 permalink: /:title
+url: http://www.cobraronline.es
+author: Alberto Molpeceres (http://mol.pe)
+rss_path: feed
+description: cobrar online es un índice de las distintas opciones que se tiene para cobrar online desde España. Pasarelas de pago, pago en el móvil, ecommerce, plataformas y más.
