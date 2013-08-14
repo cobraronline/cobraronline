@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Pagos recurrentes"
+title:  "Pagos recurrentes para todo tipo de negocios"
 date:   2013-08-14 16:02:36
 categories: escenario
 excerpt: "Existen muchas razones para cobrar a tus clientes regularmente: pago por uso, simplificar el proceso, etc. ¿Pero puedo hacerlo de forma sencilla?. La respuesta es si, claro, que puedes."
