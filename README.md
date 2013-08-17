@@ -13,11 +13,11 @@ Los artículos publicados están en la carpeta **posts**, divididos entre pasare
 
 Si quieres generar el sitio en tu máquina puedes:
 
-  #generar el sitio y observar los cambios en los ficheros
-  jekyll build -w
+    #generar el sitio y observar los cambios en los ficheros
+    jekyll build -w
   
-  #arrancar el servidor
-  jekyll serve
+    #arrancar el servidor
+    jekyll serve
   
 
 Cómo colaborar
