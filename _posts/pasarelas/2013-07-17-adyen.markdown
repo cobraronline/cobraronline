@@ -2,7 +2,7 @@
 layout: gateway
 title:  "Adyen"
 date:   2013-07-15 20:02:36
-categories: pasarelas tpv offsite ios android recurring
+categories: pasarelas offsite ios android recurring
 
 gw_logo: "/images/gateways/adyen.png"
 gw_url: "http://www.adyen.com"
@@ -23,7 +23,7 @@ Ahora mismo son el proveedor de las cuentas merchant de [Braintree](Braintree.ht
 
 #### Tecnología
 
-Permite pago insite, pero solo para merchants de niveles 1 y 2 del [PCI](pci.html), lo cual deja fuera a la mayoría de los negocios.
+Permite pago insite, pero solo para merchants de niveles 1 y 2 del [PCI](/pci/), lo cual deja fuera a la mayoría de los negocios.
 
 #### Panel de control
 

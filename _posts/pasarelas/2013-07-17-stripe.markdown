@@ -14,7 +14,7 @@ gw_fee: "2,9% + 0,30 por transacción"
 
 Yo me atrevería a decir que Stripe ha revolucionado la forma en la que se cobraba online. Enfocado a hacer la vida más fácil a los programadores ha liderado un cambio en las integraciones. Con un gran API, una integración por javascript, oauth, es **para mi** sin duda la plataforma que más imitan otros ahora mismo, como es el caso de [Paymill](/paymill/).
 
-**Desde finales de 2012 están presentes en Reino Unido, en Junio 2013 en Irlanda, y en Julio en Francia.** En cuanto estén disponibles en España es una opción a considerar muy seriamente.
+**Desde finales de 2012 están presentes en Reino Unido, Junio 2013 en Irlanda, Julio en Francia y Agosto en Holanda.** En cuanto estén disponibles en España es una opción a considerar muy seriamente.
 
 #### Funciones
 
