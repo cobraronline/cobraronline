@@ -15,15 +15,7 @@ layout: default
       <a href="/contacto.html" class="button round">contactar</a>
     </p>
     
-    <hr/>
-    
-    <p>Plataformas similares a {{ page.title }}:</p>
-    
-    <ul class="small-block-grid-2 large-block-grid-5">
-	  {% for post in (site.related_posts | order:ascending) %}
-      <li><a href="{{ post.url }}" title="{{post.title}}"><img src="{{ post.gw_logo }}" alt="{{post.title}}"/></a></li>
-    {% endfor %}
-    </ul>
+
   </div>
   <div class="large-3 column">
     <ul class="pricing-table">

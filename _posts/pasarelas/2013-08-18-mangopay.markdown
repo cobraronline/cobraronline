@@ -1,0 +1,37 @@
+---
+layout: gateway
+title:  "Mangopay"
+date:   2013-08-18 20:02:36
+categories: pasarelas insite plataformas
+
+
+gw_logo: "/images/gateways/mangopay.png"
+gw_url: "http://www.mangopay.com/"
+gw_slogan: "Accept online payments and manage e-money."
+gw_country: Luxemburgo
+gw_fee: "Euros: 1,8% + 0,18 por transacción, Otras divisas: 2.5% + €0.25"
+---
+
+Mangopay llegó al mercado como una solución enfocada a dar solución a las plataformas que ofrecen servicios a terceros para realizar sus ventas. Servicios que cobran _en nombre_ de otros, como por ejemplo sitios de venta de entradas como [Stage](http://www.stagehq.com), de Crowfunding como [Verkami](http://www.verkami.com) o marketplaces como [eBay](http://www.ebay.es) o [Artesanio](http://www.artesanio.com). 
+
+Este tipo de sitios tienen una serie de complicaciones añadidas, al tratar con distintas divisas, tener que cobrar el coste de su servicio y hacer la transferencia del resto a sus clientes. En este sentido una solución enfocada a resolverles el problema tiene mucho sentido, además con un precio más que razonable.
+
+Pero ha pasado lo que tenía que pasar: pasarelas de pago más _tradicionales_ como [Stripe](/stripe/), [Paymill](/paymill/) o [Paypal](/paypal/) están implementado funciones para resolver estos casos y Mangopay está punto de ofrecer (Sept/Oct 2013) su servicio directamente a los comercios (tiendas, aplicaciones, etc).
+
+En mi opinión tienen un punto débil, y es que te transfieren el importe de tus ventas una vez al mes únicamente. Por lo demás prometen.
+
+En caso de que necesitéis más información estoy seguro que el country manager para España, [Endika Villasol](https//twitter.com/EndikaVillasol), estará encantado de ayudaros.
+
+
+#### Funciones
+
+- Funciones específicas de marketplaces y plataformas
+- Cobro directo (próximamente)
+
+#### Tecnología
+
+No lo he probado, así que no puedo decir mucho. Espero con cierta curiosidad la posibilidad de usarlo directamente. Ahora mismo el API, al estar enfocado a plataformas, puede resultar algo confuso para gente que nunca se ha visto con esa problemática.
+
+#### Panel de control
+
+Tampoco puedo decir nada todavía.
