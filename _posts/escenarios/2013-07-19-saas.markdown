@@ -70,7 +70,7 @@ El caso aquí es que hay plataformas de medios de pago que no contemplan el conc
 Vale, me mojo. De las que conozco:
 
 - Si tienes planes complejos y los usuarios pueden ir pasando de uno a otro: [Braintree](/braintree/).
-- Si lo más importante en tu aplicación es el pago por uso o tienes pocos cambios de plan: [Stripe](/stripe/) (en cuanto esté disponible en España) o [Paymill](/paymill/) y quizás la combinación de [Spreedly](/spreedly/) + [Redsýs](/redsys/).
+- Si lo más importante en tu aplicación es el pago por uso o tienes pocos cambios de plan: [Stripe](/stripe/)  o [Paymill](/paymill/) y quizás la combinación de [Spreedly](/spreedly/) + [Redsýs](/redsys/).
 - Y no perdería de vista: [GoCardless](/gocardless/).
 
 <hr/>

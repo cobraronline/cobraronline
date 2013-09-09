@@ -45,7 +45,7 @@ Aunque es habitual en sistemas de créditos, no seas excesivamente ambicioso con
 
 Ahora mismo hay ya muchas plataformas que soportar tokenizar la tarjeta, de modo que no debería ser problema conseguir una. Aún a riesgo de ser repetitivo:
 
-- [Stripe](/stripe/) (en cuanto esté disponible en España) y [Paymill](/paymill/) me parecen los más avanzados tecnológicamente. Soy fan.
+- [Stripe](/stripe/) y [Paymill](/paymill/) me parecen los más avanzados tecnológicamente. Soy fan.
 - La combinación de [Spreedly](/spreedly/) + [Redsýs](/redsys/) puede ser la más económica, sacrificando, de momento, el panel de control.
 
 

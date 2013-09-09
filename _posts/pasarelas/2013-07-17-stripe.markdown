@@ -14,9 +14,7 @@ gw_fee: "2,9% + 0,30 por transacción"
 
 Yo me atrevería a decir que Stripe ha revolucionado la forma en la que se cobraba online. Enfocado a hacer la vida más fácil a los programadores ha liderado un cambio en las integraciones. Con un gran API, una integración por javascript, oauth, es **para mi** sin duda la plataforma que más imitan otros ahora mismo, como es el caso de [Paymill](/paymill/).
 
-**Desde finales de 2012 están presentes en Reino Unido, Junio 2013 en Irlanda, Julio en Francia y Agosto en Holanda y Bélgica.** En cuanto estén disponibles en España es una opción a considerar muy seriamente.
-
-Registra tu interés en esta página para que sepan que en España se les espera: <a href="https://stripe.com/global">https://stripe.com/global</a>
+**Desde Septiembre de 2013 están disponibles en España en fase beta.**
 
 #### Funciones
 
@@ -35,4 +33,4 @@ Tiene también API para iOS y Android.
 
 #### Panel de control
 
-Aplicación moderna y de buen aspecto pero mientras no se soporte oficialmente en España no puedo decir mucho.
+Con todo lo necesario para hacer un seguimiento de lo que sucede, si bien un poco "encajonado" todo. Aún falta uso real para ver sus limitaciones pero podéis echadle un ojo a [caja.io](http://www.caja.io) si buscáis más información de negocio.
