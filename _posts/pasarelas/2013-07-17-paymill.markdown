@@ -13,7 +13,7 @@ gw_fee: "2,95% + 0,28 por transacción"
 
 Paymill es una empresa alemana que inspirándose ampliamente en [Stripe](/stripe/) se convirtió en la primera alternativa europea _moderna_. Se puede contratar desde España desde Noviembre 2012.  
 
-No son un procesador de pagos completos, sino que ofrecen su servicio sobre distintos bancos que ofrecen cuentas merchant. Inicialmente era con una empresa de Lufthansa (si, la compañía aérea) destinada a la gestión de pagos y ahora lo hacen por medio de [Wirecard](/wirecard/). Este cambio ha hecho que el proceso de alta sea un poco más tedioso, pero aun así es aceptablemente simple **para negocios ya establecidos**. 
+No son un procesador de pagos completos, sino que ofrecen su servicio sobre distintos bancos que ofrecen cuentas merchant. Inicialmente era con una empresa de Lufthansa (si, la compañía aérea) destinada a la gestión de pagos y ahora lo hacen por medio de [Wirecard](/wirecard/). Este cambio ha hecho que el proceso de alta sea **mucho** más largo y tedioso incluso para negocios ya establecidos.
 
 Yo consideraría activar el Secure3D con ellos si puedes evitarlo. La validación se hace en una ventana emergente y digamos que los bancos españoles no se llevan del todo bien con ese formato desde un punto de vista de la experiencia de usuario.
 
