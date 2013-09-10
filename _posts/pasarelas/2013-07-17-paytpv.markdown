@@ -1,0 +1,38 @@
+---
+layout: gateway
+title:  "Paytpv"
+date:   2013-07-15 20:02:36
+categories: pasarelas offsite recurring
+
+gw_logo: "/images/gateways/paytpv.png"
+gw_url: "http://www.paytpv.com"
+gw_slogan: "Sistema de cobro integral"
+gw_country: España
+gw_fee: "Negociable, sobra la base de una cuenta merchant bancaria. Con cuota mensual."
+---
+
+
+
+#### Funciones
+
+- Cobros multicanal: tarjeta, transferencia, móvil, etc.
+- Cobros puntuales
+- Cobros recurrentes y subscripciones
+- API vía XML/SOAP
+
+
+#### Tecnología
+
+Está construido sobre [Redsýs/Sermepa](/redsys/), de modo que en última instancia me temo que la tecnología no es su fuerte, pero no lo he probado de modo que no puedo evaluar la capa que han construido sobre él. Se agradecen opiniones al respecto. 
+
+Un API XML/SOAP me parece de otro mundo, pero no creo que la integración por API sea lo que busca su público objetivo. 
+
+
+
+#### Panel de control
+
+No puedo hablar sobre él.
+
+#### Modulos y librerías
+
+Tienen módulos para los principales aplicaciones de tiendas online: Magento, osCommerce, Zencart, Prestashop, VirtueMart, Opencart.
