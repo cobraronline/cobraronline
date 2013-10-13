@@ -8,7 +8,7 @@ gw_logo: "/images/gateways/sumup.png"
 gw_url: "http://www.sumup.es/"
 gw_slogan: "Aceptar pagos con tarjeta ya está al alcance de todos."
 gw_country: Irlanda
-gw_fee: "2,75% por transacción"
+gw_fee: "1,5% por transacción"
 ---
 
 De manera similar a [iZettle](/izettle/), intenta seguir los pasos marcados por [Square](https://squareup.com) de cara a democratizar el cobro con tarjetas físicas.
