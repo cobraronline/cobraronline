@@ -1,7 +1,7 @@
 ---
 layout: gateway
 title:  "Pagantis"
-date:   2013-07-15 20:02:36
+date:   2013-10-14 08:02:36
 categories: pasarelas offsite recurring
 
 gw_logo: "/images/gateways/pagantis.jpg"
