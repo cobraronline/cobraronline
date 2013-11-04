@@ -1,8 +1,8 @@
 ---
 layout: gateway
-title:  "Pasarela de pago de la CECA"
+title:  "Cecabank"
 date:   2013-07-15 20:02:36
-categories: pasarelas offsite 
+categories: pasarelas offsite insite
 
 gw_logo: "/images/gateways/ceca.png"
 gw_url: "https://comercios.ceca.es/webapp/ConsTpvVirtWeb/ConsTpvVirtS?modo=inicio"
@@ -11,21 +11,26 @@ gw_country: España
 gw_fee: "Negociable con tu banco. Entre 0,5 y 1,5% aprox."
 ---
 
-Tradicionalmente ha sido el TPV que ofrecían la mayoría de las cajas de ahorro, si bien con la estructuración bancaria no son pocas las que se han pasado a [Redsys](Redsys.html).
+Tradicionalmente ha sido el TPV que ofrecían la mayoría de las cajas de ahorro, si bien con la reestructuración bancaria no son pocas las que se han pasado a [Redsys](Redsys.html). Aún así el listado de ex-cajas/nuevos bancos que lo ofrecen no son pocos. 
+
+Al menos en la pasarela de pruebas el aspecto visual de sus formulario para integración offsite no es malo.
 
 #### Funciones
 
 - Tarjetas de crédito y débito
 - Pagos únicos en distintas divisas
-- Autorizaciones (hasta 7 días)
-- Tienen "algo parecido a pagos recurrentes", pero si no ha cambiado mucho, sin la libertad suficiente.
+- Tienen pagos recurrentes de cantidad fija y "pagos aplazados" (recurrentes siempre que indiques fechas y cantidades)
+- Integración en tu propio site a través de post transparente
+- Pagos a partir de requerimientos por email
 
 #### Tecnología
 
-Hablo ya casi de memoria, porque hace aproximadamente 5 años que no me cruzo con ellos. Su integración offsite era tan sencilla como tan mala y poco modificable. Para ventas al extranjero generaba dudas.
+Es una integración sencilla vía llamada POST a una URL. El cliente puede introducir la tarjeta en su sitio o en el nuestro, por medio de un POST transparente (hace POST a su servidor pero redirige a nuestra página directamente), lo que la hace suficientemente versátil. 
 
-Pero como hace mucho que no tengo acceso al mismo, me abstengo de ir más allá. Si tu trabajas con ellos ponte en contacto conmigo para mejorar este artículo.
+
 
 #### Panel de control
 
-Según las imágenes que muestra lo han renovado recientemente, así que me abstengo de evaluarlo. Si lo contratas y quieres dejarme echar un ojo te lo agradezco.
+A falta de un uso real, el panel de control tiene un aspecto bastante aceptable. Limpio, usable y claro. 
+
+Como la mayoría, no tiene información estadística o de negocio más allá del listado de operaciones. 
