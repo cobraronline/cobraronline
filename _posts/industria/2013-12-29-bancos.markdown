@@ -14,7 +14,7 @@ Tenemos que partir del hecho de que España es una anomalía en lo que al cobro 
 
 ### Historia de un pago con tarjeta
 
-Para poder entenderlo todo y que cada uno pueda hacer sus números, vamos a ver lo que sucede cada vez que se realiza una venta por internet pagada con tarjeta.  
+Para poder entenderlo todo y que cada uno pueda hacer sus números, vamos a ver lo que sucede cada vez que se realiza una venta por internet pagada con tarjeta. 
 
 El proceso  completo se parece bastante a la siguiente imagen (hay alguna inexactitud, pero nos vale). Se trata de una operación de crédito, pero es suficientemente ilustrativo también para las de débito.
 
@@ -39,7 +39,7 @@ Por no complicar el post más, podemos decir que la tasas de intercambio son un 
 
 Lo _curioso_ viene cuando miramos las datos. Como toda operación financiera, esta transferencia de fondos esta _supervisada_ por el Banco de España y podemos ver los datos estadísticos agregados sobre la misma. Y [curioseando por las mismas](http://www.bde.es/f/webbde/SPA/sispago/ficheros/es/estadisticas.pdf) se pueden ver los valores medios para el sector de minoristas (la mayoría de nosotros) en el 2013: **aproximadamente 0,74% de tasa de intercambio y 0,76% de tasa de descuento.** 
 
-Es decir, *parece* que el banco adquirente ofrece el TPV con un 0,76% de tasa de descuento para llevarse únicamente un margen del 0,02%. ¿Alguién se lo cree? Veamos **tres de las técnicas más habituales** que suelen utilizar con números. 
+Es decir, *parece* que el banco adquirente ofrece el TPV con un 0,76% de tasa de descuento para llevarse únicamente un margen del 0,02%. ¿Alguién se lo cree? Veamos **cuatro de las técnicas más habituales** que suelen utilizar con números. 
 
 Para simplificar los cálculos supondremos que nos ofrecen una tasa de descuento del 1%.
 
@@ -55,9 +55,15 @@ Hemos dicho que la tasa de intercambio de fija, pero que el importe varía en ba
 
 Esto no hace que aumente nuestro coste como el caso del mínimo, pero nos debería dar más información con la que mejorar nuestra negociación e intentar conseguir una mejor tasa de descuento. Porque llegado el caso dirán que no pueden bajar de esa comisión porque *su margen es únicamente del 0,02%*.
 
-##### 3.- Productos extras
+##### 3.- La doble imposición 
 
-Si alguién conoce el mundo bancario sabe que el dinero que se llevan por la adquirencia es *pecata minuta* comparado con todo lo demás. **Con lo que realmente ganan dinero de verdad es con todo lo demás**. Teniendo cuenta (y saldo con ellos), abriéndote una línea de crédito, obligándote a tener una aval para darte el TPV, o guardando un % de la ventas como garantía. 
+Los bancos saben hacer sus cálculos mejor que nadie. Y por supuesto en este caso no iba a ser menos. ¿Qué sucede si un banco adquiere el importe de una transacción emitida por él mismo? Exacto, que se lleva las dos comisiones: intercambio y descuento. 
+
+Esto les permite sus cálculos para saber hasta dónde pueden bajar sus comisiones, incluso por debajo de los costes, con el fin de captar clientes para el resto de su negocio. A fin de cuentas, la banca siempre gana.
+
+##### 4.- Productos extras
+
+Enlazando con el punto anterior, cualquiera que conozca el mundo bancario sabe que el dinero que se llevan por la adquirencia es *pecata minuta* comparado con todo lo demás. En realidad, **con lo que realmente ganan dinero de verdad es con todo lo demás**. Teniendo cuenta (y saldo con ellos), abriéndote una línea de crédito, obligándote a tener una aval para darte el TPV, o guardando un % de la ventas como garantía. 
 
 Si esos productos extra que *sugieren* u obligan a contratar tienen un coste de €200 al año, únicamente a partir de €14.000 en ventas (sin tener en cuenta el mínimo del punto 1) saldrá rentable estar con ellos en lugar de, por ejemplo, Stripe. Deberíamos añadir esos números a nuestros cálculos antes de tomar una decisión, y más si estamos empezando.
 
