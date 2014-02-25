@@ -1,0 +1,37 @@
+---
+layout: gateway
+title:  "Sagepay"
+date:   2013-08-18 20:02:36
+categories: pasarelas offsite plataformas
+
+
+gw_logo: "/images/gateways/sagepay.jpg"
+gw_url: "http://www.sagepay.es"
+gw_slogan: "Soluciones de pago de Sage Pay: seguras, sencillas y flexibles."
+gw_country: UK, con sede en España
+gw_fee: "No es público más allá de determinados paquetes"
+---
+
+Sagepay es uno de los líderes en Reino Unido y que desde verano del 2013 está intentando hacerse un hueco en España. 
+
+Una vez hablé con ellos y los números que me dieron no lo hacían especialmente barato pero quiero pensar que si en otros países funcionan bien debería ser por algo.
+
+Si alguno de vosotros es cliente y quiere compartir la experiencia estaré encantado de recoger el testimonio.
+
+
+#### Funciones
+
+- Cobro único.
+- Pagos recurrentes
+- Tokenización
+- Pago por email
+
+
+#### Tecnología
+
+Yo no he tenido oportunidad de probarlos.
+
+
+#### Panel de control
+
+Yo no he tenido oportunidad de probarlos. 
