@@ -1,35 +1,26 @@
 ---
 layout: gateway
 title:  "Pagantis"
-date:   2013-10-14 08:02:36
+date:   2014-01-15 08:02:36
 categories: pasarelas offsite recurring
 
 gw_logo: "/images/gateways/pagantis.jpg"
 gw_url: "http://www.pagantis.com/"
 gw_slogan: "La nueva generación de pagos"
 gw_country: España
-gw_fee: "0,25 + 2,49%, cuota mensual de 30€"
+gw_fee: "0,25 + 2,49%"
 ---
 
-Pagantis es la pasarela de [Telecoming Payment Solution](http://www.telecoming.com/payment/), (según su web) la 1ª Entidad de Pago española nativa digital autorizada por el Ministerio de Economía y Competitividad. Esto, _en cristiano_, les permite ofrecerte todo lo que necesitas para cobrar directamente. No hace falta que contrates con un banco o otra entidad de pago ni directa ni indirectamente. Esto en si mismo les hace bastante interesantes.
+Pagantis es la pasarela de [Telecoming Payment Solution](http://www.telecoming.com/payment/), (según su web) la 1ª Entidad de Pago española nativa digital autorizada por el Ministerio de Economía y Competitividad. Esto, _en cristiano_, les permite ofrecerte todo lo que necesitas para cobrar directamente. No hace falta que contrates con un banco o otra entidad de pago ni directa ni indirectamente.
 
-Pagantis está además intentando crear una completa carta de pago, que te permite cobrar a través de ellos no solo a través de tarjeta, sino de muchos otros medios: paypal, teléfono, etc. Tienen también experiencia en micropagos y pago por SMS, de modo que es de esperar que vayan incluyendo nuevos métodos poco a poco.
-
-Sobre el proceso de alta no puedo decir mucho puesto que aún no lo he realizado, pero prometen ser rápidos.
-
-Por lo que yo he podido ver es un proyecto que continua creciendo y convendría echar un ojo a su evolución. 
+**IMPORTANTE:** Desde Dic 2013 trabajo en esta empresa como responsable del producto, de modo que me permito no hacer comentarios al respecto. 
 
 
 #### Funciones
 
-- Cobro único a tarjeta de crédito, teléfono, paypal, etc.
-- Pagos recurrentes (o disponible en breve)
-
-#### Tecnología
-
-Para la web tienen una integración por iframe pero bastante personalizable. Aunque en la web hablan de API aún no he podido corroborarlo. Están empezando y aún no hay demasiada información al respecto.
+- Cobro único.
+- Pagos recurrentes
+- Tokenización
+- Pago por email
 
 
-#### Panel de control
-
-Lo que he visto del panel de control es de lo más completo que he visto, si bien no he realizado un uso real del mismo. Tienen toda la información que necesitas de gestión, uso y abandono, e incluso podrías ver a tus clientes en tiempo real.
