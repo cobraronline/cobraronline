@@ -31,6 +31,6 @@ Es una integración sencilla vía llamada POST a una URL. El cliente puede intro
 
 #### Panel de control
 
-A falta de un uso real, el panel de control tiene un aspecto bastante aceptable. Limpio, usable y claro. 
+A falta de un uso real, el panel de control tiene un aspecto bastante aceptable, aunque únicamente para hacer listados y ver detalles de una operación. 
 
 Como la mayoría, no tiene información estadística o de negocio más allá del listado de operaciones. 

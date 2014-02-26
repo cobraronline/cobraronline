@@ -6,7 +6,7 @@ categories: escenario
 excerpt: "¿En que momento del desarrollo de mi aplicación ebusiness debo escoger una pasarela de pago? ¿Valen todas para todo?"
 ---
 
-A menudo recibo preguntas sobre cómo resolver un problema generado por la pasarela. A veces es por los límites impuestos por el banco que realiza la adquirencia (ver [Trabajar con bancos](/bancos/)), otras por el índice de rechazo, algunas otras porque lo que prometían no lo han cumplido. Y es que **no todas las pasaremas son iguales** y una vez escogida una, cambiarla puede ser costoso, o simplemente demasiado tarde.
+A menudo recibo preguntas sobre cómo resolver un problema generado por la pasarela. A veces es por los límites impuestos por el banco que realiza la adquirencia (ver [Trabajar con bancos](/bancos/)), otras por el índice de rechazo, algunas otras porque lo que prometían no lo han cumplido. Y es que **no todas las pasarelas son iguales** y una vez escogida una, cambiarla puede ser costoso, o simplemente demasiado tarde.
 
 **Una pasarela de pago debe servir al negocio**. La pasarela es la manera (o una de las maneras) que tendremos de cobrar a nuestros clientes y por tanto deberíamos prestar atención a su elección y hacerlo lo suficientemente temprano para estar seguros de que se ajusta a nuestras necesidades. Tanto funcionales como en lo referente a tiempos de implementación y, por supuesto, a costes.
 
@@ -33,8 +33,8 @@ Si me lo preguntáseis a mí, ¿qué querría saber yo antes de recomendaros alg
 - ¿Españoles o de cualquier parte del mundo?
 - ¿Vienen tus clientes a comprarte repetidamente o lo normal es que lo hagan una única vez?
 
-Y es que no es lo mismo [Stripe](/stripe/) que [Paymill](/paymill/), [Redsys/Sermepa](/redsys) que [Braintree](/braintree/), [Tefpay](/tefpay/) que [Paypal](/paypal/), [Adyen](/adyen/) que [Ceca](/cecabank/) o [Wirecard](/wirecard/) que [Pagantis](/pagantis/).
+Y es que no es lo mismo [Stripe](/stripe/) que [Paymill](/paymill/), [Redsys/Sermepa](/redsys) que [Braintree](/braintree/), [Tefpay](/tefpay/) que [Paypal](/paypal/), [Adyen](/adyen/) que [Ceca](/ceca/) o [Wirecard](/wirecard/) que [Pagantis](/pagantis/).
 
-**Intentar que el uso de una pasarela nos cueste lo menos posible es un objetivo, pero ni mucho menos debe ser él único**. Porque si la pasarela escogida no se ajusta a nuestras necesidades el coste para el negocio puede ser demoledor. A fin de cuentas una diferencia del 1% en la tasa de descuento significa únicamente €10 por cada €1000 vendidos, un precio mucho menor de lo que nos puede costar equivocarnos en términos de esfuerzo de desarrollo o en *time-to-market*.
+**Intentar que el uso de una pasarela nos cueste lo menos posible es un objetivo, pero ni mucho menos debe ser el único**. Porque si la pasarela escogida no se ajusta a nuestras necesidades el coste para el negocio puede ser demoledor. A fin de cuentas una diferencia del 1% en la tasa de descuento significa únicamente €10 por cada €1000 vendidos, un precio mucho menor de lo que nos puede costar equivocarnos en términos de esfuerzo de desarrollo, en transacciones perdidas o en *time-to-market*.
 
 
