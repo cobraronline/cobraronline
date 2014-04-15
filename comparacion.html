@@ -1,0 +1,28 @@
+---
+layout: default
+title: Pasarelas disponibles
+---
+<div class="row full-width">
+    <div class="large-8  large-offset-2 ">
+        <table>
+            <thead>
+                <tr>
+                    <th>Pasarela</th>
+                    <th>Pais</th>
+                    <th>Comision</th>
+                    <th>Slogan</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for post in (site.categories.pasarelas | order:ascending) %}
+                <tr>
+                    <td><a href="{{ post.url }}" title="{{post.title}}">{{post.title}}</a></td>
+                    <td>{{ post.gw_country }}</td>
+                    <td>{{ post.gw_fee }}</td>
+                    <td>{{ post.gw_slogan }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
