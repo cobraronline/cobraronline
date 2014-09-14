@@ -1,20 +1,34 @@
 ---
 layout: default
 ---
-
-<div class="row full-width gateway">
-  <div class="large-8 small-12  large-offset-2 column">
-    <h1>{{ page.title }}</h1>
-    <p class="meta">Actualizado el {{ page.date | date_to_string }}.</p>
-    {{ content }}
-
-    <hr/>
-    <p class="questions">
-      ¿Me he dejado algo?. ¿Tienes alguna duda, pregunta o comentario?.
-      <br/><br/>
-      <a href="/contacto.html" class="button round">ponte en contacto</a>
-    </p>
+<div class="page">
+  <article>
     
-  </div>
-
-</div>
+    <div class="page-header">
+      <img src="{{ page.img }}" />
+      <h1>{{ page.title }}</h1>
+      <p class="lead">{{ page.excerpt}}</p>
+    </div><!-- end page-header -->
+    
+    <ul class="list-inline post-meta">
+      <li><span class="fa fa-calendar"></span>{{ page.date | date_to_string }}</li>
+    </ul><!-- end post-meta -->
+    
+    <div class="post-content">
+      {{ content }}
+    </div>
+    
+    
+    <div class="panel panel-default" style="margin-top: 5em;">
+      <div class="panel-heading">
+        <h3 class="panel-title">Actualizado el {{ page.date | date_to_string }}.</h3>
+      </div><!-- end panel-heading -->
+      <div class="panel-body">
+        ¿Me he dejado algo?. ¿Tienes alguna duda, pregunta o comentario?.
+        <br/><br/>
+        <a href="/contacto.html" class="button round">ponte en contacto</a>
+      </div><!-- end panel-body -->
+    </div><!-- end panel -->
+    
+  </article><!-- end article -->
+</div><!-- end page -->

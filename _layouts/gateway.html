@@ -2,30 +2,59 @@
 layout: default
 ---
 
-<div class="row full-width gateway">
-  <div class="large-5  large-offset-2 column">
-    <h1>{{ page.title }}</h1>
-    {{ content }}
-    <p class="meta">Actualizado el {{ page.date | date_to_string }}.</p>
-    
-    <hr/>
-    <p class="questions">
-      Si hay información incorrecta, quieres ayudarme a completarla o<br/> tienes dudas, no dudes en ponerte en contacto conmigo.
-      <br/><br/>
-      <a href="/contacto.html" class="button round">contactar</a>
-    </p>
-    
 
-  </div>
-  <div class="large-3 column">
-    <ul class="pricing-table">
-      <li class="title"><a href="{{page.gw_url}}"><img src="{{ page.gw_logo }}" alt="logo de {{page.title}}"></a></li>
-      <li class="price"><a href="{{page.gw_url}}">{{page.title}}</a></li>
-      <li class="description">{{page.gw_slogan}}</li>
-      <li class="bullet-item">{{page.gw_country}}</li>
-      <li class="price">{{page.gw_fee}}</li>
-    </ul>
-  </div>
-  <div class="large-2">
-  </div>
-</div>
+<div class="page">
+  <article>
+    <div class="page-header page-header-resume">
+      <a href="{{page.gw_url}}"><img src="{{ page.gw_logo }}" alt="logo de {{page.title}}"></a>
+      <h1>{{ page.title }}</h1>
+      <p class="lead">{{page.gw_slogan}}</p>
+    </div><!-- end page-header -->
+    <div class="row">
+      <div class="col-md-6">
+        <ul class="fa-ul">
+          <li title="País de origen">País: <i class="fa-li fa fa-map-marker"></i> {{page.gw_country}}</li>
+          <li title="comisiones">Comisiones: <i class="fa-li fa fa-euro"></i> {{page.gw_fee}}</li>
+        </ul>
+      </div><!-- end col-md-6 -->
+      <div class="col-md-6">
+        <ul class="fa-ul">
+          <li title="URL">URL: <i class="fa-li fa fa-link"></i> <a href="{{page.gw_url}}">{{ page.gw_url }}</a></li>
+          {% if page.gw_docs  %}
+          <li title="Documentación de desarrollo">Docs: <i class="fa-li fa fa-code"></i> <a href="{{page.gw_docs}}">{{page.gw_docs}}</a></li>
+          {% endif %}
+          {% if page.gw_twitter  %}
+          <li title="Twitter">Twitter: <i class="fa-li fa fa-twitter"></i> <a href="https://twitter.com/{{ page.gw_twitter }}">@{{ page.gw_twitter }}</a></li>
+          {% endif %}
+        </ul>
+      </div><!-- end col-md-6 -->
+    </div><!-- end row -->
+    
+    <div class="row" style="margin: 2em 0 2em 0;">
+      <div class="col-md-12">
+        {% for cat in (page.categories | order:ascending) %}
+
+          {% if cat != 'pasarelas' %}
+            <a href="/categorias/{{cat}}.html"><span class="label label-default">{{cat}}</span></a>
+          {% endif %}
+
+        {% endfor %}
+      </div><!-- end col-md-6 -->
+    </div><!-- end row -->
+    
+    <hr class="margin-top-10" />
+    
+    {{ content }}
+    
+    
+    <div class="panel panel-default" style="margin-top: 5em;">
+      <div class="panel-heading">
+        <h3 class="panel-title">Actualizado el {{ page.date | date_to_string }}.</h3>
+      </div><!-- end panel-heading -->
+      <div class="panel-body">
+        Si hay información incorrecta, quieres ayudarme a completarla o<br/> tienes dudas, no dudes en ponerte en contacto conmigo.
+      </div><!-- end panel-body -->
+    </div><!-- end panel -->
+    
+  </article><!-- end article -->
+</div><!-- end page -->

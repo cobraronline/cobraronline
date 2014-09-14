@@ -4,9 +4,10 @@ title:  "Software As A Service"
 date:   2013-07-23 20:02:36
 categories: escenario
 excerpt: "¿Quieres montar un negocio SAAS?. En este artículo aprenderás lo que requieres de tu pasarela de pago."
+img: "/images/posts/saas.jpg"
 ---
 
-Si lo que quieres es montar un negocio [SAAS (Software As A Service)](http://es.wikipedia.org/wiki/SaaS) necesitas una plataforma que permita pagos recurrentes. Lo más habitual es hacerlo por tarjeta, porque es el medio más disponible, pero no descartaría la opción de pagos por medio cuenta bancaria (no confundir con domiciliar recibos), como [GoCardless](/gocardless/). 
+Si lo que quieres es montar un negocio [SAAS (Software As A Service)](http://es.wikipedia.org/wiki/SaaS) necesitas una plataforma que permita pagos recurrentes. Lo más habitual es hacerlo por tarjeta, porque es el medio más disponible, pero no descartaría la opción de pagos por medio cuenta bancaria (no confundir con domiciliar recibos), como [GoCardless](/gocardless/) o [BeSEPA](/besepa/). 
 
 Lo primero es ser consciente de que un negocio SAAS tiene unas peculiaridades, que hacen que tus opciones para cobrar a tus clientes varíen.
 
@@ -16,7 +17,7 @@ Lo primero es ser consciente de que un negocio SAAS tiene unas peculiaridades, q
 - ¿Deben introducir los datos de la tarjeta a la hora del registro o lo harán más tarde una vez pasado el tiempo de prueba?
 - ¿El importe a cobrar a cada cliente es siempre el mismo o tiene una parte variable?
 
-##### Solo tengo un plan de precios
+### Solo tengo un plan de precios
 
 Algunas de las plataformas disponibles (como [Redsýs](/redsys/)) tienen una gestión de pagos recurrentes bastante limitada, sin una tokenización real de la tarleta. Su gestión de pagos recurrentes se reduce a un cargo periódico cuyo importe no se puede cambiar (o no se podría a comienzos de 2013). Esto lo deja fuera si tu aplicación tiene distintos planes o pagos variables.
 
@@ -28,7 +29,7 @@ Por otro lado, el servicio de [Paypal](/paypal/) fuera de estados unidos tiene o
 
 Pero si solo tienes un plan, ambas opciones son aceptables.
 
-##### Tengo varios planes de precios
+### Tengo varios planes de precios
 
 Pero para la mayoría de negocios SAAS será necesario almacenar la tarjeta de crédito del cliente de modo que se le puedan hacer cargos en cada periodo. 
 
@@ -38,11 +39,11 @@ Salvo los casos anteriores, la mayoría de plataformas que soportan pagos recurr
 
 Una cosa importante. No son muchas las plataformas que permitan cambiar una tarjeta una vez tokenizada. Es algo que tiene cierto sentido ya que se valida al ser creada, pero poco a poco empieza a ser permitido.
 
-##### Pago por uso
+### Pago por uso
 
 Hace un par de años era un asunto a tener muy en cuenta puesto que no todas las aplicaciones de pagos recurrentes  permitían realizar cargos adicionales al importe periódico, pero ya no debería ser una limitación para los servicios que tokenizan tarjetas. En cualquier caso, si en tu aplicación el importe a cargar puede variar cada mes deberías asegurarte de que lo podrás hacer.
   
-##### ¿Devoluciones, cargos, facturas, periodos de prueba?
+### ¿Devoluciones, cargos, facturas, periodos de prueba?
 
 Es importante ser consciente de que en un negocio SAAS no se trata únicamente de guardar una tarjeta y hacer cargos. 
 
@@ -59,37 +60,28 @@ La mayoría de pasarelas que soportan pagos recurrentes se limitan a guardar los
 
 De modo que cuando evalúes las alternativas, ten en cuenta que este tipo de aplicaciones dan un servicio y reducen el tiempo y coste del desarrollo, no son únicamente un coste adicional.
 
-##### ¿Cuando vas a pedir la tarjeta?
+### ¿Cuando vas a pedir la tarjeta?
 
 Yo creo que pedir la tarjeta en el registro es una buena idea, lo mismo que ofrecer un periodo de prueba, pero generalizar es malo y habría que estudiar cada caso. En España es habitual argumentar que eso supone una barrera de entrada importante, pero yo me suelo preguntar si realmente esas personas pasarán a ser clientes alguna vez. Lo dejo aquí, el pricing de un servicio es probablemente la decisión más difícil y no se debe decidir por un párrafo leído en internet.
 
 El caso aquí es que hay plataformas de medios de pago que no contemplan el concepto de cliente sin asignarle un medio de pago, de modo que deberás gestionar esas cuentas en local y después asociarlas a la tarjeta [tokenizada](/tokenizar/) en tu sistema. Las aplicaciones pensadas para gestionar negocios SAAS, como [Chargify](/chargify/) o [Braintree](/braintree/) suelen darte ya esa opción.
 
-##### ¿Por dónde empezarías tú?
+### ¿Por dónde empezarías tú?
 
 Vale, me mojo. De las que conozco:
 
 - Si tienes planes complejos y los usuarios pueden ir pasando de uno a otro: [Braintree](/braintree/).
-- Si lo más importante en tu aplicación es el pago por uso o tienes pocos cambios de plan: [Stripe](/stripe/)  o [Paymill](/paymill/) y quizás la combinación de [Spreedly](/spreedly/) + [Redsýs](/redsys/).
-- Y no perdería de vista: [GoCardless](/gocardless/).
+- Si lo más importante en tu aplicación es el pago por uso o tienes pocos cambios de plan: [Stripe](/stripe/), [Pagantis](/pagantis/)  o [Paymill](/paymill/) y quizás la combinación de [Spreedly](/spreedly/) + [Redsýs](/redsys/).
+- Y no perdería de vista: [GoCardless](/gocardless/) y [BeSEPA](/besepa/) para recibos y domiciliaciones.
 
-<hr/>
+--------
 
-<h4>Aplicaciones especializadas en gestión de negocios SAAS:</h4>
+### Aplicaciones especializadas en gestión de negocios SAAS
 
-<ul class="small-block-grid-3 large-block-grid-6">
-{% for post in (site.categories.saas | order:ascending) %}
-  <li><a href="{{ post.url }}" title="{{post.title}}"><img src="{{ post.gw_logo }}" alt="{{post.title}}"/></a></li>
-{% endfor %}
-</ul>
+{% include pasarelas.html gateways=site.categories.saas %}
 
+--------
 
-<hr/>
+### Plataformas que soportan pagos recurrentes
 
-<h4>Plataformas que soportan pagos recurrentes:</h4>
-
-<ul class="small-block-grid-3 large-block-grid-6">
-{% for post in (site.categories.recurring | order:ascending) %}
-  <li><a href="{{ post.url }}" title="{{post.title}}"><img src="{{ post.gw_logo }}" alt="{{post.title}}"/></a></li>
-{% endfor %}
-</ul>
+{% include pasarelas.html gateways=site.categories.recurring %}

@@ -1,0 +1,71 @@
+---
+layout: default
+title: Resumen de precios por tipo de pasarela
+---
+
+<div class="page">
+  <article>
+    
+    <div class="page-header">
+      <img src="{{ page.img }}" />
+      <h1>Resumen de precios por tipo de pasarela</h1>
+      <p class="lead"></p>
+    </div><!-- end page-header -->
+    
+    <div class="post-content">
+      
+      <ul>
+        <li><a href="#oneshot">Pagos únicos</li>
+        <li><a href="#insite">Pagos sin salir del sitio</li>
+        <li><a href="#recurring">Subscripciones</li>
+        <li><a href="#token">Tokenización</li>
+        <li><a href="#transferencias">Pagos desde cuenta bancaria</li>
+        <li><a href="#sepa">Domicializaciones / recibos / adeudos SEPA</li>
+        <li><a href="#mobile">Pasarelas con librerías para móviles</li>
+        <li><a href="#tpv">Lectores de tarjetas / TPVs móviles</li>
+      </ul>
+
+      <hr/>
+      <a name="oneshot"></a>
+      <h3>Pagos únicos.</h3>
+      {% include tabla_pasarelas.html gateways=site.categories.oneshot %}
+
+      <hr/>
+      <a name="insite"></a>
+      <h3>Pagos sin salir del sitio.</h3>
+      {% include tabla_pasarelas.html gateways=site.categories.insite %}
+
+      <hr/>
+      <a name="recurring"></a>
+      <h3>Subscripciones.</h3>
+      {% include tabla_pasarelas.html gateways=site.categories.recurring %}
+
+      <hr/>
+      <a name="token"></a>
+      <h3>Tokenización.</h3>
+      {% include tabla_pasarelas.html gateways=site.categories.token %}
+
+      <hr/>
+      <a name="transferencias"></a>
+      <h3>Pagos desde cuenta bancaria.</h3>
+      {% include tabla_pasarelas.html gateways=site.categories.transferencias %}
+
+      <hr/>
+      <a name="sepa"></a>
+      <h3>Domicializaciones / recibos / adeudos SEPA.</h3>
+      {% include tabla_pasarelas.html gateways=site.categories.sepa %}
+
+      <hr/>
+      <a name="mobile"></a>
+      <h3>Pasarelas con librerías para móviles.</h3>
+      {% include tabla_pasarelas.html gateways=site.categories.mobile %}
+
+      <hr/>
+      <a name="tpv"></a>
+      <h3>Lectores de tarjetas / TPVs móviles.</h3>
+      {% include tabla_pasarelas.html gateways=site.categories.tpv %}
+      
+    </div>
+    
+  </article><!-- end article -->
+</div><!-- end page -->

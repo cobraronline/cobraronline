@@ -2,7 +2,7 @@
 layout: gateway
 title:  "Wirecard"
 date:   2013-07-21 20:02:36
-categories: pasarelas
+categories: pasarelas oneshot magento woocommerce
 
 gw_logo: "/images/gateways/wirecard.png"
 gw_url: "https://www.wirecard.com"
@@ -11,10 +11,16 @@ gw_country: Alemania
 gw_fee: "Negociable por volumen, de 2% a 3,5%"
 ---
 
-**-- Ficha en construcción --**
-
 Más famosos por ser el proveedor de cuentas merchant para múltiples servicios ([Recurly](/recurly/), [Chargify](/chargify/), [Paymill](/paymill/), etc.) que por sus propios servicios de medios de pago, que también ofrecen.
 
 Lo peor que tienen, si no ha cambiado, es que te piden dejar un % importante de lo que cobres como fianza durante 6 meses. Negocia bien esto.
 
 Es un banco, _bastante tradicional_, el proceso de alta puede ser duro y te miran con más profundidad que muchos otros. Por ejemplo, les puede costar aceptar tus planes de precio anuales si llevas poco tiempo con ellos por el riesgo que supone.
+
+-------------
+
+#### Módulos ecommerce
+
+- [Magento](http://www.magentocommerce.com/magento-connect/wirecard.html)
+- [WooCommerce](http://www.woothemes.com/products/wirecard/)
+- [OsCommerce](http://addons.oscommerce.com/info/7017)

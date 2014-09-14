@@ -2,7 +2,7 @@
 layout: gateway
 title:  "Mangopay"
 date:   2013-08-18 20:02:36
-categories: pasarelas insite plataformas
+categories: pasarelas insite plataformas oneshot prestashop magento woocommerce
 
 
 gw_logo: "/images/gateways/mangopay.png"
@@ -10,6 +10,7 @@ gw_url: "http://www.mangopay.com/"
 gw_slogan: "Accept online payments and manage e-money."
 gw_country: Luxemburgo
 gw_fee: "Euros: 1,8% + 0,18 por transacción, Otras divisas: 2.5% + €0.25"
+gw_twitter: 'mangopay'
 ---
 
 Mangopay llegó al mercado como una solución enfocada a dar solución a las plataformas que ofrecen servicios a terceros para realizar sus ventas. Servicios que cobran _en nombre_ de otros, como por ejemplo sitios de venta de entradas como [Stage](http://www.stagehq.com), de Crowfunding como [Verkami](http://www.verkami.com) o marketplaces como [eBay](http://www.ebay.es) o [Artesanio](http://www.artesanio.com). 
@@ -22,16 +23,29 @@ En mi opinión tienen un punto débil, y es que te transfieren el importe de tus
 
 En caso de que necesitéis más información estoy seguro que el country manager para España, [Endika Villasol](https://twitter.com/EndikaVillasol), estará encantado de ayudaros: endika@mangopay.com.
 
+-------------
 
 #### Funciones
 
 - Funciones específicas de marketplaces y plataformas
 - Cobro directo (próximamente)
 
+-------------
+
 #### Tecnología
 
 No lo he probado, así que no puedo decir mucho. Espero con cierta curiosidad la posibilidad de usarlo directamente. Ahora mismo el API, al estar enfocado a plataformas, puede resultar algo confuso para gente que nunca se ha visto con esa problemática.
 
+-------------
+
 #### Panel de control
 
 Ahora mismo no tienen, pero se encuentra en su roadmap (Comienzos de 2014).
+
+-------------
+
+#### Módulos ecommerce
+
+- [Prestashop](http://addons.prestashop.com/fr/modules-paiement-prestashop/8795-payplug-paiement-en-ligne-simple-et-securise-.html)
+- [Magento](http://www.magentocommerce.com/magento-connect/marketplace-mangopay-payment-gateway.html)
+- [WooCommerce](https://wordpress.org/plugins/woocommerce-novalnet-gateway/)

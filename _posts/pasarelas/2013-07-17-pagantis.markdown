@@ -1,20 +1,23 @@
 ---
 layout: gateway
 title:  "Pagantis"
-date:   2014-01-15 08:02:36
-categories: pasarelas offsite recurring
+date:   2014-09-07 08:02:36
+categories: pasarelas oneshot offsite recurring mobile prestashop magento woocommerce token
 
 gw_logo: "/images/gateways/pagantis.jpg"
 gw_url: "http://www.pagantis.com/"
-gw_slogan: "La nueva generación de pagos"
+gw_docs: "http://docs.pagantis.com/"
+gw_slogan: "La pasarela de pagos que se adapta a tu negocio"
 gw_country: España
-gw_fee: "0,25 + 2,49%"
+gw_fee: "1%"
+gw_twitter: 'pagantis'
 ---
 
-Pagantis es la pasarela de [Telecoming Payment Solution](http://www.telecoming.com/payment/), (según su web) la 1ª Entidad de Pago española nativa digital autorizada por el Ministerio de Economía y Competitividad. Esto, _en cristiano_, les permite ofrecerte todo lo que necesitas para cobrar directamente. No hace falta que contrates con un banco o otra entidad de pago ni directa ni indirectamente.
+Pagantis es la pasarela de [Newbanq](http://www.newbanq.com), y una de las pocas entidades de pago española autorizada por el Ministerio de Economía y Competitividad. Esto, _en cristiano_, les permite ofrecerte todo lo que necesitas para cobrar directamente. No hace falta que contrates con un banco o otra entidad de pago ni directa ni indirectamente.
 
-**IMPORTANTE:** Desde Dic 2013 trabajo en esta empresa como responsable del producto, de modo que me permito no hacer comentarios al respecto. 
+**IMPORTANTE:** Desde Noviembre 2013 trabajo en esta empresa como responsable del producto, de modo que me permito no hacer comentarios al respecto. 
 
+-------------
 
 #### Funciones
 
@@ -23,4 +26,17 @@ Pagantis es la pasarela de [Telecoming Payment Solution](http://www.telecoming.c
 - Tokenización
 - Pago por email
 
+-------------
 
+#### Módulos ecommerce
+
+- [Prestashop](https://github.com/pagantis/pagantis-prestashop)
+- [Magento](https://github.com/pagantis/pagantis-magento)
+- [WooCommerce](https://github.com/pagantis/pagantis-woocommerce)
+- [OsCommerce](https://github.com/pagantis/pagantis-oscommerce)
+
+-------------
+
+#### Imágenes
+
+{% include screenshots_carrousel.html gateway='pagantis' items=3 %}

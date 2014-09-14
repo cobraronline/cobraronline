@@ -4,9 +4,10 @@ title:  "Trabajar con bancos"
 date:   2013-12-29 22:32:36
 categories: industria
 excerpt: Aprende como funcionan las transacciones con tarjeta en internet y como operan los bancos españoles
+img: "/images/posts/bank.jpg"
 ---
 
-Es habitual que cuando alguien me pregunta por la pasarela de pagos que mejor se adapta a sus necesidades la conversación acabe derivando en una cuestión de coste. No son pocos los que consideran que el 2,5%  -posiblemente- de [Stripe](/stripe/) o [Pagantis](/pagantis/) sean una barbaridad comparados con el rango que 0,6% a 1,5% en el que se mueven habitualmente los bancos españoles. No importa la diferencia funcional y las limitaciones que eso puedan suponer para nuestro comercio, acaba siendo una cuestión de precio.
+Es habitual que cuando alguien me pregunta por la pasarela de pagos que mejor se adapta a sus necesidades la conversación acabe derivando en una cuestión de coste. No son pocos los que consideran que el 2,5%  -posiblemente- de [Stripe](/stripe/) o [Paymill](/paymill/) sean una barbaridad comparados con el rango que 0,5% a 1,5% en el que se mueven habitualmente los bancos españoles. No importa la diferencia funcional y las limitaciones que eso puedan suponer para nuestro comercio, acaba siendo una cuestión de precio.
 
 ¿Pero por qué esta diferencia?, ¿cómo es posible que unos sean tan caros y otros tan baratos? Debe ser algo así como lo de comprar un piso, somos más listos que los demás. ¿O es un espejismo?
 
@@ -39,35 +40,44 @@ Por no complicar el post más, podemos decir que la tasas de intercambio son un 
 
 Lo _curioso_ viene cuando miramos las datos. Como toda operación financiera, esta transferencia de fondos esta _supervisada_ por el Banco de España y podemos ver los datos estadísticos agregados sobre la misma. Y [curioseando por las mismas](http://www.bde.es/f/webbde/SPA/sispago/ficheros/es/estadisticas.pdf) se pueden ver los valores medios para el sector de minoristas (la mayoría de nosotros) en el 2013: **aproximadamente 0,74% de tasa de intercambio y 0,76% de tasa de descuento.** 
 
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Actualización</h3>
+  </div>
+  <div class="panel-body">
+    Desde el 1 de Septiembre de 2014 la tasa de intercambio es de un máximo de 0,3% para tarjetas de crédito y 0,07 centimos para débito. El coste ha bajado, pero el razonamiento del artículo es el mismo. 
+  </div>
+</div>
+
 Es decir, *parece* que el banco adquirente ofrece el TPV con un 0,76% de tasa de descuento para llevarse únicamente un margen del 0,02%. ¿Alguién se lo cree? Veamos **cuatro de las técnicas más habituales** que suelen utilizar con números. 
 
 Para simplificar los cálculos supondremos que nos ofrecen una tasa de descuento del 1%.
 
-##### 1.- Mínimos
+#### 1.- Mínimos
 
 Lo primero que suele costarle a un banco decir es si su tasa de descuento tiene un **mínimo**. Por que lo suele tener y **deberíamos preguntarlo**. Si tiene un mínimo de €0,60, significa que independientemente de la tasa de descuento, para todos las ventas de menos de €60 el banco cobrará €0,60. De modo que si la venta media del comercio es de €30, la tasa de descuento real es del 2%. 
 
 Cuando nos piden información a la hora de solicitar el TPV tendemos a *engordar* nuestro ticket medio para darnos importancia. Ahora ya sabemos que si lo hacemos nos estamos perjudicando porque dudo que a ningún comercio con un ticket medio de €1000 le van a ofrecer una tasa de descuento por debajo del 1%. 
 
-##### 2.- Débito y crédito
+#### 2.- Débito y crédito
 
 Hemos dicho que la tasa de intercambio de fija, pero que el importe varía en base a una serie de criterios. El principal es el del tipo de tarjeta: crédito o débito. En las tarjetas de crédito es un % pero en las de débito es un importe fijo que ronda los €0,30. Algunos bancos distinguen entre ambas, pero la mayoría no. De modo que si vendemos €100, el % de la comisión que se lleva el banco adquirente es de €0,7 (un 70% de la comisión total), y no únicamente el 24% que suponíamos al principio (1% - tasa de intercambio). 
 
 Esto no hace que aumente nuestro coste como el caso del mínimo, pero nos debería dar más información con la que mejorar nuestra negociación e intentar conseguir una mejor tasa de descuento. Porque llegado el caso dirán que no pueden bajar de esa comisión porque *su margen es únicamente del 0,02%*.
 
-##### 3.- La doble imposición 
+#### 3.- La doble imposición 
 
 Los bancos saben hacer sus cálculos mejor que nadie. Y por supuesto en este caso no iba a ser menos. ¿Qué sucede si un banco adquiere el importe de una transacción emitida por él mismo? Exacto, que se lleva las dos comisiones: intercambio y descuento. 
 
 Esto les permite sus cálculos para saber hasta dónde pueden bajar sus comisiones, incluso por debajo de los costes, con el fin de captar clientes para el resto de su negocio. A fin de cuentas, la banca siempre gana.
 
-##### 4.- Productos extras
+#### 4.- Productos extras
 
 Enlazando con el punto anterior, cualquiera que conozca el mundo bancario sabe que el dinero que se llevan por la adquirencia es *pecata minuta* comparado con todo lo demás. En realidad, **con lo que realmente ganan dinero de verdad es con todo lo demás**. Teniendo cuenta (y saldo con ellos), abriéndote una línea de crédito, obligándote a tener una aval para darte el TPV, o guardando un % de la ventas como garantía. 
 
 Si esos productos extra que *sugieren* u obligan a contratar tienen un coste de €200 al año, únicamente a partir de €14.000 en ventas (sin tener en cuenta el mínimo del punto 1) saldrá rentable estar con ellos en lugar de, por ejemplo, Stripe. Deberíamos añadir esos números a nuestros cálculos antes de tomar una decisión, y más si estamos empezando.
 
-##### Opacidad 
+#### Opacidad 
 
 Pero esto no acaba aquí. En realidad es habitual que ni siquiera se pueda  saber lo que un comercio paga en comisiones, puesto que la mayoría de los bancos no ofrecen una forma sencilla de conciliar las ventas con los ingresos y las comisiones. Nadie tiene la información, el tiempo y el conocimiento necesario para mantener esa información en orden. Todo caos juega a su favor.
 

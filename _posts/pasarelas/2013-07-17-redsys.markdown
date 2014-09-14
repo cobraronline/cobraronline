@@ -2,13 +2,14 @@
 layout: gateway
 title:  "Redsýs"
 date:   2013-07-15 20:02:36
-categories: pasarelas offsite recurring
+categories: pasarelas offsite recurring oneshot magento prestashop woocommerce
 
 gw_logo: "/images/gateways/redsys.png"
 gw_url: "http://www.redsys.es/"
 gw_slogan: "Bienvenidos: WTF!"
 gw_country: España
-gw_fee: "Negociable con tu banco. Entre 0,5 y 1,5% aprox."
+gw_fee: "Negociable con tu banco. Entre 0,3 y 1,5% aprox."
+gw_twitter: 'Redsys_es'
 ---
 
 Más conocido como [Sermepa](/sermepa/) que ha sido el nombre que han utilizado hasta hace nada.
@@ -19,6 +20,8 @@ Qué puedo decir... es el más usado porque hasta hace relativamente poco eran l
 
 El proceso de alta y negociación se hace en la oficina de tu banco, y todos sabemos que no es el sitio dónde mejor se entiende internet (¡siguen pidiendo ver tu oficina física!). De tu oficina al departamento de riesgos de tu banco, de ahí a los técnicos de Redsýs, etc. Mucho intermediario para poca chicha.
 
+-------------
+
 #### Funciones
 
 - Tarjetas de crédito y débito
@@ -26,6 +29,8 @@ El proceso de alta y negociación se hace en la oficina de tu banco, y todos sab
 - Autorizaciones (hasta 7 días)
 - Autenticaciones (he visto hasta 45 días)
 - Tienen "algo parecido a pagos recurrentes", pero si no ha cambiado mucho, sin la libertad suficiente.
+
+-------------
 
 #### Tecnología
 
@@ -35,7 +40,16 @@ Si lo tienes que usar porque el fee es realmente inigualable, yo valoraría muy 
 
 Si alguien de Redsýs lee esto y ve más allá de "me da igual, nos forramos haciéndolo así" y quiere ver formas de mejorar su servicio puede utilizar el formulario de contacto.
 
+-------------
 
 #### Panel de control
 
 Triste. Llegas a ver el listado de transacciones, pero triste.
+
+#### Módulos ecommerce
+
+- [Prestashop](http://www.redsys.es/wps/portal/redsys/publica/areadeserviciosweb/descargaDeDocumentacionYEjecutables/!ut/p/a1/jZHNDsFAEICfxaFXM13RqtuusNpgSVNqL1JUNbQrbXl-rbgQlknmMJPvS-YHJIQg8-iWJlGVqjw6N7W0Ng51hqbL0RW-RdBdzqZkIiiKOdbAugbwS1DU-XxpPX0N0PhjMeAm8dHji7GNlHc91hkxEwX54Y_s_3wN8GP_FUjtis0ED0B3orchbebUbZMx9CeIPgEPZHJW28c_1jTfdnoJyCI-xEVctK9F3T5W1aXsG2jg_ro7NZmo9k5lBn5SjqqsIHwl4ZIFQRBiOs9WvZK2Wnd7mH3-/dl5/d5/L2dBISEvZ0FBIS9nQSEh/)
+- [Magento](http://www.redsys.es/wps/portal/redsys/publica/areadeserviciosweb/descargaDeDocumentacionYEjecutables/!ut/p/a1/jZHNDsFAEICfxaFXM13RqtuusNpgSVNqL1JUNbQrbXl-rbgQlknmMJPvS-YHJIQg8-iWJlGVqjw6N7W0Ng51hqbL0RW-RdBdzqZkIiiKOdbAugbwS1DU-XxpPX0N0PhjMeAm8dHji7GNlHc91hkxEwX54Y_s_3wN8GP_FUjtis0ED0B3orchbebUbZMx9CeIPgEPZHJW28c_1jTfdnoJyCI-xEVctK9F3T5W1aXsG2jg_ro7NZmo9k5lBn5SjqqsIHwl4ZIFQRBiOs9WvZK2Wnd7mH3-/dl5/d5/L2dBISEvZ0FBIS9nQSEh/)
+- [WooCommerce](http://www.redsys.es/wps/portal/redsys/publica/areadeserviciosweb/descargaDeDocumentacionYEjecutables/!ut/p/a1/jZHNDsFAEICfxaFXM13RqtuusNpgSVNqL1JUNbQrbXl-rbgQlknmMJPvS-YHJIQg8-iWJlGVqjw6N7W0Ng51hqbL0RW-RdBdzqZkIiiKOdbAugbwS1DU-XxpPX0N0PhjMeAm8dHji7GNlHc91hkxEwX54Y_s_3wN8GP_FUjtis0ED0B3orchbebUbZMx9CeIPgEPZHJW28c_1jTfdnoJyCI-xEVctK9F3T5W1aXsG2jg_ro7NZmo9k5lBn5SjqqsIHwl4ZIFQRBiOs9WvZK2Wnd7mH3-/dl5/d5/L2dBISEvZ0FBIS9nQSEh/)
+- [OsCommerce](http://www.redsys.es/wps/portal/redsys/publica/areadeserviciosweb/descargaDeDocumentacionYEjecutables/!ut/p/a1/jZHNDsFAEICfxaFXM13RqtuusNpgSVNqL1JUNbQrbXl-rbgQlknmMJPvS-YHJIQg8-iWJlGVqjw6N7W0Ng51hqbL0RW-RdBdzqZkIiiKOdbAugbwS1DU-XxpPX0N0PhjMeAm8dHji7GNlHc91hkxEwX54Y_s_3wN8GP_FUjtis0ED0B3orchbebUbZMx9CeIPgEPZHJW28c_1jTfdnoJyCI-xEVctK9F3T5W1aXsG2jg_ro7NZmo9k5lBn5SjqqsIHwl4ZIFQRBiOs9WvZK2Wnd7mH3-/dl5/d5/L2dBISEvZ0FBIS9nQSEh/)
+- [OpenCart](http://www.redsys.es/wps/portal/redsys/publica/areadeserviciosweb/descargaDeDocumentacionYEjecutables/!ut/p/a1/jZHNDsFAEICfxaFXM13RqtuusNpgSVNqL1JUNbQrbXl-rbgQlknmMJPvS-YHJIQg8-iWJlGVqjw6N7W0Ng51hqbL0RW-RdBdzqZkIiiKOdbAugbwS1DU-XxpPX0N0PhjMeAm8dHji7GNlHc91hkxEwX54Y_s_3wN8GP_FUjtis0ED0B3orchbebUbZMx9CeIPgEPZHJW28c_1jTfdnoJyCI-xEVctK9F3T5W1aXsG2jg_ro7NZmo9k5lBn5SjqqsIHwl4ZIFQRBiOs9WvZK2Wnd7mH3-/dl5/d5/L2dBISEvZ0FBIS9nQSEh/)

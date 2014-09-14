@@ -1,0 +1,26 @@
+---
+layout: gateway
+title:  "Ingenico Payment Services"
+date:   2014-09-09 20:02:36
+categories: pasarelas recurring insite oneshot mobile magento prestashop
+
+gw_logo: "/images/gateways/ingenico.png"
+gw_url: "http://payment-services.ingenico.com/int/en/"
+gw_slogan: "Seamless & secure payment solutions."
+gw_country: Bélgica
+gw_fee: "Sin información"
+gw_twitter: 'IngenicoPayment'
+---
+
+No tengo demasiada información. Compraron [Ogone](/ogone/) y aparentemente están construyendo sobre él.
+
+
+-------------
+
+#### Módulos ecommerce
+
+- [Prestashop](http://addons.prestashop.com/en/payments-gateways-prestashop-modules/1798-ogone.html)
+- [Magento](http://payment-services.ingenico.com/int/en/support/magento-payment-gateway-extension )
+- [OsCommerce](http://addons.oscommerce.com/info/8603)
+
+

@@ -2,15 +2,15 @@
 layout: gateway
 title:  "Judo"
 date:   2013-07-20 20:02:36
-categories: pasarelas mobile ios android
+categories: pasarelas mobile
 
 gw_logo: "/images/gateways/judo.png"
 gw_url: "https://www.judopay.com"
 gw_slogan: "Card payments for mobile apps."
 gw_country: Reino Unido
-gw_fee: "Fijo al mes + 0,X por transacción para una cantidad base, 2-3,5% a partir de una cantidad "
+gw_fee: "Fijo al mes + 0,X por transacción para una cantidad base, 2-3,5% a partir de una cantidad"
+gw_twitter: 'JudoPayments'
 ---
 
-**-- Ficha en construcción --**
 
 Lamentablemente no están disponibles en España. El hecho de tener un coste fijo hasta una cantidad anual en lugar de un % la hace bastante interesante. Es un modelo que puede resultar interesante para que las empresas que se crean en Inglaterra (¿cada vez más?) puedan empezar a cobrar desde sus aplicaciones móviles. 

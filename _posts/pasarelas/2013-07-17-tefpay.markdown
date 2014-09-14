@@ -2,13 +2,13 @@
 layout: gateway
 title:  "Tefpay"
 date:   2013-07-15 20:02:36
-categories: pasarelas
+categories: pasarelas oneshot 
 
 gw_logo: "/images/gateways/tefpay.png"
 gw_url: "http://www.tefpay.com"
 gw_slogan: "Internet payment gateways and services"
 gw_country: España
 gw_fee: "Fijo al mes + Fijo por transacción + Comisión cuenta merchant"
+gw_twitter: 'tefpay'
 ---
 
-**-- Ficha en construcción --**

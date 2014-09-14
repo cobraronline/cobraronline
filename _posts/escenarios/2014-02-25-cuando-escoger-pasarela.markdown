@@ -4,6 +4,7 @@ title:  "Cuándo escoger una pasarela"
 date:   2014-02-25 22:32:36
 categories: escenario
 excerpt: "¿En que momento del desarrollo de mi aplicación ebusiness debo escoger una pasarela de pago? ¿Valen todas para todo?"
+img: "/images/posts/choosegw.jpg"
 ---
 
 A menudo recibo preguntas sobre cómo resolver un problema generado por la pasarela. A veces es por los límites impuestos por el banco que realiza la adquirencia (ver [Trabajar con bancos](/bancos/)), otras por el índice de rechazo, algunas otras porque lo que prometían no lo han cumplido. Y es que **no todas las pasarelas son iguales** y una vez escogida una, cambiarla puede ser costoso, o simplemente demasiado tarde.

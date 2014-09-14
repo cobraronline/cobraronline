@@ -1,119 +1,65 @@
 ---
 layout: default
-title: Pasarelas disponibles
+title: Pasarelas disponibles desde España
 ---
 
-<div class="row full-width">
-	<div class="small-8 large-8  large-offset-2 ">
-	  
-	  <p>
-	    En el siguiente listado están algunas de las alternativas disponibles desde España. No están todas las que son (paciencia) pero si son todas las que están, o serán en breve.
-	  </p>
-	
-	  <div class="row full-width">
-	    <div class="small-2 large-4 column">
-	      <h1 class="gateways">Pasarelas online.</h1>
-	    </div>
-	    <div class="small-8 large-8 column">
-	      <ul class="small-block-grid-2 large-block-grid-4">
-    	  {% for post in (site.categories.pasarelas | order:ascending) %}
-          <li><a href="{{ post.url }}" title="{{post.title}}"><img src="{{ post.gw_logo }}" alt="{{post.title}}"/></a></li>
-        {% endfor %}
-        </ul>
-	    </div>
-	  </div>
-	  
-    <hr/>
+<div class="page">
+  <article>
     
-	  <div class="row full-width">
-	    <div class="small-2 large-4 column">
-	      <h1 class="gateways">Cobros desde cuenta bancaria.</h1>
-	    </div>
-	    <div class="small-8 large-8 column">
-	      <ul class="small-block-grid-2 large-block-grid-4">
-    	  {% for post in (site.categories.transferencias | order:ascending) %}
-          <li><a href="{{ post.url }}" title="{{post.title}}"><img src="{{ post.gw_logo }}" alt="{{post.title}}"/></a></li>
-        {% endfor %}
-        </ul>
-	    </div>
-	  </div>	  
+    <div class="page-header">
+      <img src="{{ page.img }}" />
+      <h1>Pasarelas disponibles desde España</h1>
+      <p class="lead">En el siguiente listado están algunas de las alternativas disponibles desde España. No están todas las que son (paciencia) pero si son todas las que están, o serán en breve.</p>
+    </div><!-- end page-header -->
     
-    <hr/>
+    <div class="post-content">
+      
+      <ul>
+        <li><a href="#pasarelas">Pasarelas online</li>
+        <li><a href="#recurring">Cobros recurrentes</li>
+        <li><a href="#insite">Pasarelas con pago sin salir del sitio</li>
+        <li><a href="#transferencias">Cobros desde cuenta bancaria</li>
+        <li><a href="#sepa">Domicializaciones / recibos / adeudos SEPA</li>
+        <li><a href="#mobile">Pasarelas con librerías para móviles</li>
+        <li><a href="#tpv">Lectores de tarjetas / TPVs móviles</li>
+      </ul>
 
-	  <div class="row full-width">
-	    <div class="small-2 large-4 column">
-	      <h1 class="gateways">Cobros recurrentes.</h1>
-	    </div>
-	    <div class="small-8 large-8 column">
-	      <ul class="small-block-grid-2 large-block-grid-4">
-    	  {% for post in (site.categories.recurring | order:ascending) %}
-          <li><a href="{{ post.url }}" title="{{post.title}}"><img src="{{ post.gw_logo }}" alt="{{post.title}}"/></a></li>
-        {% endfor %}
-        </ul>
-	    </div>
-	  </div>
-    
-    <hr/>
-    
-	  <div class="row full-width">
-	    <div class="small-2 large-4 column">
-	      <h1 class="gateways">Pasarelas con pago onsite.</h1>
-	    </div>
-	    <div class="small-8 large-8 column">
-	      <ul class="small-block-grid-2 large-block-grid-4">
-    	  {% for post in (site.categories.insite | order:ascending) %}
-          <li><a href="{{ post.url }}" title="{{post.title}}"><img src="{{ post.gw_logo }}" alt="{{post.title}}"/></a></li>
-        {% endfor %}
-        </ul>
-	    </div>
-	  </div>    
-    
-    <hr/>
-    
-	  <div class="row full-width">
-	    <div class="small-2 large-4 column">
-	      <h1 class="gateways">Pasarelas con pago offsite.</h1>
-	    </div>
-	    <div class="small-8 large-8 column">
-	      <ul class="small-block-grid-2 large-block-grid-4">
-    	  {% for post in (site.categories.offsite | order:ascending) %}
-          <li><a href="{{ post.url }}" title="{{post.title}}"><img src="{{ post.gw_logo }}" alt="{{post.title}}"/></a></li>
-        {% endfor %}
-        </ul>
-	    </div>
-	  </div>
-	      
-    <hr/>
-    
-	  <div class="row full-width">
-	    <div class="small-2 large-4 column">
-	      <h1 class="gateways">Lectores de tarjetas / TPVs móviles.</h1>
-	    </div>
-	    <div class="small-8 large-8 column">
-	      <ul class="small-block-grid-2 large-block-grid-4">
-    	  {% for post in (site.categories.tpv | order:ascending) %}
-          <li><a href="{{ post.url }}" title="{{post.title}}"><img src="{{ post.gw_logo }}" alt="{{post.title}}"/></a></li>
-        {% endfor %}
-        </ul>
-	    </div>
-	  </div>   
-    
-    <hr/>
-    
-	  <div class="row full-width">
-	    <div class="small-2 large-4 column">
-	      <h1 class="gateways">Pasarelas con librerías para móviles.</h1>
-	    </div>
-	    <div class="small-8 large-8 column">
-	      <ul class="small-block-grid-2 small-block-grid-2 large-block-grid-4">
-    	  {% for post in (site.categories.ios | order:ascending) %}
-          <li><a href="{{ post.url }}" title="{{post.title}}"><img src="{{ post.gw_logo }}" alt="{{post.title}}"/></a></li>
-        {% endfor %}
-        </ul>
-	    </div>
-	  </div>          
-  
-        
-	</div>
-</div>
+      <hr/>
+      <a name="pasarelas"></a>
+      <h3>Pasarelas online.</h3>
+      {% include pasarelas.html gateways=site.categories.pasarelas %}
 
+      <hr/>
+      <a name="recurring"></a>
+      <h3>Cobros recurrentes.</h3>
+      {% include pasarelas.html gateways=site.categories.recurring %}
+
+      <hr/>
+      <a name="insite"></a>
+      <h3>Pasarelas con pago sin salir del sitio.</h3>
+      {% include pasarelas.html gateways=site.categories.insite %}
+
+      <hr/>
+      <a name="transferencias"></a>
+      <h3>Cobros desde cuenta bancaria.</h3>
+      {% include pasarelas.html gateways=site.categories.transferencias %}
+
+      <hr/>
+      <a name="sepa"></a>
+      <h3>Domicializaciones / recibos / adeudos SEPA.</h3>
+      {% include pasarelas.html gateways=site.categories.sepa %}
+
+      <hr/>
+      <a name="mobile"></a>
+      <h3>Pasarelas con librerías para móviles.</h3>
+      {% include pasarelas.html gateways=site.categories.mobile %}
+
+      <hr/>
+      <a name="tpv"></a>
+      <h3>Lectores de tarjetas / TPVs móviles.</h3>
+      {% include pasarelas.html gateways=site.categories.tpv %}
+      
+    </div>
+    
+  </article><!-- end article -->
+</div><!-- end page -->

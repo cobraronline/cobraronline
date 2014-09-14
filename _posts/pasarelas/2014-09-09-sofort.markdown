@@ -1,0 +1,28 @@
+---
+layout: gateway
+title:  "Sofort"
+date:   2013-07-16 20:02:36
+categories: pasarelas transferencias oneshot prestashop magento shopify woocommerce
+
+gw_logo: "/images/gateways/sofort.png"
+gw_url: "https://www.sofort.com/esl-ES/"
+gw_docs: "https://www.sofort.com/esl-ES/vendedores/sb/integracion-sofort-banking/"
+gw_slogan: "Pague de forma fácil y segura con sus datos habituales de banca online."
+gw_country: Alemania, con presencia en España
+gw_fee: "0,25 + 0,9% para productos físicos, 2% para virtuales"
+gw_twitter: 'sofortag'
+---
+
+Sofort es el lider en Alemania para pagos desde cuenta bancaria. Pagos iniciados por el comprador y realizados online, no confundir con <a href="/categories/sepa.html">recibos o domicialiaciones</a>. 
+
+Tengo cuenta, pero aún no la he llegado a usar realmente de modo que no puedo decir demasiado de ellos.
+
+-------------
+
+
+#### Módulos ecommerce
+
+- [Prestashop](http://addons.prestashop.com/en/payments-gateways-prestashop-modules/9176-sofortbanking.html)
+- [Magento](http://www.magentocommerce.com/magento-connect/sofort-payment-methods.html)
+- [WooCommerce](http://www.woothemes.com/products/sofort-payment-gateway/)
+- [Shopify](http://www.shopify.com/payment-gateways/united-kingdom/sofort-banking-directebanking)

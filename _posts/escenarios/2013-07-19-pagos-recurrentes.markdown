@@ -4,6 +4,7 @@ title:  "Pagos recurrentes para todo tipo de negocios"
 date:   2013-08-14 16:02:36
 categories: escenario
 excerpt: "Existen muchas razones para cobrar a tus clientes regularmente: pago por uso, simplificar el proceso, etc. ¿Pero puedo hacerlo de forma sencilla?. La respuesta es si, claro, que puedes."
+img: "/images/posts/recurring_payments.jpg"
 ---
 
 Además de los negocios de subscripción pura más habituales, como los [SAAS](/SAAS/) de subscripción, cada vez son más negocios los que requieren ciertos pagos recurrentes o los que quieren simplificar las compras sucesivas de sus clientes. 
@@ -18,9 +19,9 @@ Algunos casos ilustrativos podrían ser:
 
 - Negocios con un tipo de subscripción sencillo, sin varios planes, sin cambios, con ciclos largos, etc. Negocios como un registrador de dominios, acceso a contenidos premium, en los que no necesitas una gestión de subscripciones completas y compleja como las que ofrecen las plataformas pensadas para negocios [SAAS](/SAAS/).
 
-Simplificar la forma en la que pagan los clientes no es más que bueno para el negocio, de modo que intentar ponérselo fácil debería ser una prioridad. 
+Simplificar la forma en la que pagan los clientes no es más que bueno para el negocio, de modo que intentar ponérselo fácil debería ser una prioridad.
 
-##### ¿Cómo lo hago?
+### ¿Cómo lo hago?
 
 Esta forma de gestionar los cobros se basa en almacenar la tarjeta de crédito del cliente una vez autorizada, lo que comunmente se llama _[tokenizar la tarjeta](/tokenizar/)_
 
@@ -31,7 +32,7 @@ Con plataformas como Paypal la terminología empleada es _crear un acuerdo de pa
 Servicios como [GoCardless](/gocardless/) que trabajan con transferencias bancarias también serán una opción tan pronto estén disponibles en nuestro país.
 
 
-##### Confianza.
+### Confianza.
 
 Darle a un _semidesconido_ los datos de nuestra tarjeta de crédito es algo que no le gusta a nadie. Incluso cuando _técnicamente no sea así_. Los datos los almacena nuestra pasarela, pero eso es algo que ni sabe ni interesa al comprador.
 
@@ -41,7 +42,7 @@ Aunque es habitual en sistemas de créditos, no seas excesivamente ambicioso con
 
 
 
-##### ¿Por dónde empezarías tú?
+### ¿Por dónde empezarías tú?
 
 Ahora mismo hay ya muchas plataformas que soportar tokenizar la tarjeta, de modo que no debería ser problema conseguir una. Aún a riesgo de ser repetitivo:
 
@@ -49,7 +50,7 @@ Ahora mismo hay ya muchas plataformas que soportar tokenizar la tarjeta, de modo
 - La combinación de [Spreedly](/spreedly/) + [Redsýs](/redsys/) puede ser la más económica, sacrificando, de momento, el panel de control.
 
 
-##### Bonus point.
+### Bonus point.
 
 Aunque no es estrictamente ilegal, las principales redes de tarjetas de crédito consideran que es una mala práctica cobrar por un producto antes de enviarlo si no se le notifica claramente al comprador. Con un producto digital no tenemos problema, puesto que el envío es inmediato. Pero, ¿qué podemos hacer con un producto físico que tenemos que pedir a nuestro proveedor antes de enviárselo a nuestro cliente?. 
 

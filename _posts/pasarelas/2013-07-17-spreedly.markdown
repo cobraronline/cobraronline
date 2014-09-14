@@ -2,13 +2,14 @@
 layout: gateway
 title:  "Spreedly"
 date:   2013-08-01 23:49:36
-categories: recurring insite pasarelas
+categories: pasarelas insite 
 
 gw_logo: "/images/gateways/spreedly.png"
 gw_url: "https://spreedlycore.com"
 gw_slogan: "Spreedly scales payments"
 gw_country: Estados Unidos
-gw_fee: "Desde $50/mes + 0,04 por transacción"
+gw_fee: "Desde $99/mes. Incluye 1 pasarela 5000 transacciones 5000 tarjetas"
+gw_twitter: 'spreedly'
 ---
 
 Spreedly es un caso curioso. Fueron desde hace años una aplicación de gestión de pagos recurrentes como [Recurly](/recurly/), [Braintree](/braintree/) o [Chargify](/chargify/) pero abandonaron ese negocio a finales del 2012. De hecho, en Julio de 2013 han vendido esa parte de su software a un cliente suyo australiano. 
@@ -17,6 +18,7 @@ Lo que hace Spreedly ahora mismo es [almacenar las tarjetas de crédito](/tokeni
 
 Para negocios con gran movimiento es una opción **MUY** interesante.
 
+-------------
 
 #### Funciones
 
@@ -24,6 +26,7 @@ Para negocios con gran movimiento es una opción **MUY** interesante.
 - Pagos recurrentes
 - Multipasarela
 
+-------------
 
 #### Tecnología
 
@@ -31,10 +34,16 @@ Tienen un API que está bien. Quizás les falta (a Junio 2013) un javascript bri
 
 Quizás lo peor de todo es que no soportan los entornos de pruebas de muchas de las pasarelas, sino únicamente el de producción, lo cual puede ser una molestia a la hora de recibir la aprobación de la pasarela real (muchas veces te exigen realizar algunas transacciones de prueba). 
 
+-------------
 
 #### Panel de control
 
 Me imagino que es fruto del cambio de negocio, pero ahora mismo no tienen nada relacionado con las transacciones, cuentas, etc. Puedes obtener toda la información por API, pero te remiten a la pasarela real para ver las transacciones, lo cual para mi es insuficiente si quieres tener claro que pasa en todo momento.
 
 Aunque hay aplicaciones de terceros que puedes instalar en tu servidor para consultar esa información, por ejemplo [vault-viewer](https://github.com/dangrossman/vault-viewer).
+
+-------------
+
+
+
 

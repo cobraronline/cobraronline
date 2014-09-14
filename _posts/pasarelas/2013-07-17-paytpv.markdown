@@ -2,19 +2,21 @@
 layout: gateway
 title:  "Paytpv"
 date:   2013-07-15 20:02:36
-categories: pasarelas offsite recurring
+categories: pasarelas offsite recurring oneshot prestashop magento woocommerce
 
 gw_logo: "/images/gateways/paytpv.png"
 gw_url: "http://www.paytpv.com"
 gw_slogan: "Sistema de cobro integral"
 gw_country: España
 gw_fee: "Sobre la base de una cuenta merchant bancaria. Con cuota mensual, aunque no he encontrado información pública al respecto."
+gw_twitter: 'PAYTPV'
 ---
 
 Paytpv es una pasarela integral de pagos española: desde TPV físicos a comercio online. Ofrecen desarrollos tecnológicos sobre las cuentas de comercio que ofrecen los principales bancos españoles con el fin de simplificar la vida a los comercios. Aunque según comentan, están en proceso de convertirse en una entidad de pagos y eso puede traer muchos cambios.
 
 Tienen un producto llamado Bankstore que puede simplificar bastante el pago aplazado que lamentablemente se solicita a menudo en estos tiempo que corren.
 
+-------------
 
 #### Funciones
 
@@ -23,6 +25,7 @@ Tienen un producto llamado Bankstore que puede simplificar bastante el pago apla
 - Cobros recurrentes y subscripciones
 - API vía XML/SOAP
 
+-------------
 
 #### Tecnología
 
@@ -30,12 +33,18 @@ A día de hoy está construido sobre [Redsýs/Sermepa](/redsys/), de modo que en
 
 Un API XML/SOAP me parece de otro mundo, pero no creo que la integración por API sea lo que busca su público objetivo. 
 
-
+-------------
 
 #### Panel de control
 
 No puedo hablar sobre él.
 
-#### Modulos y librerías
+-------------
 
-Tienen módulos para los principales aplicaciones de tiendas online: Magento, osCommerce, Zencart, Prestashop, VirtueMart, Opencart.
+#### Módulos ecommerce
+
+- [Prestashop](https://github.com/PayTpv/PAYTPV-PrestaShop)
+- [Magento](https://github.com/PayTpv/PAYTPV-Magento)
+- [WooCommerce](https://wordpress.org/plugins/woocommerce-gateway-paytpv/)
+- [OsCommerce](http://modulosdepago.es/osCommerce-ZenCart)
+

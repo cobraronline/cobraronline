@@ -1,0 +1,21 @@
+<div class="portfolio-wrapper">
+{% for post in (include.gateways | sort: 'title') %}
+<div class="card">
+  <a href="{{ post.url }}" class="thumb">
+    <img src="{{ post.gw_logo }}" alt="{{post.title}}" title="{{post.title}}"/>
+  </a>
+
+  <div class="card-footer">
+    <ul class="list-inline filters">
+      {% for cat in (post.categories | order:ascending) %}
+        
+        {% if cat != 'pasarelas' %}
+          <li><a href="/categorias/{{cat}}.html">{{cat}}</a></li>
+        {% endif %}
+        
+      {% endfor %}
+    </ul>
+  </div><!-- end card-footer -->
+</div><!-- end card -->
+{% endfor %}
+</div>

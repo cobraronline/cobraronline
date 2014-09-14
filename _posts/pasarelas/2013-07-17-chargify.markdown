@@ -2,15 +2,21 @@
 layout: gateway
 title:  "Chargify"
 date:   2013-07-15 20:02:36
-categories: insite recurring saas
+categories: pasarelas insite recurring saas
 
 gw_logo: "/images/gateways/chargify.png"
 gw_url: "http://chargify.com"
 gw_slogan: "Easily Manage Your Recurring Revenue Business"
 gw_country: Estados Unidos
 gw_fee: "Desde $65/mes + Comisión cuenta merchant"
+gw_twitter: 'Chargify'
 ---
 
-**-- Ficha en construcción --**
-
 Es un servicio pensado para que los negocios [SAAS](/saas/) gestionen sus pagos recurrentes. Los cobros se hacen a través de una pasarela contratada a parte, por ejemplo desde Europa se puede usar [Wirecard](wirecard.html), [Braintree](braintree.html) y [Paypal](paypal.html).
+
+-------------
+
+#### Módulos ecommerce
+
+- [Wordpress](https://wordpress.org/plugins/chargify/)
+

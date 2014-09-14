@@ -3,34 +3,24 @@ layout: default
 title: Escenarios de uso
 ---
 
-<div class="row full-width">
-	<div class="large-8  large-offset-2 ">
-	  <h1>Escenarios de uso.</h1>
-	  <p>Los siguientes son escenarios de uso que le pueden ayudar a escoger la opción que mejor se adapta a su negocio.</p>
-	  
-	  <dl>
-	    {% for post in (site.categories.escenario | order:ascending) %}
-        <dt><a href="{{ post.url }}">{{ post.title }}</a>.<br/> {{ post.date | date_to_string }}</dt>
-        <dd><span class="excerpt">{{ post.excerpt }}</span></dd>
-      {% endfor %}
-    </dl>
-    
-    <hr/>
-    <p class="questions" style="text-align: center">
-      Poco a poco incluiré nuevos escenarios. Si quieres contarme el tuyo probablemente consigas que lo describa antes.
-      <br/><br/>
-      <a href="/contacto.html" class="button round">contactar</a>
-    </p>
-    
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-	</div>
+
+  
+<div class="row">
+  <h1 class="gateways">Escenarios de uso.</h1>
 </div>
 
+<div class="row">
+  <p>
+    Los siguientes son escenarios de uso que le pueden ayudar a escoger la opción que mejor se adapta a su negocio.
+  </p>
+</div>
+
+{% include articulos.html articles=site.categories.escenario %}
+
+<div class="panel panel-default" style="margin-top: 5em;">
+  <div class="panel-body">
+    Poco a poco incluiré nuevos escenarios. Si quieres contarme el tuyo probablemente consigas que lo describa antes.
+    <br/><br/>
+    <a href="/contacto.html" class="button round">ponte en contacto</a>
+  </div><!-- end panel-body -->
+</div><!-- end panel -->

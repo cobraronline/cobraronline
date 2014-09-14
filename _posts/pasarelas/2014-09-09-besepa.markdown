@@ -1,0 +1,17 @@
+---
+layout: gateway
+title:  "Besepa"
+date:   2014-09-09 20:02:36
+categories: pasarelas recurring sepa insite
+
+gw_logo: "/images/gateways/besepa.jpg"
+gw_url: "http://www.besepa.com"
+gw_slogan: "Adeudos SEPA en la era de internet"
+gw_country: España
+gw_fee: "Sin información"
+gw_twitter: 'besepacom'
+---
+
+Aún es construcción, es la primera plataforma española (que yo sepa) para gestionar adeudos directos SEPA (el nuevo nombre de recibos o domiciliaciones), eliminando los problemas de generar y enviar los ficheros, custodiar mandatos, secuencias de adeudos, etc. Haciéndolo todo vía API.
+
+Están en beta privada, pero me consta que ya están recibiendo comercios. 

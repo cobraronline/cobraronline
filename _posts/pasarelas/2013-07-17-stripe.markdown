@@ -1,20 +1,22 @@
 ---
 layout: gateway
 title:  "Stripe"
-date:   2013-09-09 20:02:36
-categories: pasarelas recurring insite ios android
+date:   2014-09-09 21:02:36
+categories: pasarelas recurring insite mobile shopify magento prestashop woocommerce oneshot token
 
 gw_logo: "/images/gateways/stripe.png"
 gw_url: "http://www.stripe.com"
 gw_slogan: "Payments for developers. Stripe makes it easy to start accepting credit cards on the web today."
 gw_country: Estados Unidos
 gw_fee: "2,9% + 0,30 por transacción"
+gw_twitter: 'stripe'
 ---
 
 
 Yo me atrevería a decir que Stripe ha revolucionado la forma en la que se cobraba online. Enfocado a hacer la vida más fácil a los programadores ha liderado un cambio en las integraciones. Con un gran API, una integración por javascript, oauth, es **para mi** sin duda la plataforma que más imitan otros ahora mismo, como es el caso de [Paymill](/paymill/).
 
-**Desde Septiembre de 2013 están disponibles en España en fase beta.**
+
+-------------
 
 #### Funciones
 
@@ -23,14 +25,38 @@ Yo me atrevería a decir que Stripe ha revolucionado la forma en la que se cobra
 - Enviar pagos (al estilo de transferencias) (solo EEUU por ahora)
 - Soporte para cargos de intermediarios/plataformas (Stripe Connect)
 
+-------------
+
 #### Tecnología
 
-A mi me parecen los más avanzados, ya que como comentaba su target inicial eran los programadores. Un gran API, botón para cobrar rápidamente, bridge en javascript, webhooks, etc.
+A mi me parecen los más avanzados, ya que como comentaba su target inicial eran los programadores. Un gran API, botón para cobrar rápidamente, bridge en javascript, webhooks, etc. Tiene también librerías para iOS y Android.
 
 Interesante su Stripe Connect para operar y acceder a la información de las cuentas por medio de oauth muy útil para crear nuevas aplicaciones y ofrecerlo como opción desde distintas plataformas de ecommerce.
 
-Tiene también API para iOS y Android.
+<div class="panel panel-success">
+  <div class="panel-heading">
+    <h3 class="panel-title">Integración con terceros
+    </h3>
+  </div>
+  <div class="panel-body">
+    Son muchas, pero una de las más interesantes para nosotros es <a href="http://quaderno.io">Invoicing for Stripe</a>, desarrollado en España, que te permite integrarlo con el servicio de facturación español <a href="http://getquaderno.es">Quaderno</a>.
+  </div>
+</div>
 
-#### Panel de control
 
-Con todo lo necesario para hacer un seguimiento de lo que sucede, si bien un poco "encajonado" todo. Aún falta uso real para ver sus limitaciones pero podéis echadle un ojo a [caja.io](http://www.caja.io) si buscáis más información de negocio.
+-------------
+
+#### Módulos ecommerce
+
+- [Prestashop](http://addons.prestashop.com/en/payments-gateways-prestashop-modules/5199-stripe.html)
+- [Magento](http://www.magentocommerce.com/magento-connect/stripe-4.html)
+- [WooCommerce](http://wordpress.org/plugins/striper/)
+- [Shopify](http://www.shopify.com/blog/4218622-product-update-stripe-payment-gateway-integrated)
+
+
+-------------
+
+#### Imágenes
+
+{% include screenshots_carrousel.html gateway='stripe' items=3 %}
+

@@ -2,29 +2,47 @@
 layout: gateway
 title:  "Adyen"
 date:   2013-07-15 20:02:36
-categories: pasarelas offsite ios android recurring
+categories: pasarelas oneshot offsite mobile recurring prestashop magento wooCommerce osCommerce
 
 gw_logo: "/images/gateways/adyen.png"
 gw_url: "http://www.adyen.com"
 gw_slogan: "Online Payments. International. Optimized. Secure"
+gw_docs: "http://docs.pagantis.com/"
 gw_country: Holanda
 gw_fee: "Negociable, aprox €0,1 por transacción + % según tipo de medio. Con un mínimo de €100/mes"
+gw_twitter: 'Adyen'
 ---
 
 He estado a punto de trabajar con ellos varias veces, pero al final no ha sido posible. El mínimo mensual es bastante alto para negocios que empiezan o tienen márgenes pequeños.
 
 Ahora mismo son el proveedor de las cuentas merchant de [Braintree](Braintree.html)
 
+-------------
+
 #### Funciones
 
 - Cobros multicanal: tarjeta, transferencia, móvil, etc.
 - Cobros puntuales
 - Cobros recurrentes
+- Integración con paypal
+
+-------------
 
 #### Tecnología
 
 Permite pago insite, pero solo para merchants de niveles 1 y 2 del [PCI](/pci/), lo cual deja fuera a la mayoría de los negocios.
 
+-------------
+
 #### Panel de control
 
 No puedo hablar sobre él.
+
+-------------
+
+#### Módulos ecommerce
+
+- [Prestashop](https://www.adyen.com/home/support/manuals#Payment_Methods)
+- [Magento](https://www.adyen.com/home/support/manuals#Magento)
+- [WooCommerce](http://www.sellxed.com/shop/en/wordpress-woocommerce-adyen-zahlungs-plugin.html)
+- [OsCommerce](http://addons.oscommerce.com/info/5325)

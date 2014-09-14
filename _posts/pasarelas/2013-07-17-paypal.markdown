@@ -2,7 +2,7 @@
 layout: gateway
 title:  "Paypal"
 date:   2013-07-15 20:02:36
-categories: pasarelas offsite recurring ios android transferencias
+categories: pasarelas offsite recurring mobile transferencias oneshot prestashop magento wooCommerce shopify
 
 gw_logo: "/images/gateways/paypal.png"
 gw_url: "https://www.paypal.com"
@@ -10,6 +10,7 @@ gw_slogan: "Fácil y seguro: PayPal le
 permite recibir pagos."
 gw_country: Estados Unidos
 gw_fee: "Del 2 al 6%, dependiendo de tu volumen de ventas y del país de origen del comprador"
+gw_twitter: 'PayPalSpain'
 ---
 
 Paypal es sin lugar a duda la pasarela de pago más sencilla de conseguir. Proceso 100% online, existe una mínima validación de la cuenta bancaria que se realiza por medio de dos micro-transferencias que hacen a tu cuenta. 
@@ -24,7 +25,8 @@ A pesar de lo que se suele decir, no requiere que el comprador tenga cuenta en P
 
 Sus pagos recurrentes son inusables para cualquier cosa que no sea un importe fijo a lo largo del tiempo.
 
-Si bien hasta hace relativamente poco eran poco conocidos fuera del círculo tecnológico, mi experiencia con [Stage](http://www.stagehq.com) es que no asusta en absoluto y los habituales de [eBay](http://www.ebay.es), compañia propietaria, están más que acostumbrados.
+
+-------------
 
 #### Funciones
 
@@ -35,12 +37,20 @@ Si bien hasta hace relativamente poco eran poco conocidos fuera del círculo tec
 - Soporte para cargos de intermediarios/plataformas (Paymill Unite)
 - Facturación
 
-#### Tecnología
-
-Mi opinión es que a día de hoy (Julio 2013) son bastante malos. Salvo los IPN (Instant Payment Notification), que para mí son los mejores de todas las plataformas de pago offsite. Lo único que les añadiría es poder notificar a distintas URLs.
-
-Están haciendo algunos esfuerzos de modernización últimamente, por ejemplo su nuevo sitio de documentación y acercándose a los desarrolladores por medio de Hackatones. Sin duda creo que [Stripe](/stripe/) les ha debido hacer mucho daño.
+-------------
 
 #### Panel de control
 
 Malo malo malo. Llevo 10+ años usando Paypal sigue siendo igual de malo. Espero que en esta modernización que están llevando a cabo le llegue su turno.
+
+-------------
+
+#### Módulos ecommerce
+
+Suele venir reinstalado en todas las tiendas opensource
+
+- [Prestashop](http://addons.prestashop.com/es/pagos-prestashop-modulos/1748-paypal.html)
+- [Magento](http://www.magentocommerce.com/knowledge-base/entry/setting-up-paypal-for-your-magento-store)
+- [Wordpress](https://wordpress.org/plugins/wordpress-simple-paypal-shopping-cart/)
+- [OsCommerce](http://addons.oscommerce.com/service/paypal)
+- [Shopify] (http://www.shopify.com/paypal)

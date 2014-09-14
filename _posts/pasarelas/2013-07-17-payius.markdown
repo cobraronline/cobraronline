@@ -11,8 +11,6 @@ gw_country: Suecia
 gw_fee: "--"
 ---
 
-**-- Ficha en construcción --**
-
 He puesto lo de ficha en construcción, pero no tengo muchas esperanzas a corto plazo.
 
 Me consta que están intentando captar clientes en España y que quieren modernizar su oferta de servicios, de modo que quién pueda estar interesado puede ponerse en contacto con ellos.

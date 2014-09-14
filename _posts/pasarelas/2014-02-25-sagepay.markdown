@@ -2,14 +2,14 @@
 layout: gateway
 title:  "Sagepay"
 date:   2013-08-18 20:02:36
-categories: pasarelas offsite plataformas
-
+categories: pasarelas offsite prestashop oneshot magento wooCommerce
 
 gw_logo: "/images/gateways/sagepay.jpg"
 gw_url: "http://www.sagepay.es"
 gw_slogan: "Soluciones de pago de Sage Pay: seguras, sencillas y flexibles."
 gw_country: UK, con sede en España
 gw_fee: "No es público más allá de determinados paquetes"
+gw_twitter: 'SagePay_Spain'
 ---
 
 Sagepay es uno de los líderes en Reino Unido y que desde verano del 2013 está intentando hacerse un hueco en España. 
@@ -18,6 +18,7 @@ Una vez hablé con ellos y los números que me dieron no lo hacían especialment
 
 Si alguno de vosotros es cliente y quiere compartir la experiencia estaré encantado de recoger el testimonio.
 
+-------------
 
 #### Funciones
 
@@ -26,12 +27,23 @@ Si alguno de vosotros es cliente y quiere compartir la experiencia estaré encan
 - Tokenización
 - Pago por email
 
+-------------
 
 #### Tecnología
 
-Yo no he tenido oportunidad de probarlos.
+Yo no he tenido oportunidad de probarlos. Si tu lo has hecho, no dudes en ponerte en contacto conmigo.
 
+
+-------------
 
 #### Panel de control
 
-Yo no he tenido oportunidad de probarlos. 
+Yo no he tenido oportunidad de probarlos. Si tu lo has hecho, no dudes en ponerte en contacto conmigo.
+
+-------------
+
+#### Módulos ecommerce
+
+- [Prestashop](http://addons.prestashop.com/en/payments-gateways-prestashop-modules/1239-sage-pay-go.html)
+- [Magento] (http://www.magentocommerce.com/magento-connect/ebizmarts-sage-pay-suite-ce-europe-free-sagepay-official-extension.html)
+- [WooCommerce] (https://wordpress.org/plugins/sagepay-direct-for-woocommerce-payment-gateway/)

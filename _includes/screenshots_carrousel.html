@@ -1,0 +1,22 @@
+<div id="portfolio-carousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    {% for i in (0..(include.items-1)) %}
+      <li data-target="#portfolio-carousel" data-slide-to="{{ i }}" class="{% if i == 0 %}active{% endif %}"></li>      
+    {% endfor %}
+  </ol>
+  <div class="carousel-inner">
+    {% for i in (1..include.items) %}
+      <div class="item {% if i == 1 %}active{% endif %}">
+        <img src="/images/screenshots/{{include.gateway}}/{{ i }}.png">
+      </div>
+    {% endfor %}
+  </div>
+  {% if include.items > 1 %}
+  <a class="left carousel-control" href="#portfolio-carousel" data-slide="prev">
+    <span class="fa fa-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#portfolio-carousel" data-slide="next">
+    <span class="fa fa-chevron-right"></span>
+  </a>
+  {% endif %}
+</div>

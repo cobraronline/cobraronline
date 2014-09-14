@@ -4,6 +4,7 @@ title:  "¿Qué es eso de PCI?"
 date:   2013-07-23 20:02:36
 categories: industria
 excerpt: ¿Asustado cada vez que oyes hablar de PCI?. No deberías. En este artículo encontrarás las claves para perderle el miedo.
+img: "/images/posts/pci.jpg"
 ---
 
 Los estándares PCI (Payment Card Industry) son el marco que engloba la seguridad que deben seguir las transacción realizadas con tarjetas de crédito regidas por el [PCI Security Standards Council](https://www.pcisecuritystandards.org). Son una especie de mínimo común denominador de las normas de seguridad que sigue cada red de tarjetas de crédito (VISA, Mastercar, JCB, etc) .
@@ -13,7 +14,7 @@ Tienen varios estándares, pero el que más nos afecta es el [PCI-DSS (Payment C
 El objetivo es reducir en lo posible el fraude en el comercio (electrónico o no), algo que nos beneficiará a todos. Se puede discutir si estos estándares son la mejor forma, pero a día de hoy no hay alternativa alguna.
 
 
-##### ¿Debo cumplir con el estándar PCI?
+### ¿Debo cumplir con el estándar PCI?
 
 Contrariamente a lo que se suele pensar, **todo sistema que intervenga en una transacción con tarjetas de crédito debe cumplir con PCI-DSS**. Literalmente: _cualquier entidad que acepte, almacene, procese y/o transmita datos de tarjeta_.
 
@@ -34,25 +35,25 @@ Pero, importante, **esto no nos exime de cumplir con el estándar** y nuestro _a
 
 Sin embargo, si recibimos la información de la tarjeta en nuestro servidor y usamos un API directamente las exigencias pueden crecer, de modo que a ser posible debemos intentar evitarlo. No es difícil para los niveles 3 y 4, pero en todo caso yo preferiría evitarlo.
 
-##### ¿Quién debe certificarme?
+### ¿Quién debe certificarme?
 
 Existen unas empresas auditoras aprobadas por el consejo que rige las normas llamadas QSA (Qualified Security Assessor) que se encargan de certificarnos. Podéis ver un listado [aquí](https://www.pcisecuritystandards.org/approved_companies_providers/qsa_companies.php) si bien algunas pasarelas de pago como [Paymill](/paymill/) incluyen la gestión dentro de sus servicios con un QSA autorizado. No quiero hacer propaganda de ninguna de ellas en concreto.
 
 Es posiblemente que nunca te pidan tu certificado, pero yo no me la jugaría. A día de hoy es un esfuerzo y coste pequeño y dormirás más tranquilo.
 
 
-##### Seguridad de sentido común
+### Seguridad de sentido común
 
 Si finalmente tienes recibir en tu aplicación los datos de la tarjeta de crédito hay tres cosas importantes susceptibles de obviar que no debes olvidar:
 
-- Nunca guardar, ni registrar en los logs, el CVV/CVC.
-- Guardar cifrado, y no registrar en los logs, el número de tarjeta de crédito completo.
+- **Nunca** guardar, ni registrar en los logs, el CVV/CVC.
+- Únicamente si fuera estrictamente necesario guardar cifrado, y no registrar en los logs, el número de tarjeta de crédito completo.
 - Y en general... no guardes nada que no sea extrictamente obligatorio (datos de facturación, titular de la tarjeta, etc.)
 
 Por supuesto hay que tener en cuenta SSL, controles de acceso, firewall y el resto me medidas de seguridad habituales a nivel de servidor, de aplicación (cross-site criptpting, sql injection, etc.), solo he querido reiterar dos aspectos importantes relativos a las tarjetas de crédito.
 
 
-##### Quiero saber más sobre PCI
+### Quiero saber más sobre PCI
 
 Si quieres obtener más información sobre PCI te recomiendo descargarte  **PCI Compliance for dummies**, ofrecido grauitamente por Qualys desde la siguiente URL: [https://www.qualys.com/forms/ebook/pcifordummies/](https://www.qualys.com/forms/ebook/pcifordummies/)
 
