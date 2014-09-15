@@ -4,23 +4,22 @@ title: Conoce la industria de los medios de pago
 ---
 
 
-  
-<div class="row">
-  <h1 class="gateways">Conoce la industria de los medios de pago.</h1>
-</div>
 
-<div class="row">
-  <p>
-    Los siguientes artículos son pequeñas píldoras para que conozcas un poco más la industria de los medios de pago.
-  </p>
-</div>
+<div class="page">
+  <article>
+    
+    <div class="page-header">
+      <img src="{{ page.img }}" />
+      <h1>Conoce la industria de los medios de pago.</h1>
+      <p class="lead">Los siguientes artículos son pequeñas píldoras para que conozcas un poco más la industria de los medios de pago.</p>
+    </div><!-- end page-header -->
+    
+    <div class="post-content">
+      
 
-{% include articulos.html articles=site.categories.industria %}
-
-<div class="panel panel-default" style="margin-top: 5em;">
-  <div class="panel-body">
-    Si hay algo concreto que quieras no dudes en escribirme. Soy influenciable en el orden de prioridades...
-    <br/><br/>
-    <a href="/contacto.html" class="button round">ponte en contacto</a>
-  </div><!-- end panel-body -->
-</div><!-- end panel -->
+      {% include articulos.html articles=site.categories.industria %}
+      
+    </div>
+    
+  </article><!-- end article -->
+</div><!-- end page -->

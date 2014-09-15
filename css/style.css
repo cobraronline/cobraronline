@@ -1087,10 +1087,11 @@ dl:after {
 .navbar .navbar-nav li.title {
   margin-bottom: 10px;
   font-family: 'proxima-nova', Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #999;
+  color: #555555;
+  border-bottom: 1px solid;
 }
 .navbar .navbar-nav li.active a {
   color: #1abc9c;
