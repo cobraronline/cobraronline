@@ -56,3 +56,9 @@ Lo peor que tienes es la parte de configuración y extras, que se hace en una em
 - [Wordpress](https://wordpress.org/plugins/paymill/)
 - [OsCommerce](https://github.com/paymill/paymill-oscommerce)
 - [Drupal](https://drupal.org/project/commerce_paymill)
+
+-------------
+
+#### Imágenes
+
+{% include screenshots_carrousel.html gateway='paymill' items=4 %}
