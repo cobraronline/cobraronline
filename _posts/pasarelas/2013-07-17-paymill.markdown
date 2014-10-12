@@ -2,7 +2,7 @@
 layout: gateway
 title:  "Paymill"
 date:   2014-09-9 20:02:36
-categories: pasarelas oneshot recurring insite mobile magento prestahop woocommerce shopify
+categories: pasarelas oneshot recurring insite mobile magento prestashop woocommerce shopify
 
 gw_logo: "/images/gateways/paymill.png"
 gw_url: "http://www.paymill.com"
@@ -43,9 +43,8 @@ Tiene también API para iOS y Android y plugins para la mayoría de sistemas de 
 
 #### Panel de control
 
-Austero pero razonablemente bueno. Se puede hacer todo lo necesario para gestionar los clientes, cobros, planes, etc. Por supuesto no es su cometido, pero cero información en cuanto de negocio más allá del estadísticas más básicas (echadle un ojo a [caja.io](http://www.caja.io) si buscáis más información de negocio). 
+Razonablemente bueno para operar. Se puede hacer todo lo necesario para gestionar los clientes, cobros, planes, etc. Por supuesto no es su cometido, pero cero información en cuanto de negocio más allá del estadísticas más básicas (echadle un ojo a [rhinometrics.io](http://rhinometrics.io) si buscáis más información de negocio). 
 
-Lo peor que tienes es la parte de configuración y extras, que se hace en una emergente un tanto molesta.
 
 -------------
 

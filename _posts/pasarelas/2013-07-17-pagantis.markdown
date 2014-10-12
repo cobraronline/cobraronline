@@ -15,7 +15,8 @@ gw_twitter: 'pagantis'
 
 Pagantis es la pasarela de [Newbanq](http://www.newbanq.com), y una de las pocas entidades de pago española autorizada por el Ministerio de Economía y Competitividad. Esto, _en cristiano_, les permite ofrecerte todo lo que necesitas para cobrar directamente. No hace falta que contrates con un banco o otra entidad de pago ni directa ni indirectamente.
 
-**IMPORTANTE:** Desde Noviembre 2013 trabajo en esta empresa como responsable del producto, de modo que me permito no hacer comentarios al respecto. 
+Razonablemente buenos a un precio competitivo.
+
 
 -------------
 
@@ -24,7 +25,7 @@ Pagantis es la pasarela de [Newbanq](http://www.newbanq.com), y una de las pocas
 - Cobro único.
 - Pagos recurrentes
 - Tokenización
-- Pago por email
+- Solicitudes de pago por email
 
 -------------
 
