@@ -8,9 +8,9 @@ gw_logo: "/images/gateways/besepa.jpg"
 gw_url: "http://www.besepa.com"
 gw_slogan: "Simplificamos la gestión de las domiciliaciones bancarias"
 gw_country: España
-gw_fee: "Mínimo 0,05€, máximo 0,2€" "Firma de mandato SEPA 1€"
+gw_fee: "0,2€ por txn, 1€ por firma de mandato SEPA"
 gw_twitter: 'besepacom'
-gw_docs: "http://docs.besepa.apiary.io"
+gw_docs: "http://docs.besepa.com"
 ---
 
 Es la primera plataforma española para gestionar adeudos directos SEPA (el nuevo nombre de recibos o domiciliaciones), eliminando los problemas de generar y enviar los ficheros, reducir los errores,, recoger y custodiar los mandatos, secuencias de adeudos, etc. 
