@@ -45,3 +45,4 @@ Besepa no cobra las domiciliaciones/adeudos directos SEPA en nombre de sus negoc
 #### Tecnología
 
 Interface web y API REST+JSON 100% funcional que permite integrar los cobros bancarios con tu propio sistema.
+Con soporte para Oauth, permite la integración con otras plataformas, como pueden ser CRM´s, plataformas de facturación, mail marketing o plataformas a medida.
