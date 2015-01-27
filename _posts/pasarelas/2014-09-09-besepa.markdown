@@ -13,7 +13,7 @@ gw_twitter: 'besepacom'
 gw_docs: "http://docs.besepa.apiary.io"
 ---
 
-Actualmente en fase Beta privada, es la primera plataforma española para gestionar adeudos directos SEPA (el nuevo nombre de recibos o domiciliaciones), eliminando los problemas de generar y enviar los ficheros, reducir los errores,, recoger y custodiar los mandatos, secuencias de adeudos, etc. 
+Es la primera plataforma española para gestionar adeudos directos SEPA (el nuevo nombre de recibos o domiciliaciones), eliminando los problemas de generar y enviar los ficheros, reducir los errores,, recoger y custodiar los mandatos, secuencias de adeudos, etc. 
 
 Besepa no cobra las domiciliaciones en nombre de sus negocios, los negocios reciben el dinero en su cuenta habitual, directamente de sus clientes. Tampoco es necesario dar acceso a la banca online, únicamente hay que autorizarles a presentar los ficheros con tu banco, gestión que también realizan ellos.
 
