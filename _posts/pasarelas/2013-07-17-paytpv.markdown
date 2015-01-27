@@ -2,7 +2,7 @@
 layout: gateway
 title:  "Paytpv"
 date:   2013-07-15 20:02:36
-categories: pasarelas offsite recurring oneshot prestashop magento woocommerce
+categories: pasarelas offsite recurring oneshot prestashop magento woocommerce token
 
 gw_logo: "/images/gateways/paytpv.png"
 gw_url: "http://www.paytpv.com"
@@ -23,6 +23,7 @@ Tienen un producto llamado Bankstore que puede simplificar bastante el pago apla
 - Cobros multicanal: tarjeta, transferencia, móvil, etc.
 - Cobros puntuales
 - Cobros recurrentes y subscripciones
+- Tokenización.
 - API vía XML/SOAP
 
 -------------
