@@ -9,13 +9,12 @@ gw_url: "http://www.pagantis.com/"
 gw_docs: "http://docs.pagantis.com/"
 gw_slogan: "La pasarela de pagos que se adapta a tu negocio"
 gw_country: España
-gw_fee: "1%"
+gw_fee: "1% con un mínimo de €0,25 "
 gw_twitter: 'pagantis'
 ---
 
-Pagantis es la pasarela de [Newbanq](http://www.newbanq.com), y una de las pocas entidades de pago española autorizada por el Ministerio de Economía y Competitividad. Esto, _en cristiano_, les permite ofrecerte todo lo que necesitas para cobrar directamente. No hace falta que contrates con un banco o otra entidad de pago ni directa ni indirectamente.
+Pagantis es la pasarela de [Digital Origin](http://www.digitalorigin.com), y una de las pocas entidades de pago española autorizada por el Ministerio de Economía y Competitividad. Esto, _en cristiano_, les permite ofrecerte todo lo que necesitas para cobrar directamente. No hace falta que contrates con un banco o otra entidad de pago ni directa ni indirectamente.
 
-Razonablemente buenos a un precio competitivo.
 
 
 -------------
