@@ -19,6 +19,9 @@ Desde finales de 2012 están disponibles en España, sobre una cuenta de [Adyen]
 
 En Septiembre de 2013 les compró Paypal. Para bien y para mal. Abre muchas puertas a sus clientes pero también les hace jugar bajo las reglas de Paypal, que no siempre son las más "ebusiness-friendly". 
 
+La remodelación que han hecho de su web a mediados de 2014 hacen la documentación un tanto confusa, pero es una buena plataforma.
+
+
 -------------
 
 #### Funciones

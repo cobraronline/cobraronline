@@ -1,0 +1,21 @@
+---
+layout: gateway
+title:  "MyMoid"
+date:   2014-11-15 09:02:36
+categories: pasarelas oneshot token insite mobile
+
+gw_logo: "/images/gateways/mymoid.png"
+gw_url: "https://www.mymoid.com"
+gw_docs: "https://www.mymoid.com/docs/"
+gw_slogan: "Todos los medios de pago en tu mano."
+gw_country: España
+gw_fee: "Entre 1,4 y 2,4% + €0,30 por transacción"
+gw_twitter: 'mymoid'
+---
+
+Aunque su foco inicial se basaba integramente en ser un medio de pago en el móvil, poco a poco se han ido abriendo y comienzan a tener servicios para comercios también en la web.
+
+Si tienes que realizar cobros en el móvil, es una opción bastante interesante a tener en cuenta y el trato que te darán será cercano y accesible.
+
+-------------
+

@@ -10,6 +10,7 @@ gw_slogan: "Payments for developers. Stripe makes it easy to start accepting cre
 gw_country: Estados Unidos
 gw_fee: "2,9% + 0,30 por transacción"
 gw_twitter: 'stripe'
+gw_docs: "https://stripe.com/docs"
 ---
 
 

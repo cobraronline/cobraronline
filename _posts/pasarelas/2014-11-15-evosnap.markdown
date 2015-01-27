@@ -1,0 +1,24 @@
+---
+layout: gateway
+title:  "Evosnap"
+date:   2014-11-15 09:02:36
+categories: pasarelas oneshot recurring insite token insite offiste mobile
+
+gw_logo: "/images/gateways/evosnap.png"
+gw_url: "http://www.evosnap.com/?lang=es"
+gw_docs: "http://www.evosnap.com/develop-with-snap/?lang=es"
+gw_slogan: "Acepta pagos en cuestión de segundos son Snap."
+gw_country: US, en España con Popular Payments
+gw_fee: "2,29% + $0,25 por transacción"
+gw_twitter: 'CanYouSnap'
+---
+
+EvoSnap es una pasarela americana que ha llegado a España de la mano de Popular Payments, el spin-off de Banco Popular para la adquirencia (servicios e TPV a comercios) junta a Evo Payments.
+
+Es el primer movimiento de un banco tradicional por salirse del redil de [Redsys](/redsys/) en el que se encuentran  la mayor parte de los bancos españoles. Solo por eso merecen todo mi respeto. 
+
+No he podido probar la tecnología aún pero a primera vista puede llegar a ser algo interesante. Eso sí, para mi gusto deberían simplificar el proceso de alta y organizar la documentación de otra manera. No soy un usuario novato y a mi me cuesta seguirles por momentos. 
+
+
+-------------
+
