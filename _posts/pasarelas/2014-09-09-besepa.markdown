@@ -1,7 +1,7 @@
 ---
 layout: gateway
 title:  "Besepa"
-date:   2014-11-28 19:02:36
+date:   2016-01-28 19:02:36
 categories: pasarelas recurring sepa insite saas
 
 gw_logo: "/images/gateways/besepa.jpg"
@@ -46,3 +46,8 @@ Besepa no cobra las domiciliaciones/adeudos directos SEPA en nombre de sus negoc
 
 Interface web y API REST+JSON 100% funcional que permite integrar los cobros bancarios con tu propio sistema.
 Con soporte para Oauth, permite la integración con otras plataformas, como pueden ser CRM´s, plataformas de facturación, mail marketing o plataformas a medida.
+
+#### Imágenes
+
+{% include screenshots_carrousel.html gateway='besepa' items=4 %}
+
