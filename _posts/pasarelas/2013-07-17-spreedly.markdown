@@ -2,7 +2,7 @@
 layout: gateway
 title:  "Spreedly"
 date:   2013-08-01 23:49:36
-categories: pasarelas insite 
+categories: pasarelas insite oneshot token
 
 gw_logo: "/images/gateways/spreedly.png"
 gw_url: "https://spreedlycore.com"
