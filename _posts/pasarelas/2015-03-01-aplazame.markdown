@@ -1,0 +1,54 @@
+---
+layout: gateway
+title:  "Aplazame"
+date:   2015-03-01 09:02:36
+categories: pasarelas oneshot insite aplazado
+
+gw_logo: "/images/gateways/aplazame.png"
+gw_url: "https://www.aplazame.com"
+gw_docs: "http://docs.aplazame.apiary.io"
+gw_slogan: "Es fácil, compra ahora y paga después."
+gw_country: España
+gw_fee: "1%"
+gw_twitter: 'aplazame'
+---
+
+
+Aplazame es un nuevo sistema de pago que permite al comercio financiar las compras online de sus clientes. El comercio recibe el importe de la venta de Aplazame y son ellos quién realizan los cobros posteriores al cliente.
+
+Se integra fácilmente con las distintas soluciones de e-commerce existentes y también con desarrollos propios gracias a un javascript de fácil uso.
+
+Muy prometedor servicio.
+
+
+-------------
+
+#### Módulos ecommerce
+
+- [Magento](https://www.aplazame.com)
+
+
+-------------
+
+#### Imágenes
+
+{% include screenshots_carrousel.html gateway='aplazame' items=1 %}
+
+
+-------------
+
+#### ¿Quién usa Aplazame?
+
+A continuación algunos de los sitios españoles que usan Aplazame. 
+
+<div class="row">
+<div class="col-md-12">
+<div class="who-uses-this">
+  
+  {% include who_uses.html name='certificacionpm' symbol='certificacionpm' url='http://www.certificacionpm.com' desc='Formación online en dirección de proyectos.'  %}
+
+</div>
+</div>
+</div>
+
+{% include who_uses_instructions.html  %}

@@ -1,10 +1,7 @@
-/*@import url('http://fonts.googleapis.com/css?family=Montez');
-
+@import url('http://fonts.googleapis.com/css?family=Montez');
 @import url('http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic');
-
 @import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic');
-
-@import url('http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic');*/
+@import url('http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic');
 /***************************************************
   COLOURS
 ****************************************************/
@@ -38,11 +35,12 @@
 }
 /***************************************************
   APPEARANCE VARIABLES border radius, box shadow, gradient
-****************************************************//***************************************************
+****************************************************/
+/***************************************************
   TYPOGRAPHY
 ****************************************************/
 body {
-  font-family: 'proxima-nova', Helvetica, Arial, ans-serif;
+  font-family: 'PT Sans', Helvetica, Arial, ans-serif;
   background: url(../img/bg.jpg) 0 0 repeat #efefef;
   color: #555;
 }
@@ -58,7 +56,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'proxima-nova', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
 }
 h1 {
   margin: 0 0 30px;
@@ -92,7 +90,7 @@ p {
 blockquote {
   margin: 0 0 30px;
   padding: 30px 50px;
-  font-family: 'proxima-nova', Georgia, Times New Roman, serif;
+  font-family: 'PT Serif', Georgia, Times New Roman, serif;
   font-size: 28px;
   font-style: italic;
   background: #f3f3f3;
@@ -122,10 +120,8 @@ dl:before,
 dl:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 dl:after {
   clear: both;
@@ -1037,7 +1033,7 @@ dl:after {
   position: relative;
   float: none;
   clear: both;
-  font-family: 'proxima-nova', cursive;
+  font-family: 'Montez', cursive;
   font-size: 56px;
   line-height: 1.2;
   color: #555;
@@ -1086,12 +1082,11 @@ dl:after {
 }
 .navbar .navbar-nav li.title {
   margin-bottom: 10px;
-  font-family: 'proxima-nova', Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #555555;
-  border-bottom: 1px solid;
+  color: #999;
 }
 .navbar .navbar-nav li.active a {
   color: #1abc9c;
@@ -1127,10 +1122,8 @@ dl:after {
 .wrapper:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .wrapper:after {
   clear: both;
@@ -1147,21 +1140,19 @@ dl:after {
 .content:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .content:after {
   clear: both;
 }
 .page {
   margin: 0 auto;
-  max-width: 98%;
+  max-width: 1200px;
 }
 .page article {
   margin: 0 0 30px;
-  padding: 50px 50px 30px;
+  padding: 50px 30px 30px;
   position: relative;
   background: #fff;
   -webkit-border-radius: 4px;
@@ -1216,7 +1207,7 @@ dl:after {
 }
 .card {
   margin: 0 30px 30px 0;
-  width: 200px;
+  width: 250px;
   display: block;
   float: left;
   position: relative;
@@ -1330,6 +1321,117 @@ dl:after {
   margin-bottom: 10px;
   height: 65px;
   border-bottom: 1px solid #e6e6e6;
+}
+.who-uses-this {
+  overflow: visible !important;
+}
+.who-uses-this-card {
+  margin: 0 30px 30px 0;
+  width: 180px;
+  display: block;
+  float: left;
+  position: relative;
+  background: #fff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+.who-uses-this-card .thumb {
+  display: block;
+  position: relative;
+}
+.who-uses-this-card .thumb img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  border-bottom: 1px solid #e6e6e6;
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+}
+.who-uses-this-card .thumb .overlay {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  cursor: pointer;
+  text-align: center;
+  background: #000;
+  filter: alpha(opacity=65);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
+  background: rgba(0, 0, 0, 0.65);
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+}
+.who-uses-this-card .thumb .overlay .fa {
+  position: relative;
+  top: 38%;
+  font-size: 32px;
+  text-align: center;
+  color: #fff;
+}
+.who-uses-this-card .thumb:hover .overlay {
+  display: block;
+}
+.who-uses-this-card .card-body {
+  padding: 10px 15px 15px;
+}
+.who-uses-this-card .card-body h2 {
+  margin: 0 0 3px;
+  overflow: hidden;
+  font-size: 15px;
+  line-height: 1.4;
+}
+.who-uses-this-card .card-body h2 a {
+  font-weight: 500;
+}
+.who-uses-this-card .card-body p {
+  margin: 0;
+  font-size: 13px;
+}
+.who-uses-this-card .card-body .post-meta {
+  margin: 0 0 10px;
+  padding: 5px 0 10px;
+  font-size: 13px;
+  border-bottom: 1px solid #e6e6e6;
+  color: #898989;
+}
+.who-uses-this-card .card-body .post-meta li {
+  margin-right: 15px;
+}
+.who-uses-this-card .card-footer {
+  padding: 8px 15px;
+  background: #f6f6f6;
+  border-top: 1px solid #e6e6e6;
+  text-shadow: 0 1px 0 #fff;
+  -webkit-border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+}
+.who-uses-this-card .card-footer .list-inline {
+  margin: 0;
+}
+.who-uses-this-card .card-footer .list-inline li {
+  font-size: 13px;
+  color: #787878;
+}
+.who-uses-this-card .card-footer .list-inline li a {
+  color: #787878;
+}
+.who-uses-this-card .card-footer .list-inline li a:hover {
+  color: #1abc9c;
+}
+.who-uses-this-card .card-footer .list-inline li .fa {
+  margin-right: 5px;
 }
 /***************************************************
   COMPONENTS

@@ -1,7 +1,7 @@
 ---
 layout: gateway
 title:  "Sagepay"
-date:   2013-08-18 20:02:36
+date:   2015-02-18 20:02:36
 categories: pasarelas offsite token insite prestashop oneshot magento wooCommerce recurring mobile
 
 gw_logo: "/images/gateways/sagepay.jpg"

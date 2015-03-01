@@ -61,3 +61,24 @@ Interesante su Stripe Connect para operar y acceder a la información de las cue
 
 {% include screenshots_carrousel.html gateway='stripe' items=3 %}
 
+-------------
+
+#### ¿Quién usa Stripe?
+
+A continuación algunos de los sitios españoles que usan Stripe. 
+
+<div class="row">
+<div class="col-md-12">
+<div class="who-uses-this">
+  
+  {% include who_uses.html name='Quaderno' symbol='quaderno' url='http://www.quaderno.io' desc='Invoicing for Stripe.'  %}
+  {% include who_uses.html name='certificacionpm' symbol='certificacionpm' url='http://www.certificacionpm.com' desc='Formación online en dirección de proyectos.'  %}
+
+</div>
+</div>
+</div>
+
+{% include who_uses_instructions.html  %}
+
+
+
