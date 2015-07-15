@@ -1,7 +1,7 @@
 ---
 layout: gateway
 title:  "Pagantis"
-date:   2015-01-28 08:02:36
+date:   2015-07-15 08:02:36
 categories: pasarelas oneshot offsite recurring mobile prestashop magento woocommerce token
 
 gw_logo: "/images/gateways/pagantis.jpg"
@@ -9,34 +9,10 @@ gw_url: "http://www.pagantis.com/"
 gw_docs: "http://docs.pagantis.com/"
 gw_slogan: "La pasarela de pagos que se adapta a tu negocio"
 gw_country: España
-gw_fee: "1% con un mínimo de €0,25 "
+gw_fee: "--"
 gw_twitter: 'pagantis'
 ---
 
-Pagantis es la pasarela de [Digital Origin](http://www.digitalorigin.com), y una de las pocas entidades de pago española autorizada por el Ministerio de Economía y Competitividad. Esto, _en cristiano_, les permite ofrecerte todo lo que necesitas para cobrar directamente. No hace falta que contrates con un banco o otra entidad de pago ni directa ni indirectamente.
+Lamentablemente a día 13 de Julio de 2015 [Digital Origin](http://www.digitalorigin.com) ha comunicado a los clientes de Pagantis que dejaba de prestar servicio de pasarela de pago para centrarse en otros productos (pagamastarde.com, quebueno.es) y les ha dado 30 días para buscar alternativas.
 
-
-
--------------
-
-#### Funciones
-
-- Cobro único.
-- Pagos recurrentes
-- Tokenización
-- Solicitudes de pago por email
-
--------------
-
-#### Módulos ecommerce
-
-- [Prestashop](https://github.com/pagantis/pagantis-prestashop)
-- [Magento](https://github.com/pagantis/pagantis-magento)
-- [WooCommerce](https://github.com/pagantis/pagantis-woocommerce)
-- [OsCommerce](https://github.com/pagantis/pagantis-oscommerce)
-
--------------
-
-#### Imágenes
-
-{% include screenshots_carrousel.html gateway='pagantis' items=3 %}
+Esto supone una pena en lo personal, puesto que estuve implicado durante un año (Nov 2013, Oct 2014) en el desarrollo de la misma.
