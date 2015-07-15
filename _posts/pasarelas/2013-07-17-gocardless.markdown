@@ -5,7 +5,7 @@ date:   2013-07-15 20:02:36
 categories: pasarelas sepa recurring insite prestashop 
 
 gw_logo: "/images/gateways/gocardless.png"
-gw_url: "https://gocardless.com/?r=WYR3ASVA"
+gw_url: "https://gocardless.com"
 gw_slogan: "Simpler Direct Debit."
 gw_country: Reino Unido
 gw_fee: "1%, máximo de £2"
