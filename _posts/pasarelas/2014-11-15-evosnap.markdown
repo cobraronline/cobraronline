@@ -2,7 +2,7 @@
 layout: gateway
 title:  "Evosnap"
 date:   2014-11-15 09:02:36
-categories: pasarelas oneshot recurring insite token insite offiste mobile
+categories: pasarelas oneshot recurring insite token offiste mobile
 
 gw_logo: "/images/gateways/evosnap.png"
 gw_url: "http://www.evosnap.com/?lang=es"
