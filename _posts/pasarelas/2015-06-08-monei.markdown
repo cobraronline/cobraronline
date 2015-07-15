@@ -1,0 +1,29 @@
+---
+layout: gateway
+title:  "MONEI"
+date:   2015-06-08 15:00:00
+categories: pasarelas insite saas shopify
+
+gw_logo: "/images/gateways/monei.png"
+gw_url: "https://www.monei.net"
+gw_slogan: "Transparent payments"
+gw_country: España
+gw_fee: "2,7% + €0,27 por transacción"
+---
+
+MONEI es la primera pasarela de pago española integrada en Shopify para el procesado de pagos con tarjetas bancarias. Su gran ventaja respecto a competidores es que las liquidaciones son diarias, directamente en la cuenta bancaria del merchant.
+
+
+-------------
+
+#### Funciones
+
+- Cobro único.
+- Pago con tarjetas.
+
+
+-------------
+
+#### Módulos ecommerce
+
+- [Shopify] (http://www.shopify.com/)
