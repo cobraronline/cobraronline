@@ -1,14 +1,14 @@
 ---
 layout: gateway
 title:  "Stripe"
-date:   2014-09-09 21:02:36
+date:   2016-01-01 21:02:36
 categories: pasarelas recurring insite mobile shopify magento prestashop woocommerce oneshot token
 
 gw_logo: "/images/gateways/stripe.png"
 gw_url: "http://www.stripe.com"
 gw_slogan: "Payments for developers. Stripe makes it easy to start accepting credit cards on the web today."
 gw_country: Estados Unidos
-gw_fee: "2,9% + 0,30 por transacción"
+gw_fee: "1,4% para tarjetas de la EU y 2,9% para el resto + 0,30 por transacción"
 gw_twitter: 'stripe'
 gw_docs: "https://stripe.com/docs"
 ---

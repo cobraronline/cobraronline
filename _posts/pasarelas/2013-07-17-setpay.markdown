@@ -1,17 +1,19 @@
 ---
 layout: gateway
 title:  "Setpay"
-date:   2013-09-10 20:02:36
-categories: pasarelas tpv
+date:   2016-01-01 20:02:36
+categories: pasarelas tpv insite token
 
 gw_logo: "/images/gateways/setpay.png"
 gw_url: "http://www.getsetpay.com"
 gw_slogan: "Acepta pagos con tarjeta en cualquier momento y lugar. Lleva tu TPV en el bolsillo y cobra con total seguridad"
 gw_country: España
-gw_fee: "1,99% por transacción"
+gw_fee: "Entre 0,99 y 1,99% por transacción en base al volúmen"
 gw_twitter: 'SetPay'
 ---
 
-Setpay es la opción española para cobrar con el móvil. 
+Setpay comenzó como la primera opción 100% española para cobrar con el móvil pero ahora además de un TPV para el móvil tienen una solución para ecommerce que permite cobrar y tokenizar tarjetas. 
 
-Aún están en beta privada, tan pronto como tengan a bien invitarme a ella podré decir más al respecto.
+Pueden simplificar el proceso de alta, pero sin duda su soporte y atención lo compensa.
+
+

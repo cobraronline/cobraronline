@@ -1,34 +1,46 @@
 ---
 layout: gateway
 title:  "GoCardless"
-date:   2013-07-15 20:02:36
+date:   2015-12-15 20:02:36
 categories: pasarelas sepa recurring insite prestashop 
 
 gw_logo: "/images/gateways/gocardless.png"
-gw_url: "https://gocardless.com"
+gw_url: "https://gocardless.es"
 gw_slogan: "Simpler Direct Debit."
 gw_country: Reino Unido
-gw_fee: "1%, máximo de £2"
+gw_fee: "1%, máximo de €2"
 gw_twitter: 'GoCardless'
+gw_docs: "https://developer.gocardless.com/pro"
 ---
 
+GoCardless no utiliza la red de tarjetas, sino que utiliza la red SEPA para hacer los cargos directamente a la cuenta bancaria, es decir, vía domiciliación bancaria.
+Eso hace que sus comisiones par a importes altos no admitan comparación con cualquier sistema de cobro basado en tarjetas de crédito/débito. 
 
-GoCardless no utliza la red de tarjetas, sino que utiliza la red SEPA para hacer los cargos directamente a la cuenta bancaria. Eso hace que sus comisiones no admitan comparación con cualquier sistema de cobro basado en tarjetas de crédito/débito.
+Llevan cuatro años funcionando en Reino Unido y finalmente en 2015 han comenzado la expansión por todo Europa, incluyendo España.
 
-**Llevan dos años funcionando en Reino Unido. Se esperaba que llegasen a la Europa continental en Mayo 2013, pero todavía no lo han hecho. Deberían estar al caer.** En cuanto estén disponible es una opción a considerar muy seriamente.
+Es una empresa creada por y para internet que gestiona el proceso de domiciliación bancaria totalmente, sin intervención de ningún banco excepto el del cliente y el del comercio. 
+
+Esto tiene un punto bueno (la simplificación del proceso de alta) pero un punto malo a tener en cuenta: al actuar como central de pagos, el cliente final tiene que firmar con ellos el mandato, no con el negocio, y por tanto pasan a ser clientes de GoCardless y si la empresa decide dejar GoCardless deberá firmar una un nuevo mandato o gestión el cambio de acreedor en el siguiente cargo a cada cliente.
+
 
 -------------
 
 #### Funciones
 
 - Cobro con cargo directo a la cuenta bancaria
-- Facturación
 - Pagos recurrentes
-- Autorizaciones
+- Autorizaciones y mandatos online
+- Devoluciones a clientes
+- Reintentos en caso de cobro incorrecto
+- Emails a clientes y a comercios automatizados
+
 
 -------------
 
 #### Tecnología
+
+
+Pueden integrarse directamente en tu web o formulario. Ofrecen también un API para integrarte con librerías oficiales en Ruby, PHP y Java. También soporta Webhooks para extender su funcionalidad y notificar de cualquier cambio que ocurra en tus cobros.
 
 Es una empresa moderna por y para internet. Un gran API para integrarte con librerías oficales en Ruby, PHP, Java, Python y .NET.
 
@@ -38,7 +50,7 @@ También soporta Webhooks para extender su funcionalidad.
 
 #### Panel de control
 
-Aplicación moderna y de buen aspecto pero mientras no se soporte oficialmente en España no puedo decir mucho.
+Aplicación moderna y de aspecto correcto con todo lo necesario para operar pero sin estridencias.
 
 -------------
 
