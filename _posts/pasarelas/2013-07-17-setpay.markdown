@@ -8,11 +8,13 @@ gw_logo: "/images/gateways/setpay.png"
 gw_url: "http://www.getsetpay.com"
 gw_slogan: "Acepta pagos con tarjeta en cualquier momento y lugar. Lleva tu TPV en el bolsillo y cobra con total seguridad"
 gw_country: España
-gw_fee: "Entre 0,99 y 1,99% por transacción en base al volúmen"
+gw_fee: "Entre 0,99 y 1,99% por transacción en base al volúmen para TPV móvil. 1,49% + 0,19€ para eCommerce."
 gw_twitter: 'SetPay'
 ---
 
-Setpay comenzó como la primera opción 100% española para cobrar con el móvil pero ahora además de un TPV para el móvil tienen una solución para ecommerce que permite cobrar y tokenizar tarjetas. 
+Setpay comenzó como la primera opción 100% española para cobrar con el móvil pero ahora además de un TPV para el móvil tienen una solución para ecommerce que permite cobrar y tokenizar tarjetas.
+
+No solo disponen de varias opciones de integración para el API de eCommerce, sino que tu TPV móvil también se puede integrar en aplicaciones móviles nativas o web.
 
 Pueden simplificar el proceso de alta, pero sin duda su soporte y atención lo compensa.
 
