@@ -1,7 +1,7 @@
 ---
 layout: gateway
 title:  "Sipay"
-date:   2014-09-01 10:02:36
+date:   2016-06-01 10:02:36
 categories: pasarelas offsite oneshot token
 
 gw_logo: "/images/gateways/sipay.jpg"
@@ -12,6 +12,4 @@ gw_fee: "No es público"
 gw_twitter: 'sipayweb'
 ---
 
-Parece que llevan un 2014 de acción comercial a tope y con clientes interesantes. Pero la información que tienen que tienen en la web es tan generalista y/o opaca que desde fuera se hace difícil saber nada. Se agradece cualqueir tipo de comentario al respecto.
-
-Aparentemente es una capa sobre [Redsys](/redsys/) o [CECA](/ceca/), ya que hablan de que soportan ambos. No tengo claro a que nivel, puesto que indican que algunas funcionalidades no están disponibles para ambas.
+Parece que llevan un 2014 de acción comercial a tope y con clientes interesantes. Aunque la información que tienen que tienen en la web es un tanto escasa, me consta que tienen clientes de volúmen medio/grande a los que aportan una serie de erramientas de valor añadido para mejorar la lógica del 3DSecure, balancear distintos procesadores, etc. Si facturas por encima del millón de euros te puede interesar hablar con ellos.

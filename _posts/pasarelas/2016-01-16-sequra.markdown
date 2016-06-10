@@ -1,0 +1,29 @@
+---
+layout: gateway
+title:  "Sequra"
+date:   2016-01-16 11:02:36
+categories: pasarelas oneshot insite aplazado
+
+gw_logo: "/images/gateways/sequra.png"
+gw_url: "https://sequra.es"
+gw_docs: "https://engineering.sequra.es"
+gw_slogan: "Compra de una manera diferente"
+gw_country: España
+gw_fee: "Sin info"
+gw_twitter: 'sequra_es'
+---
+
+
+Sequra es una de las distintas alternativas que han salido de cara a financiar las compras online. Permiten que el cliente pague en los plazos que el decida, más aún, con la idea de que no pagarán el primer plazo hasta 7 días después de la compra.
+
+No he tenido la oportunidad de usarlo, pero interesante para comercios que vendan con un ticket alto y en el que el pago a plazos tenga sentido.
+
+
+
+
+-------------
+
+#### ¿Quién usa Sequra?
+
+
+{% include who_uses_instructions.html  %}

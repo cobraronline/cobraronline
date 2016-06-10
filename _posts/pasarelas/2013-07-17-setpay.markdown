@@ -1,7 +1,7 @@
 ---
 layout: gateway
 title:  "Setpay"
-date:   2016-01-01 20:02:36
+date:   2016-03-01 20:02:36
 categories: pasarelas tpv insite token oneshot 
 
 gw_logo: "/images/gateways/setpay.png"

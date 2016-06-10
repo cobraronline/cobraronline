@@ -1,0 +1,22 @@
+---
+layout: default
+title: El mercado
+---
+
+<div class="page">
+  <article>
+    
+    <div class="page-header">
+      <img src="{{ page.img }}" />
+      <h1>El mercado.</h1>
+      <p class="lead">Descubre cosas que suceden cada día. Nuevos servicios relacionados con el ecommerce, cambios en el mercado y en las leyes, ferias y congresos, cursos. Todo lo que necesitas para que cobrar online sea más sencillo.</p>
+    </div><!-- end page-header -->
+    
+    <div class="post-content">
+
+      {% include articulos.html articles=site.categories.mercado %}
+      
+    </div>
+    
+  </article><!-- end article -->
+</div><!-- end page -->

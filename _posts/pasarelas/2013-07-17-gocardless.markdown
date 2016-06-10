@@ -1,14 +1,14 @@
 ---
 layout: gateway
 title:  "GoCardless"
-date:   2015-12-15 20:02:36
+date:   2016-06-10 20:02:36
 categories: pasarelas sepa recurring insite prestashop 
 
 gw_logo: "/images/gateways/gocardless.png"
 gw_url: "https://gocardless.es"
 gw_slogan: "Simpler Direct Debit."
 gw_country: Reino Unido
-gw_fee: "1%, máximo de €2"
+gw_fee: "1%, máximo de €2 + Fijo mensual para que tu nombre aparezca en los extractos"
 gw_twitter: 'GoCardless'
 gw_docs: "https://developer.gocardless.com/pro"
 ---
@@ -20,7 +20,7 @@ Llevan cuatro años funcionando en Reino Unido y finalmente en 2015 han comenzad
 
 Es una empresa creada por y para internet que gestiona el proceso de domiciliación bancaria totalmente, sin intervención de ningún banco excepto el del cliente y el del comercio. 
 
-Esto tiene un punto bueno (la simplificación del proceso de alta) pero un punto malo a tener en cuenta: al actuar como central de pagos, el cliente final tiene que firmar con ellos el mandato, no con el negocio, y por tanto pasan a ser clientes de GoCardless y si la empresa decide dejar GoCardless deberá firmar una un nuevo mandato o gestión el cambio de acreedor en el siguiente cargo a cada cliente.
+Esto tiene un punto bueno (la simplificación del proceso de alta) pero un punto malo a tener en cuenta: al actuar como central de pagos, son ellos los que cobran al cliente y por tanto el cliente final tiene que firmar con ellos el mandato, no con el negocio, y por tanto pasan a ser clientes de GoCardless y si la empresa decide dejar GoCardless deberá firmar una un nuevo mandato o gestionar el cambio de acreedor en el siguiente cargo a cada cliente. Por un fijo mensual de alreadedor de €200 se puede eliminar esta restricción.
 
 
 -------------

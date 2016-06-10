@@ -12,11 +12,18 @@ gw_fee: "A partir de 10€ mensuales por 100 transanciones al trimestre + comisi
 gw_twitter: 'SagePay_Spain'
 ---
 
-Sagepay es uno de los líderes en Reino Unido y que desde verano del 2013 está intentando hacerse un hueco en España. 
 
-Una vez hablé con ellos y los números que me dieron no lo hacían especialmente barato pero quiero pensar que si en otros países funcionan bien debería ser por algo.
+<div class="panel panel-warning">
+  <div class="panel-heading">
+    <h3 class="panel-title">Aviso
+    </h3>
+  </div>
+  <div class="panel-body">
+    Sagepay ha dejado de dar servicio directo en España, gestionándose desde UK, sin mucho esfuerzo comercial aquí.
+  </div>
+</div>
 
-Si alguno de vosotros es cliente y quiere compartir la experiencia estaré encantado de recoger el testimonio.
+
 
 -------------
 

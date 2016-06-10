@@ -12,7 +12,17 @@ gw_fee: “En su web ofrecen planes a medida dependiendo de tu negocio”
 gw_twitter: 'IngenicoPayment'
 ---
 
-A comienzos del 2013 fue comprada por [Ingenico](/Ingenico/), de modo que es posible que den más soporte a los dispositivos móviles y a realizar tareas de adquirencia directamente. Desconozco si ya está aplicando nuevas tarifas o nuevos servicios.
+
+<div class="panel panel-warning">
+  <div class="panel-heading">
+    <h3 class="panel-title">Aviso
+    </h3>
+  </div>
+  <div class="panel-body">
+    A comienzos del 2013 fue comprada por [Ingenico](/Ingenico/), de modo que es posible que den más soporte a los dispositivos móviles y a realizar tareas de adquirencia directamente. Desconozco si ya está aplicando nuevas tarifas o nuevos servicios.
+  </div>
+</div>
+
 
 -------------
 
