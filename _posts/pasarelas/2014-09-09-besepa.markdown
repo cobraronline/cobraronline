@@ -1,7 +1,7 @@
 ---
 layout: gateway
 title:  "Besepa"
-date:   2016-01-28 19:02:36
+date:   2017-04-20 19:02:36
 categories: pasarelas recurring sepa insite saas
 
 gw_logo: "/images/gateways/besepa.jpg"
@@ -15,11 +15,18 @@ gw_docs: "http://docs.besepa.com"
 
 Es la primera plataforma española para gestionar adeudos directos SEPA (el nuevo nombre de recibos o domiciliaciones), eliminando los problemas de generar y enviar los ficheros, reducir los errores, firmar y custodiar los mandatos, secuencias de adeudos, etc. 
 
-Besepa no cobra las domiciliaciones/adeudos directos SEPA en nombre de sus negocios, los negocios reciben el dinero en su cuenta habitual, directamente de sus clientes. Tampoco es necesario dar acceso a la banca online, únicamente hay que autorizarles a presentar los ficheros con tu banco, gestión que también realizan ellos.
+Soportan todos los esquemas (CORE y B2B) así como la alternativas a la Norma58. La normativa SEPA se actualiza varias veces al año, por lo que una solución como Besepa permite a las empresas abstraerse de todos esos cambios y se dediquen a lo único importante: gestionar su negocio.
 
-Soportan todos los esquemas (CORE, COR1 y B2B) así como la alternativas a la Norma58 que deseparecerá en Febrero 2016. 
+Interesante también el esfuerzo en todo lo que va antes y desupés del pago, de manera que se reducen las devoluciones gracias a todas las validaciones que se realizan previamente al envío y en caso de devoluciones ayudan a su gestión. Toda la información de negocio, incluso con cierto scoring de los clientes ayuda a una mejor gestión.
 
-La normativa SEPA se actualiza varias veces al año, por lo que una solución como Besepa permite a las empresas abstraerse de todos esos cambios y se dediquen a lo único importante: gestionar su negocio.
+#### Dos formas de funcionar
+
+Por una parte, Besepa te permite trabajar con tu banco actual ([listado de bancos soportados](http://docs.besepa.com/article/91-con-que-bancos-trabajamos)). En esta modalidad las empresas reciben el dinero en su cuenta habitual, directamente de sus clientes, a través de su banco. Tampoco es necesario dar acceso a la banca online, únicamente hay que autorizarles a presentar los ficheros con tu banco, gestión que también realizan ellos. Besepa únicamente hace que cobrar sea mucho más sencilla.
+
+Pero si aún no tienes la opción de enviar recibos/domiciliaciones con tu banco o el tuyo no es uno de los bancos que soportamos, podemos ofrecerte una línea de adeudos propia que te permitirá empezar a cobrar de manera rápida. En este caso, el dinero pasa por una entidad de pago regulada por el Banco de España que gestiona los fondos.
+
+En el segundo de los casos, el proceso es más sencillo, si bien quién realiza el cargo a los clientes es la entidad de pago en nombre de la empresa, en lugar de ser la empresa directamente. 
+
 
 <div class="panel panel-success">
   <div class="panel-heading">
@@ -43,6 +50,7 @@ La normativa SEPA se actualiza varias veces al año, por lo que una solución co
 - Opción de recobro
 - Posibilidad de trabajar con varios bancos a la vez
 - Esquemas SEPA: B2B, CORE y COR1
+- Estadísticas para saber lo que sucede con tus pagos
 
 -------------
 

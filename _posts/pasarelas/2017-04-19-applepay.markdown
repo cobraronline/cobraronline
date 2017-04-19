@@ -1,0 +1,18 @@
+---
+layout: gateway
+title:  "Apple Pay"
+date:   2017-04-19 20:02:36
+categories: applepay
+
+
+gw_logo: "/images/gateways/applepay.jpg"
+gw_url: "https://www.apple.com/es/apple-pay/"
+gw_slogan: "Haz compras seguras en tiendas, en apps y en la web"
+gw_country: USA
+gw_fee: "--"
+gw_twitter: ''
+---
+
+Apple Pay no es una pasarela de pago, sino un medio de pago de los compradores. Es decir, es una herramienta para que los compradores le hagan llegar los datos de su tarjeta de crédito a la pasarela de pagos del vendedor, pero me han preguntado tantas veces por ello que he decidido incluirlo. 
+
+Esto es, para poder aceptar pagos realizados con Apple Pay necesitas una pasarela de pago que lo soporte, ya sea en web como [Stripe](/stripe/)  o presencial.

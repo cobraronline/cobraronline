@@ -1,8 +1,8 @@
 ---
 layout: gateway
 title:  "Stripe"
-date:   2016-06-10 21:02:36
-categories: pasarelas recurring insite mobile shopify magento prestashop woocommerce oneshot token
+date:   2017-04-19 05:02:36
+categories: pasarelas recurring insite mobile shopify magento prestashop woocommerce oneshot token applepay sepa
 
 gw_logo: "/images/gateways/stripe.png"
 gw_url: "http://www.stripe.com"
@@ -18,7 +18,13 @@ Yo me atrevería a decir que Stripe ha revolucionado la forma en la que se cobra
 
 Quizás lo único *malo* es que se han centrado tanto en pagos que para tener un sistema completo con métricas, dunning, etc tienes que acabar contratando varios SAAS adicionales.
 
-Ojo también a las tarjetas "puramente españolas", que pueden dar problemas por como están organizadas las redes de tarjetas en España.
+Ojo también a las tarjetas "puramente españolas", que pueden dar problemas por cómo están organizadas las redes de tarjetas en España.
+
+En la última parte de 2016 sacaron una herramienta llamada [Radar](https://stripe.com/radar) para la gestión del riesgo. Muy prometedora. Te deja gestionas el riesgo por ti mismo en base a reglas llegando hasta el punto de darte la opción de decidir por las transacciones sospechosas en lugar de directamente rechazar las transacciones. Mi experiencia con ella es muy buena.
+
+Desde comienzo de 2017 tienen soporte para adeudos SEPA pero a un precio prohibiitvo para el mercado español si es tu fuente principal de ingresos: €0,25 + 1,4% por recibo y €7,5 por devolución.
+
+Nota: Liquidan con una semana de desfase, de modo que las ventas del lunes las liquidan el lunes de la semana siguiente, y te llegarán martes/miércoles.
 
 
 -------------
@@ -26,9 +32,10 @@ Ojo también a las tarjetas "puramente españolas", que pueden dar problemas por
 #### Funciones
 
 - Cobro único a tarjeta de crédito
-- Pagos recurrentes
+- Pagos recurrentes con y sin cargos adicionales y gestió de planes
 - Enviar pagos (al estilo de transferencias) (solo EEUU por ahora)
 - Soporte para cargos de intermediarios/plataformas (Stripe Connect)
+- Gestión de riesgos personal.
 
 -------------
 

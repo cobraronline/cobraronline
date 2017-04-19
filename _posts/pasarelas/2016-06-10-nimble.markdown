@@ -1,46 +1,26 @@
 ---
 layout: gateway
 title:  "Nimble Payments"
-date:   2016-06-10 11:02:36
-categories: pasarelas oneshot insite prestashop woocommerce magento
+date:   2017-01-10 11:02:36
+categories: 
 
-gw_logo: "/images/gateways/nimble.png"
+gw_logo: "/images/gateways/nimble.jpg"
 gw_url: "https://www.nimblepayments.com/"
 gw_docs: "https://www.nimblepayments.com/desarrolladores"
 gw_slogan: "Nimble Payments, bienvenido al cambio. By BBVA"
 gw_country: España
-gw_fee: "Entre 1,5% y 1,8%"
+gw_fee: "--"
 gw_twitter: 'nimblepayments'
 ---
 
-Nimble Payments es una apuesta del BBVA por hacer algo distintos. Es pronto para saber que saldrá de aquí, pero puede ser bastante interesante para probar hasta dónde quiere llegar un banco tradicional a la hora de acercarse al ecommerce. 
 
-Es la primera solución que conozco que está intentando ver el ecommerce más allá de la simple tarjeta, al menos en su parte financiera. Todavía no está disponible pero aparentamente van a ofrecer cierta remuneración por el dinero que no retires e incluso ofrecer finanaciación en base a ventas futuras. 
-
-Si yo tuviera un ecommerce basado en Magento/WooCommerce/PRestashop, seguramente me crearía una cuenta para tenerlo como backup y explorarlo. No tiene coste, y siempre es buena idea tener más de un procesador disponible. Fuera de ahí... información escasa como para mojarme :(.
-
-
-
--------------
-
-#### Tecnología
-
-No hay mucha información. Tienen un API Rest con no demasiadas llamadas así que espero que lo hagan crecer y un SDK para .Net y PHP. Les falta.
-
-
-
--------------
-
-
-#### Imágenes
-
-{% include screenshots_carrousel.html gateway='nimble' items=1 %}
-
-
--------------
-
-#### ¿Quién usa Nimble Payments?
-
-
-{% include who_uses_instructions.html  %}
+<div class="panel panel-warning">
+  <div class="panel-heading">
+    <h3 class="panel-title">Aviso
+    </h3>
+  </div>
+  <div class="panel-body">
+    El BBVA ha decidido cerrar este proyecto y ya no está disponible.
+  </div>
+</div>
 

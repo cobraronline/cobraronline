@@ -18,9 +18,11 @@ Eso hace que sus comisiones par a importes altos no admitan comparación con cua
 
 Llevan cuatro años funcionando en Reino Unido y finalmente en 2015 han comenzado la expansión por todo Europa, incluyendo España.
 
-Es una empresa creada por y para internet que gestiona el proceso de domiciliación bancaria totalmente, sin intervención de ningún banco excepto el del cliente y el del comercio. 
+Es una empresa creada por y para internet que gestiona el proceso de domiciliación bancaria totalmente, sin intervención del banco de empresa, nada más que para recibir el dinero de las remesas procesadas.
 
-Esto tiene un punto bueno (la simplificación del proceso de alta) pero un punto malo a tener en cuenta: al actuar como central de pagos, son ellos los que cobran al cliente y por tanto el cliente final tiene que firmar con ellos el mandato, no con el negocio, y por tanto pasan a ser clientes de GoCardless y si la empresa decide dejar GoCardless deberá firmar una un nuevo mandato o gestionar el cambio de acreedor en el siguiente cargo a cada cliente. Por un fijo mensual de alreadedor de €200 se puede eliminar esta restricción.
+Al igual que [Besepa](/besepa/), GoCardless ofrece dos modos de funcionamiento, en función de que el que realice el cargo sea GoCardless o la empresa. Por defecto funcionan de la primera manera, aunque por un fijo de aproximadamente €200/mes puedes utilizar el segundo modo. 
+ 
+El primer modo tiene un punto bueno (la simplificación del proceso de alta) pero un punto malo a tener en cuenta: al actuar como central de pagos, son ellos los que cobran al cliente y por tanto el cliente final tiene que firmar con ellos el mandato, no con el negocio, y por tanto pasan a ser clientes de GoCardless y si la empresa decide dejar GoCardless deberá firmar una un nuevo mandato o gestionar el cambio de acreedor en el siguiente cargo a cada cliente. 
 
 
 -------------
