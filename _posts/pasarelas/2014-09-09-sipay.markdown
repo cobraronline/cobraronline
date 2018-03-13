@@ -1,7 +1,7 @@
 ---
 layout: gateway
 title:  "Sipay"
-date:   2016-06-01 10:02:36
+date:   2018-03-13 10:02:36
 categories: pasarelas offsite oneshot token
 
 gw_logo: "/images/gateways/sipay.jpg"
@@ -12,4 +12,4 @@ gw_fee: "No es público"
 gw_twitter: 'sipayweb'
 ---
 
-Parece que llevan un 2014 de acción comercial a tope y con clientes interesantes. Aunque la información que tienen que tienen en la web es un tanto escasa, me consta que tienen clientes de volúmen medio/grande a los que aportan una serie de erramientas de valor añadido para mejorar la lógica del 3DSecure, balancear distintos procesadores, etc. Si facturas por encima del millón de euros te puede interesar hablar con ellos.
+No sé que decir de Sipay, la verdad. Me consta que tienen clientes interesantes, pero mi experiencia con ellos ha sido mala o peor que mala, así que si creéis que os puede encajar mejor que les contactéis y juzguéis por vosotros mismos.
