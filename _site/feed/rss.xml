@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>Cobrar online</title>
+    <link>http://www.cobraronline.es</link>
+    <description>cobrar online es un índice de las distintas opciones que se tiene para cobrar online desde España. Pasarelas de pago, pago en el móvil, ecommerce, plataformas y más.</description>
+    <pubDate>Tue, 13 Mar 2018 10:02:36 +0000</pubDate>
+    <item>
+      <title>Sipay</title>
+      <link>http://www.cobraronline.es/sipay</link>
+      <description>No sé que decir de Sipay, la verdad. Me consta que tienen clientes interesantes, pero mi experiencia con ellos ha sido mala o peor que mala, así que si creéis que os puede encajar mejor que les contactéis y juzguéis por vosotros mismos.
+
+
+</description>
+      <pubDate>Tue, 13 Mar 2018 10:02:36 +0000</pubDate>
+      <dc:date>2018-03-13T10:02:36+00:00</dc:date>
+    </item>
+    <item>
+      <title>Besepa</title>
+      <link>http://www.cobraronline.es/besepa</link>
+      <description>Es la primera plataforma española para gestionar adeudos directos SEPA (el nuevo nombre de recibos o domiciliaciones), eliminando los problemas de generar y enviar los ficheros, reducir los errores, firmar y custodiar los mandatos, secuencias de adeudos, etc. 
+
+</description>
+      <pubDate>Thu, 20 Apr 2017 19:02:36 +0000</pubDate>
+      <dc:date>2017-04-20T19:02:36+00:00</dc:date>
+    </item>
+    <item>
+      <title>Apple Pay</title>
+      <link>http://www.cobraronline.es/applepay</link>
+      <description>Apple Pay no es una pasarela de pago, sino un medio de pago de los compradores. Es decir, es una herramienta para que los compradores le hagan llegar los datos de su tarjeta de crédito a la pasarela de pagos del vendedor, pero me han preguntado tantas veces por ello que he decidido incluirlo. 
+
+</description>
+      <pubDate>Wed, 19 Apr 2017 20:02:36 +0000</pubDate>
+      <dc:date>2017-04-19T20:02:36+00:00</dc:date>
+    </item>
+    <item>
+      <title>Amazon Pay</title>
+      <link>http://www.cobraronline.es/amazonpay</link>
+      <description>-------------
+
+</description>
+      <pubDate>Wed, 19 Apr 2017 10:02:36 +0000</pubDate>
+      <dc:date>2017-04-19T10:02:36+00:00</dc:date>
+    </item>
+    <item>
+      <title>Addon Payments</title>
+      <link>http://www.cobraronline.es/addonpayments</link>
+      <description>Addon Payments es una solución de [Comercia Global Payments](https://www.comerciaglobalpayments.com) la empresa en la que [CaixaBank](https://www.caixabank.es) concentra sus servicios de pago. A falta de confirmación oficial, mi apuesta es que es una capa sobre [Redsys](/redsys/) o procesador similar, porque si no no tiene sentido el pricing (X + la tasa de descuento del banco de la empresa).
+
+</description>
+      <pubDate>Wed, 19 Apr 2017 10:02:36 +0000</pubDate>
+      <dc:date>2017-04-19T10:02:36+00:00</dc:date>
+    </item>
+    <item>
+      <title>Stripe</title>
+      <link>http://www.cobraronline.es/stripe</link>
+      <description>Yo me atrevería a decir que Stripe ha revolucionado la forma en la que se cobraba online. Enfocado a hacer la vida más fácil a los programadores ha liderado un cambio en las integraciones. Con un gran API, una integración por javascript, oauth, es **para mi** sin duda la plataforma que más imitan otros ahora mismo, como es el caso de [Paymill](/paymill/).
+
+</description>
+      <pubDate>Wed, 19 Apr 2017 05:02:36 +0000</pubDate>
+      <dc:date>2017-04-19T05:02:36+00:00</dc:date>
+    </item>
+    <item>
+      <title>Tefpay</title>
+      <link>http://www.cobraronline.es/tefpay</link>
+      <description>Yo no lo he llegado a usar, aunque los comentarios que tengo no son especialmente buenos. Me imagino que esto es como todo, que tendrás clientes satisfechos y otros no tan satisfechos, no me mojo.
+
+</description>
+      <pubDate>Tue, 28 Feb 2017 20:02:36 +0000</pubDate>
+      <dc:date>2017-02-28T20:02:36+00:00</dc:date>
+    </item>
+    <item>
+      <title>Nimble Payments</title>
+      <link>http://www.cobraronline.es/nimble</link>
+      <description>&lt;div class=&quot;panel panel-warning&quot;&gt;
+  &lt;div class=&quot;panel-heading&quot;&gt;
+    &lt;h3 class=&quot;panel-title&quot;&gt;Aviso
+    &lt;/h3&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;panel-body&quot;&gt;
+    El BBVA ha decidido cerrar este proyecto y ya no está disponible.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+      <pubDate>Tue, 10 Jan 2017 11:02:36 +0000</pubDate>
+      <dc:date>2017-01-10T11:02:36+00:00</dc:date>
+    </item>
+    <item>
+      <title>GoCardless</title>
+      <link>http://www.cobraronline.es/gocardless</link>
+      <description>GoCardless no utiliza la red de tarjetas, sino que utiliza la red SEPA para hacer los cargos directamente a la cuenta bancaria, es decir, vía domiciliación bancaria.
+Eso hace que sus comisiones par a importes altos no admitan comparación con cualquier sistema de cobro basado en tarjetas de crédito/débito. 
+
+</description>
+      <pubDate>Fri, 10 Jun 2016 20:02:36 +0000</pubDate>
+      <dc:date>2016-06-10T20:02:36+00:00</dc:date>
+    </item>
+    <item>
+      <title>Bargento 2016</title>
+      <link>http://www.cobraronline.es/bargento</link>
+      <description>El 23 de Junio de 2016 se celebra Bargento, la mayor feria de especialistas en Prestashop y Magento. ¿Te vienes?</description>
+      <pubDate>Fri, 10 Jun 2016 16:02:36 +0000</pubDate>
+      <dc:date>2016-06-10T16:02:36+00:00</dc:date>
+    </item>
+    <dc:date>2018-03-13T10:02:36+00:00</dc:date>
+  </channel>
+</rss>

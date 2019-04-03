@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Stripe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Alberto Molpeceres">
+    
+    <!-- Le styles -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3//css/font-awesome.css" rel="stylesheet">
+    <!--[if IE 7]>
+      <link rel="stylesheet" href="/css/font-awesome-ie7.min.css">
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="/js/respond.src.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/sample/logo-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/sample/logo-114.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/sample/logo-72.png">
+                    <link rel="apple-touch-icon-precomposed" href="img/sample/logo-57.png">
+                                   <link rel="shortcut icon" href="img/sample/logo.png">
+    
+    
+    
+    <script type="text/javascript" src="//use.typekit.net/ies7bei.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/cobraronline" />
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-24616488-2', {'storage': 'none', 'cookieDomain': 'none'});
+      ga('send', 'pageview');
+    
+    </script>
+  
+  </head>
+
+  <body>
+  
+    <div class="wrapper">
+      <div class="row">
+        <div class="col-md-3 sidebar">
+           
+          <div class="navbar" role="navigation">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#rebound-navbar-collapse"><span class="fa fa-bars"></span> Menu</button>
+              <a href="/" class="navbar-brand" style="font-family: 'reklame-script',sans-serif;">cobraronline</a>
+              <p class="brand-text" ><strong  style="font-family: 'reklame-script',sans-serif;">cobraronline</strong> es un índice de las distintas opciones que se tiene para cobrar online desde España. Pasarelas de pago, pago en el móvil, ecommerce, plataformas y más.</p>
+            </div><!-- end navbar-header -->
+            <div class="collapse navbar-collapse" id="rebound-navbar-collapse">
+            <!--
+              <form class="navbar-form" role="search">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search" value="" />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button"><span class="fa fa-search"></span></button>
+                  </span>
+                </div>
+              </form>
+            -->
+            <ul class="nav navbar-nav">
+                <li class="title">Pasarelas de pago</li>
+                <li><a href="/categorias/oneshot.html">Pagos únicos</a> <span>(29)</span></li>
+                <li><a href="/categorias/insite.html">Pago sin salir del sitio</a> <span>(21)</span></li>
+                <li><a href="/categorias/recurring.html">Subscripciones</a> <span>(18)</span></li>
+                <li><a href="/categorias/saas.html">SAAS</a> <span>(6)</span></li>
+                <li><a href="/categorias/token.html">Tokenización</a> <span>(10)</span></li>
+                <li><a href="/categorias/transferencias.html">Pago por transferencia</a> <span>(3)</span></li>
+                <li><a href="/categorias/sepa.html">Recibos / Adeudos SEPA</a> <span>(3)</span></li>
+                <li><a href="/categorias/mobile.html">Librerías para móviles</a> <span>(11)</span></li>
+                <li><a href="/categorias/tpv.html">Lectores de tarjetas / TPV móvil</a> <span>(3)</span></li>                
+                <li><a href="/categorias/aplazado.html">Pago aplazado</a> <span>(2)</span></li>                
+                <li><a href="/categorias/applepay.html">Apple Pay</a> <span>(2)</span></li>                
+                <li><a href="/precios.html">Resumen de comisiones</a></li>
+              </ul>
+              
+              <ul class="nav navbar-nav">
+                <li class="title">Plataformas ecommerce</li>
+                <li><a href="/categorias/prestashop.html">Prestashop</a> <span>(19)</span></li>
+                <li><a href="/categorias/magento.html">Magento</a> <span>(18)</span></li>
+                <li><a href="/categorias/woocommerce.html">WooCommerce</a> <span>(15)</span></li>
+                <li><a href="/categorias/shopify.html">Shopify</a> <span>(9)</span></li>
+              </ul>
+
+              <ul class="nav navbar-nav">
+                <li class="title">Aprende</li>
+                <li><a href="/industria.html">La industria</a></li>
+                <li><a href="/escenarios.html">Escenarios de uso</a></li>
+                <li><a href="/mercado.html">El mercado</a></li>
+              </ul>
+                            
+              <ul class="nav navbar-nav">
+                <li class="title">Otros enlaces</li>
+                <li><a href="/contacto.html">Acerca de</a></li>
+                <li><a href="https://twitter.com/cobraronline">@cobraronline</a></li>
+              </ul>
+              
+            </div><!-- end navbar-collapse -->
+          </div><!-- end navbar -->
+        </div><!-- end col -->
+        <div class="col-md-9 content">
+          <div class="page">
+  <article>
+    <div class="page-header page-header-resume">
+      <a href="http://www.stripe.com"><img src="/images/gateways/stripe.png" alt="logo de Stripe"></a>
+      <h1>Stripe</h1>
+      <p class="lead">Payments for developers. Stripe makes it easy to start accepting credit cards on the web today.</p>
+    </div><!-- end page-header -->
+    <div class="row">
+      <div class="col-md-6">
+        <ul class="fa-ul">
+          <li title="País de origen">País: <i class="fa-li fa fa-map-marker"></i> Estados Unidos</li>
+          <li title="comisiones">Comisiones: <i class="fa-li fa fa-euro"></i> 1,4% para tarjetas de la EU y 2,9% para el resto + 0,30 por transacción</li>
+        </ul>
+      </div><!-- end col-md-6 -->
+      <div class="col-md-6">
+        <ul class="fa-ul">
+          <li title="URL">URL: <i class="fa-li fa fa-link"></i> <a href="http://www.stripe.com">http://www.stripe.com</a></li>
+          
+          <li title="Documentación de desarrollo">Docs: <i class="fa-li fa fa-code"></i> <a href="https://stripe.com/docs">https://stripe.com/docs</a></li>
+          
+          
+          <li title="Twitter">Twitter: <i class="fa-li fa fa-twitter"></i> <a href="https://twitter.com/stripe">@stripe</a></li>
+          
+        </ul>
+      </div><!-- end col-md-6 -->
+    </div><!-- end row -->
+    
+    <div class="row" style="margin: 2em 0 2em 0;">
+      <div class="col-md-12">
+        
+
+          
+
+        
+
+          
+            <a href="/categorias/recurring.html"><span class="label label-default">recurring</span></a>
+          
+
+        
+
+          
+            <a href="/categorias/insite.html"><span class="label label-default">insite</span></a>
+          
+
+        
+
+          
+            <a href="/categorias/mobile.html"><span class="label label-default">mobile</span></a>
+          
+
+        
+
+          
+            <a href="/categorias/shopify.html"><span class="label label-default">shopify</span></a>
+          
+
+        
+
+          
+            <a href="/categorias/magento.html"><span class="label label-default">magento</span></a>
+          
+
+        
+
+          
+            <a href="/categorias/prestashop.html"><span class="label label-default">prestashop</span></a>
+          
+
+        
+
+          
+            <a href="/categorias/woocommerce.html"><span class="label label-default">woocommerce</span></a>
+          
+
+        
+
+          
+            <a href="/categorias/oneshot.html"><span class="label label-default">oneshot</span></a>
+          
+
+        
+
+          
+            <a href="/categorias/token.html"><span class="label label-default">token</span></a>
+          
+
+        
+
+          
+            <a href="/categorias/applepay.html"><span class="label label-default">applepay</span></a>
+          
+
+        
+
+          
+            <a href="/categorias/sepa.html"><span class="label label-default">sepa</span></a>
+          
+
+        
+      </div><!-- end col-md-6 -->
+    </div><!-- end row -->
+    
+    <hr class="margin-top-10" />
+    
+    <p>Yo me atrevería a decir que Stripe ha revolucionado la forma en la que se cobraba online. Enfocado a hacer la vida más fácil a los programadores ha liderado un cambio en las integraciones. Con un gran API, una integración por javascript, oauth, es <strong>para mi</strong> sin duda la plataforma que más imitan otros ahora mismo, como es el caso de <a href="/paymill/">Paymill</a>.</p>
+
+<p>Quizás lo único <em>malo</em> es que se han centrado tanto en pagos que para tener un sistema completo con métricas, dunning, etc tienes que acabar contratando varios SAAS adicionales.</p>
+
+<p>Ojo también a las tarjetas “puramente españolas”, que pueden dar problemas por cómo están organizadas las redes de tarjetas en España.</p>
+
+<p>En la última parte de 2016 sacaron una herramienta llamada <a href="https://stripe.com/radar">Radar</a> para la gestión del riesgo. Muy prometedora. Te deja gestionas el riesgo por ti mismo en base a reglas llegando hasta el punto de darte la opción de decidir por las transacciones sospechosas en lugar de directamente rechazar las transacciones. Mi experiencia con ella es muy buena.</p>
+
+<p>Desde comienzo de 2017 tienen soporte para adeudos SEPA pero a un precio prohibiitvo para el mercado español si es tu fuente principal de ingresos: €0,25 + 1,4% por recibo y €7,5 por devolución.</p>
+
+<p>Nota: Liquidan con una semana de desfase, de modo que las ventas del lunes las liquidan el lunes de la semana siguiente, y te llegarán martes/miércoles.</p>
+<hr />
+<h4 id="funciones">Funciones</h4>
+
+<ul>
+<li>Cobro único a tarjeta de crédito</li>
+
+<li>Pagos recurrentes con y sin cargos adicionales y gestió de planes</li>
+
+<li>Enviar pagos (al estilo de transferencias) (solo EEUU por ahora)</li>
+
+<li>Soporte para cargos de intermediarios/plataformas (Stripe Connect)</li>
+
+<li>Gestión de riesgos personal.</li>
+</ul>
+<hr />
+<h4 id="tecnologa">Tecnología</h4>
+
+<p>A mi me parecen los más avanzados, ya que como comentaba su target inicial eran los programadores. Un gran API, botón para cobrar rápidamente, bridge en javascript, webhooks, etc. Tiene también librerías para iOS y Android.</p>
+
+<p>Interesante su Stripe Connect para operar y acceder a la información de las cuentas por medio de oauth muy útil para crear nuevas aplicaciones y ofrecerlo como opción desde distintas plataformas de ecommerce.</p>
+<div class='panel panel-success'>
+  <div class='panel-heading'>
+    <h3 class='panel-title'>Integración con terceros
+    </h3>
+  </div>
+  <div class='panel-body'>
+    Son muchas, pero una de las más interesantes para nosotros es <a href='http://quaderno.io'>Invoicing for Stripe</a>, desarrollado en España, que te permite integrarlo con el servicio de facturación español <a href='http://getquaderno.es'>Quaderno</a>.
+  </div>
+</div><hr />
+<h4 id="mdulos_ecommerce">Módulos ecommerce</h4>
+
+<ul>
+<li><a href="http://addons.prestashop.com/en/payments-gateways-prestashop-modules/5199-stripe.html">Prestashop</a></li>
+
+<li><a href="http://www.magentocommerce.com/magento-connect/stripe-4.html">Magento</a></li>
+
+<li><a href="http://wordpress.org/plugins/striper/">WooCommerce</a></li>
+
+<li><a href="http://www.shopify.com/blog/4218622-product-update-stripe-payment-gateway-integrated">Shopify</a></li>
+</ul>
+<hr />
+<h4 id="imgenes">Imágenes</h4>
+<div class='carousel slide' data-ride='carousel' id='portfolio-carousel'>
+  <ol class='carousel-indicators'>
+    
+      <li class='active' data-slide-to='0' data-target='#portfolio-carousel' />      
+    
+  </ol>
+  <div class='carousel-inner'>
+    
+      <div class='item active'>
+        <img src='/images/screenshots/stripe/1.png' />
+      </div>
+    
+      <div class='item '>
+        <img src='/images/screenshots/stripe/2.png' />
+      </div>
+    
+      <div class='item '>
+        <img src='/images/screenshots/stripe/3.png' />
+      </div>
+    
+  </div>
+  
+  <a class='left carousel-control' data-slide='prev' href='#portfolio-carousel'>
+    <span class='fa fa-chevron-left' />
+  </a>
+  <a class='right carousel-control' data-slide='next' href='#portfolio-carousel'>
+    <span class='fa fa-chevron-right' />
+  </a>
+  
+</div><hr />
+<h4 id="quin_usa_stripe">¿Quién usa Stripe?</h4>
+
+<p>A continuación algunos de los sitios españoles que usan Stripe.</p>
+<div class='row'>
+<div class='col-md-12'>
+<div class='who-uses-this'>
+  
+  <div class='who-uses-this-card'>
+  <a class='thumb' href='http://www.quaderno.io'>
+    <img alt='Quaderno' src='/images/whouses/quaderno.png' title='Quaderno' />
+  </a>
+  <div class='card-body'>
+    <h2><a href='http://www.quaderno.io'>Quaderno</a></h2>
+    <p>Invoicing for Stripe.</p>
+  </div>
+</div><!-- end card -->
+
+  <div class='who-uses-this-card'>
+  <a class='thumb' href='http://www.certificacionpm.com'>
+    <img alt='certificacionpm' src='/images/whouses/certificacionpm.png' title='certificacionpm' />
+  </a>
+  <div class='card-body'>
+    <h2><a href='http://www.certificacionpm.com'>certificacionpm</a></h2>
+    <p>Formación online en dirección de proyectos.</p>
+  </div>
+</div><!-- end card -->
+
+
+</div>
+</div>
+</div>
+<p>Si quieres aparecer en esta lista no tienes más que enviar un email con el logo y la URL de tu empresa desde un mail de la misma. No se aceptarán solicitudes de direcciones de gmail, yahoo, etc. o de pasarelas de pago directamente.</p>
+    
+    
+    <div class="panel panel-default" style="margin-top: 5em;">
+      <div class="panel-heading">
+        <h3 class="panel-title">Actualizado el 19 Apr 2017.</h3>
+      </div><!-- end panel-heading -->
+      <div class="panel-body">
+        Si hay información incorrecta, quieres ayudarme a completarla o tienes dudas, no dudes en ponerte en contacto conmigo.
+      </div><!-- end panel-body -->
+    </div><!-- end panel -->
+    
+  </article><!-- end article -->
+</div><!-- end page -->
+        </div><!-- end col -->
+      </div><!-- end row -->
+    </div><!-- end wrapper -->
+    
+    <footer class="hidden-xs">
+      <p class="pull-left">
+        <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Sitio</span> mantenido por <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.mol.pe" property="cc:attributionName" rel="cc:attributionURL">Alberto Molpeceres</a> y licenciado bajo  una  <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.es_ES">licencia Creative Commons Reconocimiento 3.0</a>.
+      </p>
+      <p class="pull-right"><a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.es_ES"><img alt="Licencia de Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a></p>
+    </footer>
+    
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/rebound.js"></script>
+    <script src="/js/jquery.isotope.min.js"></script>
+    <script type="text/javascript">
+      
+      $(document).ready(function() {
+        
+        $('.dropdown-toggle').dropdown();
+        
+        var $container = $('.portfolio-wrapper');
+        
+        $container.imagesLoaded( function(){
+          $container.isotope({
+            itemSelector : '.card',
+            layoutMode : 'fitRows'
+          });
+        });
+        
+        // Needed functions
+        var getColWidth = function() {
+          var width,
+          windowWidth = $(window).width();
+          if( windowWidth <= 480 ) {
+            width = Math.floor( $container.width() );
+          } else if( windowWidth <= 768 ) {
+            width = Math.floor( $container.width() );
+          } else {
+            width = Math.floor( 250 );
+          }
+          return width;
+        }
+
+        function setWidths() {
+          var colWidth = getColWidth();
+          $container.children().css({ width: colWidth });
+        }
+
+    
+        $(window).smartresize(function() {
+          setWidths();
+          $container.isotope({
+            masonry: {
+              columnWidth: getColWidth()
+            }
+          });
+        });
+        
+        $('.filter-portfolio li a').click(function(){
+          $('.filter-portfolio li.active').removeClass('active');
+          $(this).parent('li').addClass('active');
+          var selector = $(this).attr('data-filter');
+          $container.isotope({
+            filter: selector,
+            masonry: {  }
+          });
+          return false;
+        });
+        // update columnWidth on window resize
+        $(window).smartresize(function(){
+          $container.isotope({
+            // update columnWidth to a percentage of container width
+            masonry: {  }
+          });
+        });
+        
+      });
+      
+    </script>
+
+  </body>
+</html>
