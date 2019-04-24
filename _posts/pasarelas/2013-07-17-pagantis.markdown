@@ -5,8 +5,8 @@ date:   2015-07-15 08:02:36
 categories: 
 
 gw_logo: "/images/gateways/pagantis.jpg"
-gw_url: "http://www.pagantis.com/"
-gw_docs: "http://docs.pagantis.com/"
+gw_url: "http://l.getvond.com/174a0a"
+gw_docs: ""
 gw_slogan: "La pasarela de pagos que se adapta a tu negocio"
 gw_country: España
 gw_fee: "--"

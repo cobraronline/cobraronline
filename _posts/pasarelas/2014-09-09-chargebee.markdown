@@ -5,11 +5,11 @@ date:   2014-09-08 20:02:36
 categories: recurring saas 
 
 gw_logo: "/images/gateways/chargebee.png"
-gw_url: "https://www.chargebee.com/"
-gw_docs: "https://www.chargebee.com/docs/"
+gw_url: "http://l.getvond.com/acd33b"
+gw_docs: "http://l.getvond.com/bf7d66"
 gw_slogan: "Trusted Billing Platform For Your Subscription Business"
 gw_country: Estados Unidos
-gw_fee: "Desde $79/mes + "
+gw_fee: "Desde $99/mes. Primeros 50.000 gratis!"
 gw_twitter: 'chargebee'
 ---
 
@@ -27,6 +27,7 @@ Si necesitas ayuda tienen partners para implementar la integración.
 - Trials
 - Recobro
 - Planes
+- Gestión de impuestos por países
 
 -------------
 

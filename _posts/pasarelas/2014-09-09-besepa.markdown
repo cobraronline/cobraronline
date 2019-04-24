@@ -5,12 +5,12 @@ date:   2017-04-20 19:02:36
 categories: pasarelas recurring sepa insite saas
 
 gw_logo: "/images/gateways/besepa.jpg"
-gw_url: "http://www.besepa.com"
+gw_url: "http://l.getvond.com/04e08c"
 gw_slogan: "Simplificamos la gestión de las domiciliaciones bancarias"
 gw_country: España
 gw_fee: "De 0,05 a 0,2€ por transacción, 1€ por firma de mandato SEPA"
 gw_twitter: 'besepacom'
-gw_docs: "http://docs.besepa.com"
+gw_docs: "http://l.getvond.com/073a6c"
 ---
 
 Es la primera plataforma española para gestionar adeudos directos SEPA (el nuevo nombre de recibos o domiciliaciones), eliminando los problemas de generar y enviar los ficheros, reducir los errores, firmar y custodiar los mandatos, secuencias de adeudos, etc. 

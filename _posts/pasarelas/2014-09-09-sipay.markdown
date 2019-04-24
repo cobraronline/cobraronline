@@ -5,7 +5,7 @@ date:   2018-03-13 10:02:36
 categories: pasarelas offsite oneshot token
 
 gw_logo: "/images/gateways/sipay.jpg"
-gw_url: "http://www.sipay.es"
+gw_url: "http://l.getvond.com/941f9f"
 gw_slogan: "Smart payment solutions."
 gw_country: España
 gw_fee: "No es público"

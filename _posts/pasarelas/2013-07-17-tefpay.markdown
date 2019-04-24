@@ -5,7 +5,7 @@ date:   2017-02-28 20:02:36
 categories: pasarelas oneshot 
 
 gw_logo: "/images/gateways/tefpay.png"
-gw_url: "http://www.tefpay.com"
+gw_url: "http://l.getvond.com/c9578f"
 gw_slogan: "Internet payment gateways and services"
 gw_country: España
 gw_fee: "Fijo al mes + Fijo por transacción + Comisión cuenta merchant"
