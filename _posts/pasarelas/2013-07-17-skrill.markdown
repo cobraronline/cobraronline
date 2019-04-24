@@ -2,7 +2,7 @@
 layout: gateway
 title:  "Skrill"
 date:   2013-07-15 20:02:36
-categories: pasarelas offsite oneshot prestashop magento woocommerce shopify
+categories: 
 
 gw_logo: "/images/gateways/skrill.png"
 gw_url: "https://www.skrill.com/app/?l=ES"
@@ -12,16 +12,4 @@ gw_fee: "20€/mes + 1,90%-2,90% y 0,25 por transacción"
 gw_twitter: 'skrill'
 ---
 
-Yo lo probé cuando se llamaba Moneybookers, no como skrill, así que la información puede estar desactualizada. Resumiéndolo mucho es un clon de Paypal pero sin las ventajas de exposición de marca que tienen estos. El hecho de que te cobren por retirar el dinero o hacer una devolución para mi es un **no-go**.
-
-Si alguno tenéis información de primera mano se agradece.
-
--------------
-
-#### Módulos ecommerce
-
-- [Prestashop](http://addons.prestashop.com/en/payments-gateways-prestashop-modules/1747-skrill.html)
-- [Magento](http://www.magentocommerce.com/magento-connect/official-skrill-moneybookers-quick-checkout-enterprise-module.html)
-- [WooCommerce](https://wordpress.org/plugins/woocommerce-skrill-moneybookers-gateway/)
-- [OsCommerce](https://www.skrill.com/ecommerce-solutions/oscommerce/?no_cache=1&cHash=bf47102a5c3d70c3e334361cc8ac5b5c)
-- [Shopify](http://www.shopify.com/blog/3197132-shopify-welcomes-new-payment-gateway-skrill-moneybookers)
+Ha cambiado su negocio al del las transferencias online.

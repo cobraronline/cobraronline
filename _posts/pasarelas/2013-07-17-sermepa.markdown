@@ -2,7 +2,7 @@
 layout: gateway
 title:  "Sermepa"
 date:   2013-07-15 20:02:36
-categories: pasarelas offsite recurring oneshot
+categories: 
 
 gw_logo: "/images/gateways/sermepa.png"
 gw_url: "http://www.redsys.es/"

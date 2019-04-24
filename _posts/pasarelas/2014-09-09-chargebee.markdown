@@ -2,7 +2,7 @@
 layout: gateway
 title:  "Chargebee"
 date:   2014-09-08 20:02:36
-categories: pasarelas recurring insite saas 
+categories: recurring saas 
 
 gw_logo: "/images/gateways/chargebee.png"
 gw_url: "https://www.chargebee.com/"

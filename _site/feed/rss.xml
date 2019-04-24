@@ -8,7 +8,16 @@
     <title>Cobrar online</title>
     <link>http://www.cobraronline.es</link>
     <description>cobrar online es un índice de las distintas opciones que se tiene para cobrar online desde España. Pasarelas de pago, pago en el móvil, ecommerce, plataformas y más.</description>
-    <pubDate>Tue, 13 Mar 2018 10:02:36 +0000</pubDate>
+    <pubDate>Tue, 23 Apr 2019 20:02:36 +0000</pubDate>
+    <item>
+      <title>Pabbly</title>
+      <link>http://www.cobraronline.es/pabbly</link>
+      <description>Es uno de los muchos gestores de pagos recurrentes para negocios SAAS. Un precio invatible, a partir de 6 euros mes, por una gestion de planes de tus clientes, afiliados, etc. es un lujo.
+
+</description>
+      <pubDate>Tue, 23 Apr 2019 20:02:36 +0000</pubDate>
+      <dc:date>2019-04-23T20:02:36+00:00</dc:date>
+    </item>
     <item>
       <title>Sipay</title>
       <link>http://www.cobraronline.es/sipay</link>
@@ -67,7 +76,7 @@
     <item>
       <title>Tefpay</title>
       <link>http://www.cobraronline.es/tefpay</link>
-      <description>Yo no lo he llegado a usar, aunque los comentarios que tengo no son especialmente buenos. Me imagino que esto es como todo, que tendrás clientes satisfechos y otros no tan satisfechos, no me mojo.
+      <description>Yo no lo he llegado a usar, aunque los comentarios que tengo no son especialmente buenos. Me imagino que esto es como todo, que tendrás clientes satisfechos y otros no tan satisfechos. No me mojo.
 
 </description>
       <pubDate>Tue, 28 Feb 2017 20:02:36 +0000</pubDate>
@@ -100,13 +109,6 @@ Eso hace que sus comisiones par a importes altos no admitan comparación con cua
       <pubDate>Fri, 10 Jun 2016 20:02:36 +0000</pubDate>
       <dc:date>2016-06-10T20:02:36+00:00</dc:date>
     </item>
-    <item>
-      <title>Bargento 2016</title>
-      <link>http://www.cobraronline.es/bargento</link>
-      <description>El 23 de Junio de 2016 se celebra Bargento, la mayor feria de especialistas en Prestashop y Magento. ¿Te vienes?</description>
-      <pubDate>Fri, 10 Jun 2016 16:02:36 +0000</pubDate>
-      <dc:date>2016-06-10T16:02:36+00:00</dc:date>
-    </item>
-    <dc:date>2018-03-13T10:02:36+00:00</dc:date>
+    <dc:date>2019-04-23T20:02:36+00:00</dc:date>
   </channel>
 </rss>

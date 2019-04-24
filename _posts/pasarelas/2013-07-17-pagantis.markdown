@@ -2,7 +2,7 @@
 layout: gateway
 title:  "Pagantis"
 date:   2015-07-15 08:02:36
-categories: pasarelas oneshot offsite recurring mobile prestashop magento woocommerce token
+categories: 
 
 gw_logo: "/images/gateways/pagantis.jpg"
 gw_url: "http://www.pagantis.com/"

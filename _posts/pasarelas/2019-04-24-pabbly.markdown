@@ -1,0 +1,18 @@
+---
+layout: gateway
+title:  "Pabbly"
+date:   2019-04-23 20:02:36
+categories: recurring saas 
+
+
+gw_logo: "/images/gateways/pabbly.png"
+gw_url: "http://l.getvond.com/0bd79e"
+gw_slogan: "Haz compras seguras en tiendas, en apps y en la web"
+gw_country: India
+gw_fee: "Desde $6 USD/mes"
+gw_twitter: 'pabbly18'
+---
+
+Es uno de los muchos gestores de pagos recurrentes para negocios SAAS. Un precio invatible, a partir de 6 euros mes, por una gestion de planes de tus clientes, afiliados, etc. es un lujo.
+
+Deberás conectar luego tu pasarela de pago, como por ejemplo, [Stripe](/stripe/)  o [Paypal](/paypal/).

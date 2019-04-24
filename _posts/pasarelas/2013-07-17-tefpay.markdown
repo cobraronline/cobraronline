@@ -12,4 +12,4 @@ gw_fee: "Fijo al mes + Fijo por transacción + Comisión cuenta merchant"
 gw_twitter: 'tefpay'
 ---
 
-Yo no lo he llegado a usar, aunque los comentarios que tengo no son especialmente buenos. Me imagino que esto es como todo, que tendrás clientes satisfechos y otros no tan satisfechos, no me mojo.
+Yo no lo he llegado a usar, aunque los comentarios que tengo no son especialmente buenos. Me imagino que esto es como todo, que tendrás clientes satisfechos y otros no tan satisfechos. No me mojo.
