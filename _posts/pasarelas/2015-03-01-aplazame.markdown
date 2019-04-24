@@ -5,8 +5,8 @@ date:   2015-03-01 09:02:36
 categories: pasarelas oneshot insite aplazado
 
 gw_logo: "/images/gateways/aplazame.png"
-gw_url: "https://www.aplazame.com"
-gw_docs: "http://docs.aplazame.com/v1.2/"
+gw_url: "http://l.getvond.com/091ecb"
+gw_docs: "http://l.getvond.com/8eebd1"
 gw_slogan: "Es fácil, compra ahora y paga después."
 gw_country: España
 gw_fee: "1%"
