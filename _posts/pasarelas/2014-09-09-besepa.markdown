@@ -4,7 +4,7 @@ title:  "Besepa"
 date:   2017-04-20 19:02:36
 categories: pasarelas recurring sepa insite saas
 
-gw_logo: "/images/gateways/besepa.jpg"
+gw_logo: "/images/gateways/besepa.png"
 gw_url: "http://l.getvond.com/04e08c"
 gw_slogan: "Simplificamos la gestión de las domiciliaciones bancarias"
 gw_country: España
