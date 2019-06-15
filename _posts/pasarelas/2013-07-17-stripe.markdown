@@ -51,7 +51,7 @@ Interesante su Stripe Connect para operar y acceder a la información de las cue
     </h3>
   </div>
   <div class="panel-body">
-    Son muchas, pero una de las más interesantes para nosotros es <a href="http://quaderno.io">Invoicing for Stripe</a>, desarrollado en España, que te permite integrarlo con el servicio de facturación español <a href="http://getquaderno.es">Quaderno</a>.
+    Son muchas, pero una de las más interesantes para nosotros es <a href="http://l.getvond.com/86ca48">Invoicing for Stripe</a>, desarrollado en España, que te permite integrarlo con el servicio de facturación español que además de ayuda a decidir qué impuestos cobrar a cada cliente.
   </div>
 </div>
 
