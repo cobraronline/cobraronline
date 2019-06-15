@@ -82,7 +82,7 @@ A continuación algunos de los sitios españoles que usan Stripe.
 <div class="col-md-12">
 <div class="who-uses-this">
   
-  {% include who_uses.html name='Quaderno' symbol='quaderno' url='http://www.quaderno.io' desc='Invoicing for Stripe.'  %}
+  {% include who_uses.html name='Quaderno' symbol='quaderno' url='http://l.getvond.com/86ca48' desc='Invoicing for Stripe.'  %}
   {% include who_uses.html name='certificacionpm' symbol='certificacionpm' url='http://www.certificacionpm.com' desc='Formación online en dirección de proyectos.'  %}
 
 </div>
